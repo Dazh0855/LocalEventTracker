@@ -63,6 +63,8 @@ import com.google.android.gms.maps.GoogleMap.OnCameraIdleListener;
 import com.google.android.gms.maps.GoogleMap.OnMapClickListener;
 
 import android.content.Intent;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.os.Bundle;
 import android.Manifest;
@@ -144,6 +146,15 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         SupportMapFragment mapFragment =
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+     /*  Button btn = findViewById(R.id.navigation_settings);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(intent2);
+            }
+        });*/
     }
 
     @Override
@@ -161,13 +172,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     public void onMapReady(GoogleMap map) {
         mMap = map;
-       //Intent intent1 = new Intent(getApplicationContext(), MainActivity.class);
-        //startActivity(intent1);
 
-        // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(40.014984,-105.270546);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        // Add a marker Boulder in sydney and move the camera
+        LatLng boulder = new LatLng(40.014984,-105.270546);
+        mMap.addMarker(new MarkerOptions().position(boulder).title("Marker in Boulder"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(boulder));
         map.setLocationSource(mLocationSource);
         map.setOnMapLongClickListener(mLocationSource);
 
