@@ -70,6 +70,8 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuInflater;
+import android.view.Menu;
 
 /*
  * This shows how to use a custom location source.
@@ -115,6 +117,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         }
 
+        public void onCreateOptionMenu(Menu menu) {
+            MenuInflater inflater = getMenuInflater();
+           // inflater.inflate(R.menu.menu_menu, menu);
+            //return true;
+        }
+
         public void onPause() {
             mPaused = true;
         }
@@ -153,9 +161,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     public void onMapReady(GoogleMap map) {
         mMap = map;
+       //Intent intent1 = new Intent(getApplicationContext(), MainActivity.class);
+        //startActivity(intent1);
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
+        LatLng sydney = new LatLng(40.014984,-105.270546);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
         map.setLocationSource(mLocationSource);
