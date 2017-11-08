@@ -63,6 +63,9 @@ import com.google.android.gms.maps.GoogleMap.OnCameraIdleListener;
 import com.google.android.gms.maps.GoogleMap.OnMapClickListener;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -80,7 +83,31 @@ import android.view.Menu;
 */
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
     private GoogleMap mMap;
+    private TextView mTextMessage;
+    //setTitle("new title");
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+            = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            switch (item.getItemId()) {
+                case R.id.navigation_home:
+                    mTextMessage.setText(R.string.title_map);
+                    //setTitle("new title");
+                    return true;
+                case R.id.navigation_dashboard:
+                    mTextMessage.setText(R.string.title_list);
+                    return true;
+                case R.id.navigation_add:
+                    mTextMessage.setText(R.string.title_add);
+                    return true;
+                case R.id.navigation_user:
+                    mTextMessage.setText("Settings");
+                    return true;
+            }
+            return false;
+        }
+    };
     /**
      * A {@link LocationSource} which reports a new location whenever a user long presses the map
      * at
@@ -119,12 +146,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         }
 
-        public void onCreateOptionMenu(Menu menu) {
-            MenuInflater inflater = getMenuInflater();
-           // inflater.inflate(R.menu.menu_menu, menu);
-            //return true;
-        }
-
         public void onPause() {
             mPaused = true;
         }
@@ -146,8 +167,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         SupportMapFragment mapFragment =
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-
-     /*  Button btn = findViewById(R.id.navigation_settings);
+       // mTextMessage = (TextView) findViewById(R.id.message);
+        //BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        //navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+       /*Button btn = findViewById(R.id.navigation_settings);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
