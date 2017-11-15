@@ -83,12 +83,13 @@ import java.util.HashMap;
  * This shows how to use a custom location source.
 */
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
+
     private GoogleMap mMap;
     private TextView mTextMessage;
     String url = "http://138.197.207.68/api";
     HashMap<String, String> apiHeaders = new HashMap<String, String>();
     JSONObject data;
-    //setTitle("new title");
+
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
