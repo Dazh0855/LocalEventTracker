@@ -1,0 +1,13 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>업데이트 및 프라이버시 설정</StartMenuShortcutName>
+  <toast launch="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Windows 10 크리에이터 업데이트가 준비되어 있습니다.</text>
+      </binding>
+    </visual>
+    <actions>
+      <action activationType="foreground" content="업데이트 시작" arguments="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}" />
+    </actions>
+  </toast>
+</UNPToastRoot>

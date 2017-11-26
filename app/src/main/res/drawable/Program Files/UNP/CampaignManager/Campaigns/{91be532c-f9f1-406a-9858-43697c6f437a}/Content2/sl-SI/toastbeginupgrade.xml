@@ -1,0 +1,13 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Nastavitve posodabljanja in zasebnosti</StartMenuShortcutName>
+  <toast launch="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Želimo vas le opomniti, da je vaša posodobitev sistema Windows 10 za ustvarjalce pripravljena.</text>
+      </binding>
+    </visual>
+    <actions>
+      <action activationType="foreground" content="Začni posodobitev" arguments="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}" />
+    </actions>
+  </toast>
+</UNPToastRoot>

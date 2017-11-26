@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Update and Privacy Settings</StartMenuShortcutName>
+  <toast launch="/privacysettings /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Before installing Windows 10 Creators Update, you will need to review your privacy settings.</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>

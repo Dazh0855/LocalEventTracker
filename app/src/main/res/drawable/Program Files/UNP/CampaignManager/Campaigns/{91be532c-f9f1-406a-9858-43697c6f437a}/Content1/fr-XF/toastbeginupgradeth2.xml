@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Paramètres sécurité/confidentialité</StartMenuShortcutName>
+  <toast launch="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Juste pour vous rappeler que votre mise à jour Windows 10 Creators Update est prête.</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>

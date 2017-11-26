@@ -1,0 +1,2313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<shortcut-set platform="win" file-version="4" application-version="4.0" build-number="50">
+  <shortcut>
+    <action-id value="0x5900 + 2" name="kGoBackActionID"></action-id>
+    <context>DefaultContext</context>
+    <string>Ctrl+#Keyboard_Page Up</string>
+  </shortcut>
+  <shortcut>
+    <action-id value="0x5900 + 3" name="kGoForwardActionID"></action-id>
+    <context>DefaultContext</context>
+    <string>Ctrl+#Keyboard_Page Down</string>
+  </shortcut>
+  <shortcut>
+		<action-id value="0x100 + 16" name="kClearActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Backspace_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 16" name="kClearActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Backspace_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 114" name="kDecreaseWordSpaceActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Backspace_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 115" name="kDecreaseWordSpaceTimes5ActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Backspace_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10700 + 55" name="kShowHideAllPalettesActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 37" name="kToggleSelectionToolShortActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10700 + 56" name="kShowHideFloatingPalettesActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x16400 + 90" name="kOpenCloseAllPaletteWellsActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+    <action-id value="0x2c00 + 87" name="kSelectParentFrameActionID"></action-id>
+    <context>DefaultContext</context>
+		<string>#Keyboard_Escape</string>
+	</shortcut>
+  <shortcut>
+    <action-id value="0x2c00 + 88" name="kSelectContentItemActionID"></action-id>
+    <context>DefaultContext</context>
+    <string>Shift+#Keyboard_Escape</string>
+  </shortcut>
+  <shortcut>
+		<action-id value="0x5f00 + 16" name="kPreviousPageActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 13" name="kFirstPageActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 33" name="kPreviousSpreadKBSCActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Alt+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 78" name="kGoToPrevFrameActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 35" name="kFirstSpreadKBSCActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 79" name="kGoToFirstFrameActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 15" name="kNextPageActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 14" name="kLastPageActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 34" name="kNextSpreadKBSCActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Alt+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 77" name="kGoToNextFrameActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 36" name="kLastSpreadKBSCActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 80" name="kGoToLastFrameActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 36" name="kLastSpreadKBSCActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 14" name="kMoveToEndOfStoryActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 35" name="kFirstSpreadKBSCActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 15" name="kMoveToStartOfStoryActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 26" name="kNudgeLeftActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 175" name="kNudgeLeftLargeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 171" name="kNudgeLeftSmallActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Alt+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 211" name="kNudgeLeftLargeDuplicateActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 207" name="kNudgeLeftSmallDuplicateActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 24" name="kNudgeUpActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 173" name="kNudgeUpLargeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 169" name="kNudgeUpSmallActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Alt+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 209" name="kNudgeUpLargeDuplicateActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 205" name="kNudgeUpSmallDuplicateActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 27" name="kNudgeRightActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 176" name="kNudgeRightLargeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 172" name="kNudgeRightSmallActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Alt+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 212" name="kNudgeRightLargeDuplicateActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 208" name="kNudgeRightSmallDuplicateActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 25" name="kNudgeDownActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 174" name="kNudgeDownLargeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 170" name="kNudgeDownSmallActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Alt+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 210" name="kNudgeDownLargeDuplicateActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 206" name="kNudgeDownSmallDuplicateActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 16" name="kClearActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Delete_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 16" name="kClearActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Delete_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 4" name="kZoomFitPageInWindowActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 5" name="kZoomEntirePasteboardActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 7" name="kZoomActualSizeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 61" name="kOpenStructureWinActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 21" name="kSepPrvMAID_ShowPlateCyan"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 8" name="kZoom200PercentActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 22" name="kZoomPercentageToggleShortActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 22" name="kSepPrvMAID_ShowPlateMagenta"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 23" name="kSepPrvMAID_ShowPlateYellow"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 9" name="kZoom400PercentActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 24" name="kSepPrvMAID_ShowPlateBlack"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 10" name="kZoom50PercentActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 25" name="kSepPrvMAID_ShowPlateSpot1"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+5</string>
+	</shortcut>
+  <shortcut>
+    <action-id value="0xD100 + 1" name="kGlyphPanelActionID"></action-id>
+    <context>DefaultContext</context>
+    <string>Ctrl+Alt+#Keyboard_F11</string>
+  </shortcut>
+  <shortcut>
+		<action-id value="0x11500 + 2" name="kSetControlStripFocusActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11500 + 1" name="kControlStripActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 26" name="kSepPrvMAID_ShowPlateSpot2"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11500 + 3" name="kToggleTextModeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 27" name="kSepPrvMAID_ShowPlateSpot3"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 1" name="kMakeCompoundPathActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 2" name="kReleaseCompoundPathActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xbb00 + 20" name="kNotesModeMAID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+#Keyboard_F8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 28" name="kSepPrvMAID_ShowPlateSpot4"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 29" name="kSepPrvMAID_ShowPlateSpot5"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 39" name="kDirectSelectToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>A</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 20" name="kSelectAllActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+A</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 22" name="kDeselectAllActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+A</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 99" name="kAutoLeadingActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+A</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x14600 + 3" name="kPushButtonToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>B</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 58" name="kTypeStyleBoldActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+B</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 60" name="kTableSetupPanelMenuActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+B</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 10" name="kScissorsToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 14" name="kCopyActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 9" name="kSplineDirectionToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 71" name="kAlignCenterActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 13" name="kApplyDefaultFillAndStrokeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>D</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1bb00 + 1" name="kPlaceActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+E</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x20600 + 1" name="kLinksUIPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 19" name="kDuplicateActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+D</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xb200 + 1" name="kFreeTransformToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>E</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1bb00 + 3" name="kExportActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+E</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 21" name="kTransformAgainActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 53" name="kTransformLastAgainActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 27" name="kFitFrameToContentActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 28" name="kFitContentToFrameActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+F</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 29" name="kFitContentPropActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 30" name="kCenterContentInFrameActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 83" name="kFillFramePropActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x900 + 2" name="kRectFrameToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>F</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 6" name="kFindDialogActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+F</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 74" name="kAlignForceActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+J</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 7" name="kFindNextActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+F</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 83" name="kKillerFindActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Enter_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x20b00 + 1" name="kPreflightActionID_Panel"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+F</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xa000 + 1" name="kGradientToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 60" name="kGroupActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 61" name="kUngroupActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+U</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 49" name="kSelectAllGuidesActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 75" name="kAlignToGridActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 42" name="kGrabberHandToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>H</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 11" name="kShowFrameEdgeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+H</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 62" name="kTypeStyleSmallCapsActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+H</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13200 + 2" name="kHighQualityActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+H</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 9" name="kHyphenationOnOffActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+H</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xba00 + 1" name="kEyeDropperToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>I</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1da00 + 1" name="kSpellCheckActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 59" name="kTypeStyleItalicActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+I</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 1" name="kViewShowInvisiblesActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+I</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 17" name="kToggleTextAndObjectActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>J</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 23" name="kGoToPageShortActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+J</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 73" name="kAlignJustifyActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+J</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 5" name="kParaRulesActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+N</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11800 + 1" name="kMeasureToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>K</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x9900 + 1" name="kGeneralPrefsActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Y</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 63" name="kTypeStyleAllCapsActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+K</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 4" name="kParaKeepActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+K</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x8800 + 1" name="kClipPathActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2300 + 1" name="kOvalToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>L</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 40" name="kLockPositionActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 70" name="kAlignLeftActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+L</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 41" name="kUnlockActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+L</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1800 + 1" name="kPagesPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1800 + 20" name="kOverrideAllMasterActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+L</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x900 + 1" name="kRectToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 8" name="kParaPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10900 + 2" name="kXPUIMAID_DropShadow"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 7" name="kPencilToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>N</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 1" name="kNewActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+N</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x8600 + 1" name="kNewLibraryActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+N</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 43" name="kShearToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>O</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xe100 + 3805" name="kCreateOutlinesActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+O</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xe100 + 3806" name="kCreateOutlinesWithoutDeletingTextActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+O</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 4" name="kSplinePenToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>P</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xa00 + 3" name="kPrintActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+P</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6100 + 1" name="kPageSetupActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+P</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 11" name="kQuitActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Q</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 40" name="kRotateToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>R</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x3400 + 1" name="kShowHideRulerActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+R</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 72" name="kAlignRightActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+R</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 99" name="kParaRunInActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+R</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 41" name="kScaleToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>S</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 4" name="kSaveActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+S</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 5" name="kSaveAsActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+S</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 70" name="kSaveAllActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+S</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 130" name="kIBeamToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6900 + 16" name="kCharPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+D</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xe100 + 1" name="kSizeOtherActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d100 + 3" name="kTOPHorzToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6700 + 4" name="kTabPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6a00 + 8" name="kParaPanelActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+F</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 60" name="kTypeStyleUnderlineActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+U</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x3400 + 56" name="kToggleMeasurementActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+U</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 38" name="kPointerToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>V</string>
+	</shortcut>
+  <shortcut>
+    <action-id value="0x20f00 + 1" name="kBasicGapToolActionID"></action-id>
+    <context>DefaultContext</context>
+    <string>U</string>
+  </shortcut>
+  <shortcut>
+		<action-id value="0x100 + 15" name="kPasteActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+V</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 40" name="kPasteUnformattedActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+V</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xaa00 + 1" name="kStepRepeatActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+D</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 17" name="kPowerPasteActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+V</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 14" name="kTogglePreviewActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_F7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 7" name="kCloseActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 71" name="kCloseDocActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x3500 + 1" name="kStandOffPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 69" name="kCloseAllActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+W</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 11" name="kToggleFillAndStrokeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 13" name="kCutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 12" name="kSwapFillAndStrokeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 97" name="kNormalHorScaleActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 98" name="kNormalVerScaleActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+X</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 57" name="kTypeStyleNormalActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+P</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 12" name="kShowFrameThreadsActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+Y</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 2" name="kSepPrvOverprintPreviewMAID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+Y</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1e00 + 1" name="kZoomToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Z</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 9" name="kUndoActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Z</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 10" name="kRedoActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Z</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13200 + 3" name="kTypicalActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+Z</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Num 0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Num 1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Num 2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Num 3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Num 4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Num 5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Num 6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Num 7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Num 8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Alt+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 76" name="kApplyStyleShortcutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Num 9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 16" name="kClearFillStrokeToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_Num /</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x9700 + 1" name="kHelpContentsActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13200 + 11" name="kClearDocOverridesActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_F2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 7" name="kCloseActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_F4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4000 + 1" name="kSwatchesPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F12</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 36" name="kBrowseActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+O</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 62" name="kForceRedrawActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_Escape</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 1" name="kSepPrvMAID_Palette"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6500 + 1" name="kAlignPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+,</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1100 + 1" name="kShowHideToolsActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13100 + 1" name="kIndexPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+I</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1ba00 + 1" name="kObjectStylePanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_F7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18f00 + 5" name="kICBridgeEditInPlaceSelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_F9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 62" name="kTablePanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18f00 + 7" name="kICBridgeSubmitSelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_F9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18f00 + 12" name="kICBridgeSubmitAllActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_F9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 3" name="kStrokePanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+B</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10900 + 1" name="kXPUIMAID_Panel"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F10</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2100 + 2" name="kParagraphStylesPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F11</string>
+	</shortcut>
+		<shortcut>
+		<action-id value="0x2100 + 2" name="kParagraphStylesPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_F11</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2100 + 1" name="kCharacterStylesPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F11</string>
+	</shortcut>
+		<shortcut>
+		<action-id value="0x2100 + 1" name="kCharacterStylesPanelActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_F11</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 5" name="kShowGuidesActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 8" name="kSnapToGuideActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 6" name="kLockGuidesActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 5" name="kSplineAddPointToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>=</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 1" name="kZoomInActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+=</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 1" name="kZoomInActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num +</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 64" name="kTypeStyleSuperscriptActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 6" name="kZoomFitSelectionActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+=</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 65" name="kTypeStyleSubscriptActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 14" name="kApplyCurrentColorToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>,</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 82" name="kDecreasePointSizeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+,</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 37" name="kDecreaseObjectSizeTimes5ActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+,</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x18500 + 6" name="kSplineRemovePointToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>-</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 2" name="kZoomOutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+-</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 2" name="kZoomOutActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_Num -</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 15" name="kApplyCurrentGradientToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>.</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 81" name="kIncreasePointSizeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+.</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 36" name="kIncreaseObjectSizeTimes5ActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+.</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 34" name="kIncreaseObjectSizeActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+.</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2b00 + 16" name="kClearFillStrokeToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>/</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 66" name="kTypeStyleStrikethruActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+/</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 133" name="kDamageAllStoriesActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+/</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 101" name="kRefreshMissingFontsActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+/</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 73" name="kNextDocActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+`</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 74" name="kPreviousDocActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+`</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x100 + 68" name="kRestoreKeyboardTargetActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+`</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x11900 + 20" name="kSepPrvMAID_ShowPlateAll"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+`</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 21" name="kSendBackwardActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+#Keyboard_F5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 22" name="kSendToBackActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+#Keyboard_F5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 24" name="kSelectBackwardActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 26" name="kSelectBackActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xb00 + 1" name="kLineToolActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 112" name="kIncreaseWordSpaceActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 113" name="kIncreaseWordSpaceTimes5ActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 20" name="kBringForwardActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+#Keyboard_F5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 19" name="kBringToFrontActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>#Keyboard_F5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 23" name="kSelectForwardActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+Alt+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2c00 + 25" name="kSelectFrontActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 9" name="kShowGridActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Ctrl+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 10" name="kSnapToGridActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 7" name="kShowBaselineGridActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Alt+#Keyboard_F7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x3100 + 3" name="kUseTypographersQuotesActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 16" name="kShowPreviousPanelActionID"></action-id>
+		<context>DialogContext</context>
+		<string>#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 17" name="kShowNextPanelActionID"></action-id>
+		<context>DialogContext</context>
+		<string>#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 19" name="kShowLastPanelActionID"></action-id>
+		<context>DialogContext</context>
+		<string>#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 18" name="kShowFirstPanelActionID"></action-id>
+		<context>DialogContext</context>
+		<string>#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 16" name="kShowPreviousPanelActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 17" name="kShowNextPanelActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 15" name="kShowDialogPanel10ActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 6" name="kShowDialogPanel1ActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 7" name="kShowDialogPanel2ActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 8" name="kShowDialogPanel3ActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 9" name="kShowDialogPanel4ActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 10" name="kShowDialogPanel5ActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 11" name="kShowDialogPanel6ActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 12" name="kShowDialogPanel7ActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 13" name="kShowDialogPanel8ActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x600 + 14" name="kShowDialogPanel9ActionID"></action-id>
+		<context>DialogContext</context>
+		<string>Ctrl+9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 68" name="kStructurePageUpActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 69" name="kStructurePageDownActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 67" name="kSelectLastXMLNodeActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 76" name="kXMLAddThroughLastNodeToSelectionActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Shift+#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 66" name="kSelectFirstXMLNodeActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 75" name="kXMLAddThroughFirstNodeToSelectionActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Shift+#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 71" name="kStructureCollapseElementActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 81" name="kStructureViewPreviousValidationActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Ctrl+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 73" name="kStructureCollapseWithChildrenActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Alt+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 63" name="kMoveXMLSelectionToPreviousNodeActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 65" name="kXMLAddPreviousNodeToSelectionActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Shift+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 70" name="kStructureExpandElementActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 82" name="kStructureViewNextValidationActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Ctrl+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 72" name="kStructureExpandWithChildrenActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Alt+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 62" name="kMoveXMLSelectionToNextNodeActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 64" name="kXMLAddNextNodeToSelectionActionID"></action-id>
+		<context>KBSCContext_XMLStructureContext</context>
+		<string>Shift+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x13300 + 223" name=" kTagAutoTagActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Alt+Ctrl+#Keyboard_F7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 71" name="kTablesClearActionID"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Backspace_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 12" name="kDeleteRowsActionID"></action-id>
+		<context>TableContext</context>
+		<string>Ctrl+#Keyboard_Backspace_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 13" name="kDeleteColsActionID"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Backspace_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 40" name="kMoveToNextCellActionID"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 41" name="kMoveToPrevCellActionID"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 57" name="kTableKeepRowColActionID"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Num Enter_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 58" name="kTableKeepRowFrameActionID"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Num Enter_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 39" name="kTextSelectCellActionID"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Escape</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 35" name="kMoveToFirstRowInFrameActionID"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 31" name="kMoveToStartColCellActionID"></action-id>
+		<context>TableContext</context>
+		<string>Alt+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 36" name="kMoveToLastRowInFrameActionID"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 32" name="kMoveToLastColCellActionID"></action-id>
+		<context>TableContext</context>
+		<string>Alt+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 34" name="kMoveToLastRowCellActionID"></action-id>
+		<context>TableContext</context>
+		<string>Alt+#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 33" name="kMoveToStartRowCellActionID"></action-id>
+		<context>TableContext</context>
+		<string>Alt+#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 44" name="kTablesMoveLeftActionID"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 48" name="kSelectLeftCellActionID"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 43" name="kTablesMoveUpActionID"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 47" name="kSelectCellAboveActionID"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 45" name="kTablesMoveRightActionID"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 49" name="kSelectRightCellActionID"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 42" name="kTablesMoveDownActionID"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 46" name="kSelectCellBelowActionID"></action-id>
+		<context>TableContext</context>
+		<string>Shift+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 72" name="kTablesDeleteActionID"></action-id>
+		<context>TableContext</context>
+		<string>#Keyboard_Delete_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 9" name="kSelectRowsActionID"></action-id>
+		<context>TableContext</context>
+		<string>Ctrl+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 10" name="kSelectColsActionID"></action-id>
+		<context>TableContext</context>
+		<string>Ctrl+Alt+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 7" name="kInsertRowsActionID"></action-id>
+		<context>TableContext</context>
+		<string>Ctrl+9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 8" name="kInsertColsActionID"></action-id>
+		<context>TableContext</context>
+		<string>Ctrl+Alt+9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 11" name="kSelectTableActionID"></action-id>
+		<context>TableContext</context>
+		<string>Ctrl+Alt+A</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 4" name="kTableTextAttrPanelMenuActionID"></action-id>
+		<context>TableContext</context>
+		<string>Ctrl+Alt+B</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 28" name="kSelectCellActionID"></action-id>
+		<context>TableContext</context>
+		<string>Ctrl+/</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 30" name="kDeleteOneCharToLeftActionID"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Backspace_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 251" name="kDeleteOneWordToLeftActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+#Keyboard_Backspace_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 250" name="kDeleteOneWordToRightActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+#Keyboard_Delete_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 30" name="kDeleteOneCharToLeftActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Backspace_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 146" name="kInsertTabActionID"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 121" name="kRightEdgeTabActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Tab</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 104" name="kInsertColumnBreakActionID"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Num Enter_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 106" name="kInsertPageBreakActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+#Keyboard_Num Enter_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 105" name="kInsertFrameBreakActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Num Enter_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 191" name="kParagraphReturnActionID"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Enter_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 32" name="kSoftReturnActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Enter_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 32" name="kPageUpOneScreenKBSCActionID"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 16" name="kPreviousPageActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Page Up</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d000 + 31" name="kPageDownOneScreenKBSCActionID"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x5f00 + 15" name="kNextPageActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Page Down</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 11" name="kMoveToEndOfLineActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+Alt+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 21" name="kSelectToEndOfLineActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_End</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 27" name="kSelectToEndOfStoryActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 10" name="kMoveToStartOfLineActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+Alt+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 20" name="kSelectToStartOfLineActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Home</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 28" name="kSelectToStartOfStoryActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 5" name="kMoveToLeftOneCharActionID"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 9" name="kMoveToLeftOneWordActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 17" name="kSelectToLeftOneCharActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 19" name="kSelectToLeftOneWordActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+#Keyboard_Left Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 86" name="kDecreaseTrackingActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 88" name="kDecreaseTrackingTimes5ActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 6" name="kMoveUpOneLineActionID"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 12" name="kMoveToPrevParaActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 22" name="kSelectUpOneLineActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 24" name="kSelectToPrevParaActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+#Keyboard_Up Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 84" name="kDecreaseLeadingActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 96" name="kDecreaseLeadingTimes5ActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 243" name="kIncreaseHorzScaleActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+Alt+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 244" name="kDecreaseHorzScaleActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+Alt+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 245" name="kIncreaseHorzScaleTimes5ActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 246" name="kDecreaseHorzScaleTimes5ActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 89" name="kIncreaseBLShiftActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+0</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 4" name="kMoveToRightOneCharActionID"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 8" name="kMoveToRightOneWordActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 16" name="kSelectToRightOneCharActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 18" name="kSelectToRightOneWordActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+#Keyboard_Right Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 85" name="kIncreaseTrackingActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 87" name="kIncreaseTrackingTimes5ActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 7" name="kMoveDownOneLineActionID"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 13" name="kMoveToNextParaActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 23" name="kSelectDownOneLineActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 25" name="kSelectToNextParaActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+#Keyboard_Down Arrow</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 83" name="kIncreaseLeadingActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 95" name="kIncreaseLeadingTimes5ActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 90" name="kDecreaseBLShiftActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+9</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 29" name="kDeleteOneCharToRightActionID"></action-id>
+		<context>TextContext</context>
+		<string>#Keyboard_Delete_Win</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 47" name="kSectionMarkActionID"></action-id>
+		<context>TextContext</context>
+		<string>Alt+6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 46" name="kPilcrowActionID"></action-id>
+		<context>TextContext</context>
+		<string>Alt+7</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 43" name="kBulletActionID"></action-id>
+		<context>TextContext</context>
+		<string>Alt+8</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2100 + 11" name="kRedefineCharStyleActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+C</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 44" name="kCopyrightMarkActionID"></action-id>
+		<context>TextContext</context>
+		<string>Alt+G</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x12600 + 1" name="kFileInfoActionID"></action-id>
+		<context>DefaultContext</context>
+		<string>Shift+Ctrl+Alt+I</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 39" name="kEmSpaceActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 37" name="kThinSpaceActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+M</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 40" name="kEnSpaceActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+6</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 33" name="kPageNumberActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 123" name="kPrevPageNumActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+4</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 124" name="kNextPageNumActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x6900 + 15" name="kResetKerningAndTrackingActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+Alt+Q</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 45" name="kRegistrationMarkActionID"></action-id>
+		<context>TextContext</context>
+		<string>Alt+R</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x2100 + 10" name="kRedefineParaStyleActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+R</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x10500 + 6" name="kInsertTableMenuActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+Alt+T</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 42" name="kHardSpaceActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+5</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 1" name="kLoadFindStringActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+#Keyboard_F1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 2" name="kLoadAndFindActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_F1</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 5" name="kLoadReplaceStringActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+#Keyboard_F2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 18" name="kFindActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_F2</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 4" name="kReplaceActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+#Keyboard_F3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x4900 + 3" name="kReplaceFindActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+#Keyboard_F3</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 52" name="kEllipseActionID"></action-id>
+		<context>TextContext</context>
+		<string>Alt+;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 31" name="kDiscHyphenActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+-</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 53" name="kEnDashActionID"></action-id>
+		<context>TextContext</context>
+		<string>Alt+-</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 35" name="kNoBreakHyphenActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+Alt+-</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 54" name="kEmDashActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Alt+-</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 48" name="kDblOpenQuoteActionID"></action-id>
+		<context>TextContext</context>
+		<string>Alt+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 49" name="kDblCloseQuoteActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Alt+[</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 122" name="kIndentToHereActionID"></action-id>
+		<context>TextContext</context>
+		<string>Ctrl+\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 109" name="kSelectLineActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Ctrl+\</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 50" name="kSngOpenQuoteActionID"></action-id>
+		<context>TextContext</context>
+		<string>Alt+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0x1d300 + 51" name="kSngCloseQuoteActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Alt+]</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xb800 + 84" name="kDblQuoteActionID"></action-id>
+		<context>TextContext</context>
+		<string>Shift+Alt+&apos;</string>
+	</shortcut>
+	<shortcut>
+		<action-id value="0xb800 + 85" name="kSngQuoteActionID"></action-id>
+		<context>TextContext</context>
+		<string>Alt+&apos;</string>
+	</shortcut>
+  <shortcut>
+    <action-id value="0x18500 + 38" name="KBSCE Object editing:End Path Drawing"></action-id>
+    <context>DefaultContext</context>
+    <string>#Keyboard_Enter_Win</string>
+  </shortcut>
+  <shortcut>
+    <action-id value="0x18500 + 38" name="KBSCE Object editing:End Path Drawing"></action-id>
+    <context>DefaultContext</context>
+    <string>#Keyboard_Num Enter_Win</string>
+  </shortcut>
+</shortcut-set>

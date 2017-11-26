@@ -1,0 +1,10 @@
+{
+    "Version": "8",
+    "MinWidth": "640",
+    "MinHeight": "480",
+    "MaxWidth": "900",
+    "MaxHeight": "590",
+    "OnlineUXTypeSelectorURL": "https://go.microsoft.com/fwlink/?linkid=848271",
+    "OnlineContentBase": "https://onecs-live.azureedge.net/api/upx",
+    "OnlineContentSuffix": "html/index"
+}

@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LocalEventTracker.iml" filepath="$PROJECT_DIR$/LocalEventTracker.iml" />
-      <module fileurl="file://C:\Users\Zelika\Documents\SCHOOL Assignments\Software Dev\LocalEventTracker\LocalEventTracker.iml" filepath="C:\Users\Zelika\Documents\SCHOOL Assignments\Software Dev\LocalEventTracker\LocalEventTracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Zelika\Documents\SCHOOL Assignments\Software Dev\LocalEventTracker\app\app.iml" filepath="C:\Users\Zelika\Documents\SCHOOL Assignments\Software Dev\LocalEventTracker\app\app.iml" />
     </modules>
   </component>
 </project>

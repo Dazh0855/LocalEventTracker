@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE ThemeParameters [
+  <!-- Inline DTD for Drover Theme files -->
+
+  <!-- defines entities for the color names -->
+
+  <!-- Old colors might need to be removed -->
+  <!-- Dark line -->
+  <!ENTITY kDarkLine_LightV "0.39">
+  <!ENTITY kDarkLine_MediumV "0.32">
+  <!ENTITY kDarkLine_DarkV "0.18">
+  <!ENTITY kDarkLine_DefaultV "0.1">
+
+  <!-- Top Gradient -->
+  <!ENTITY kTopGradient_LightV "0.98">
+  <!ENTITY kTopGradient_MediumV "0.91">
+  <!ENTITY kTopGradient_DarkV "0.45">
+  <!ENTITY kTopGradient_DefaultV "0.27">
+
+  <!-- Bot Gradient -->
+  <!ENTITY kBotGradient_LightV "0.87">
+  <!ENTITY kBotGradient_MediumV "0.73">
+  <!ENTITY kBotGradient_DarkV "0.38">
+  <!ENTITY kBotGradient_DefaultV "0.21">
+
+  <!-- Entity definitions for color Names. These map to individual color elements in a color theme -->
+
+  <!-- Generated automatically using //dva/main/adobe/tools/generate_xml_entities_from_enum.py -->
+
+  <!-- Entity definitions for color Names. These map to individual color elements in a color theme -->
+  <!-- fill out an entity entry to match each entry in the enum in InterfaceColorDefines.h
+  	then add the corresponding value below -->
+
+  <!ENTITY 	kIDColor_InterfaceWhite "10000">
+  <!ENTITY 	kIDColor_InterfaceButtonUpFill "10001">
+  <!ENTITY 	kIDColor_InterfaceBevelShadow "10002">
+  <!ENTITY 	kIDColor_InterfacePaletteFill "10003">
+  <!ENTITY 	kIDColor_InterfaceIconFrameDimmed "10004">
+  <!ENTITY 	kIDColor_InterfaceIconFrameActive "10005">
+  <!ENTITY 	kIDColor_InterfaceBevelHighlight "10006">
+  <!ENTITY 	kIDColor_InterfaceButtonDownFill "10007">
+  <!ENTITY 	kIDColor_InterfaceIconFillSelected "10008">
+  <!ENTITY 	kIDColor_InterfaceBorder "10009">
+  <!ENTITY 	kIDColor_InterfaceButtonDarkShadow "10010">
+  <!ENTITY 	kIDColor_InterfaceIconFrameSelected "10011">
+  <!ENTITY 	kIDColor_InterfaceBlack "10012">
+  <!ENTITY 	kIDColor_InterfaceTooltipText "10013">
+  <!ENTITY 	kIDColor_InterfaceTooltipBackground "10014">
+  <!ENTITY 	kIDColor_InterfaceDisabledGray "10015">
+  <!ENTITY 	kIDColor_InterfaceHighLight "10016">
+  <!ENTITY 	kIDColor_InterfaceHighLightText "10017">
+  <!ENTITY 	kIDColor_InterfaceCntlMgrTabsPane "10018">
+  <!ENTITY 	kIDColor_InterfaceAboutBoxGrayText "10019">
+  <!ENTITY 	kIDColor_InterfaceMenuHighLight "10020">
+  <!ENTITY 	kIDColor_InterfaceBlueProgressBack "10021">
+
+  <!ENTITY 	kIDColor_Interface96Gray "10022">
+  <!ENTITY 	kIDColor_Interface92Gray "10023">
+  <!ENTITY 	kIDColor_Interface88Gray "10024">
+  <!ENTITY 	kIDColor_Interface84Gray "10025">
+  <!ENTITY 	kIDColor_Interface80Gray "10026">
+  <!ENTITY 	kIDColor_Interface76Gray "10027">
+  <!ENTITY 	kIDColor_Interface72Gray "10028">
+  <!ENTITY 	kIDColor_Interface68Gray "10029">
+  <!ENTITY 	kIDColor_Interface64Gray "10030">
+  <!ENTITY 	kIDColor_Interface60Gray "10031">
+  <!ENTITY 	kIDColor_Interface56Gray "10032">
+  <!ENTITY 	kIDColor_Interface52Gray "10033">
+  <!ENTITY 	kIDColor_InterfaceGray "10034">
+  <!ENTITY 	kIDColor_Interface48Gray "10035">
+  <!ENTITY 	kIDColor_Interface44Gray "10036">
+  <!ENTITY 	kIDColor_Interface40Gray "10037">
+  <!ENTITY 	kIDColor_Interface36Gray "10038">
+  <!ENTITY 	kIDColor_Interface32Gray "10039">
+  <!ENTITY 	kIDColor_Interface28Gray "10040">
+  <!ENTITY 	kIDColor_Interface24Gray "10041">
+  <!ENTITY 	kIDColor_Interface20Gray "10042;">
+  <!ENTITY 	kIDColor_Interface16Gray "10043">
+  <!ENTITY 	kIDColor_Interface12Gray "10044">
+  <!ENTITY 	kIDColor_Interface08Gray "10045">
+  <!ENTITY 	kIDColor_Interface04Gray "10046">
+
+  <!ENTITY 	kIDColor_InterfaceBrightnessAwareVeryLightGray "10047">
+  <!ENTITY 	kIDColor_InterfaceBrightnessAwareLightGray "10048">
+  <!ENTITY 	kIDColor_InterfaceBrightnessAwareMediumLightGray "10049">
+  <!ENTITY 	kIDColor_InterfaceBrightnessAwareMediumDarkGray "10050">
+  <!ENTITY 	kIDColor_InterfaceBrightnessAwareDarkGray "10051">
+  <!ENTITY 	kIDColor_InterfaceBrightnessAwareVeryDarkGray "10052">
+  <!ENTITY 	kIDColor_InterfaceBrightnessAwareWhite "10053">
+  <!ENTITY 	kIDColor_InterfaceBrightnessAwareBlack "10054">
+
+  <!ENTITY 	kIDColor_InterfaceTextColor "10055">
+  <!ENTITY 	kIDColor_InterfaceLightFillColor "10056">
+  <!ENTITY 	kIDColor_InterfacePanelBorderColor "10057">
+  <!ENTITY 	kIDColor_InterfaceSeparatorColor "10058">
+  <!ENTITY 	kIDColor_InterfaceDarkFillColor "10059">
+  <!ENTITY 	kIDColor_InterfaceTextEditNormalBackground "10060">
+  <!ENTITY 	kIDColor_InterfaceItemHighLight "10061">
+  <!ENTITY 	kIDColor_InterfaceLightHighLight "10062">
+  <!ENTITY 	kIDColor_InterfaceUnselectedTabColor "10063">
+  <!ENTITY 	kIDColor_InterfaceBrightnessAwareHyperlinkColor "10064">  
+  <!ENTITY 	kIDColor_InterfaceBlueSeparatorColor  "10065">
+  <!ENTITY 	kIDColor_Interface26Dot7GrayColor  "10066">
+  <!ENTITY 	kIDColor_TouchPanelBorderColor  "10067">
+  <!ENTITY 	kIDColor_TouchTabTitleRectFillColor  "10068">
+  <!ENTITY 	kIDColor_TouchSliderThumbKnobStartGradient  "10069">
+  <!ENTITY 	kIDColor_TouchSliderThumbKnobEndGradient  "10070">
+  <!ENTITY 	kIDColor_TouchSliderThumbInnerKnobStartGradient  "10071">
+  <!ENTITY 	kIDColor_TouchSliderThumbInnerKnobEndGradient  "10072">
+  <!ENTITY kIDColor_Interface94Gray "10073">
+  <!ENTITY kIDColor_InterfaceStructureFixHLColor "10074">
+  <!ENTITY kIDColor_InterfaceFontDropDownBorderColor "10075">
+
+  <!ENTITY kColor_ControlHilight	"4000007">
+
+
+  <!-- fill out an entity entry to match each entry in the enum UI_PrivateColors in IDThemeColors.h
+  	then add the corresponding value below -->
+  <!ENTITY  kIDColor_GridDividerColor  "11001">
+  <!ENTITY  kIDColor_RulerActiveThumbColor  "11002">
+  <!ENTITY  kIDColor_RulerInactiveThumbColor  "11003">
+  <!ENTITY  kIDColor_SwatchProxyBorderColor  "11004">
+  <!ENTITY  kIDColor_CursorPreviewBorderColor  "11005">
+  <!ENTITY  kIDColor_CursorPreviewTextColor  "11006">
+  <!ENTITY  kIDColor_ToolBoxRightMarkerColor  "11007">
+  <!ENTITY  kIDColor_ToolboxRenderingObjectBorderColor  "11008">
+  <!ENTITY  kIDColor_PrintPreviewProxyFillColor "11009">
+  <!ENTITY  kIDColor_PrintPreviewProxyStrokeColor "11010">
+  <!ENTITY  kIDColor_PrintPreviewProxyOrientationMarkerFillColor "11011">
+  <!ENTITY  kIDColor_ContentCollectorNormalThumbnailBorderColor  "11012">
+  <!ENTITY  kIDColor_ContentCollectorNormalThumbnailBackgroundColor  "11013">
+  <!ENTITY  kIDColor_ContentCollectorHeadThumbnailBackgroundColor  "11014">
+  <!ENTITY  kIDColor_ContentCollectorGripperColor  "11015">
+  <!ENTITY  kIDColor_NewColorSwatchWidgetColor  "11016">  
+  <!ENTITY  kIDColor_PdfPagePreviewWidgetColor  "11017">
+  <!ENTITY  kIDColor_ColumnHeaderSeparatorBorderColor  "11018"> 
+  <!ENTITY  kIDColor_CellStrokeWidgetBorderColor  "11019">
+  <!ENTITY  kIDColor_CellStrokeWidgetInsideLinesColor  "11020">
+  <!ENTITY  kIDColor_CellStrokeWidgetRectFrameColor  "11021">
+  <!ENTITY  kIDColor_PreviewWidgetFillColor  "11022">
+  <!ENTITY  kIDColor_PreviewWidgetStrokeColor  "11023">
+  <!ENTITY  kIDColor_SwatchColorWidgetBorderColor  "11024">
+  <!ENTITY  kIDColor_PrintBookletPreviewWidgetColor  "11025">
+  <!ENTITY  kIDColor_OwnerDrawnDDDefaultBGColor  "11026">
+  <!ENTITY  kIDColor_OwnerDrawnDDDefaultHiliteColor  "11027">
+  <!ENTITY  kIDColor_NormalModePasteBoardBackgroundColor  "11028">
+  <!ENTITY  kIDColor_PreviewModePasteBoardBackgroundColor  "11029">
+  <!ENTITY  kIDColor_PagesPanelPageNumberEnabledBackgroundColor  "11030">
+  <!ENTITY  kIDColor_PagesPanelBindingLineNTriangleColor  "11031">
+  <!ENTITY  kIDColor_ContentCollectorCollapseHoverBackgroundColor  "11032">
+  <!ENTITY  kIDColor_ContentCollectorCollapseHoverStrokeColor  "11033">
+  <!ENTITY  kIDColor_LibraryGridItemThumbnailBorder  "11034">
+  <!ENTITY  kIDColor_RulerBackgroundColor  "11035">
+  <!ENTITY  kIDColor_HyperlinkPanelStaticTextColor  "11036">
+  <!ENTITY  kIDColor_XMLTagsBackgroundColor  "11037">
+  <!ENTITY  kIDColor_ConditionTextThumbnailStrokeColor  "11038">
+  <!ENTITY  kIDColor_InfoThumbnailStrokeColor  "11039">
+  <!ENTITY  kIDColor_PasteBoardBorderColor  "11040">
+  <!ENTITY  kIDColor_ColorSliderThumbColor  "11041">  
+  <!ENTITY  kIDColor_CurrentColorApplyBorder  "11042">  
+  <!ENTITY  kIDColor_ClickableTextClickColor  "11043">
+
+  
+
+  <!-- Entity definitions for specific color themes, representing a predefined 't' value -->
+
+  <!-- DesignAppColorThemes Colors Start -->
+  
+  <!-- SPECTRUM COMMON v1.3 -->
+
+  <!ENTITY kColor_White_V "1.0">
+  <!ENTITY kColor_Black_V "0.0">
+
+  <!ENTITY kColor_Blue_01_H "209.14">
+  <!ENTITY kColor_Blue_01_S "0.7143">
+  <!ENTITY kColor_Blue_01_V "0.9608">
+
+  <!ENTITY kColor_Blue_02_H "210.00">
+  <!ENTITY kColor_Blue_02_S "0.8085">
+  <!ENTITY kColor_Blue_02_V "0.9216">
+
+  <!ENTITY kColor_Blue_03_H "212.86">
+  <!ENTITY kColor_Blue_03_S "0.9130">
+  <!ENTITY kColor_Blue_03_V "0.9020">
+
+  <!ENTITY kColor_Blue_04_H "213.85">
+  <!ENTITY kColor_Blue_04_S "0.9286">
+  <!ENTITY kColor_Blue_04_V "0.8235">
+
+
+
+  <!-- SPECTRUM DESIGN DARKEST v1.0 -->
+  <!ENTITY kColor_Gray_Darkest_00_00 "0.0980">
+  <!ENTITY kColor_Gray_Darkest_00_01 "0.1216">
+  <!ENTITY kColor_Gray_Darkest_00_02 "0.1490">
+  <!ENTITY kColor_Gray_Darkest_00_03 "0.1608">
+  <!ENTITY kColor_Gray_Darkest_01 "0.1647">
+  <!ENTITY kColor_Gray_Darkest_02 "0.1804">
+  <!ENTITY kColor_Gray_Darkest_03 "0.1961">
+  <!ENTITY kColor_Gray_Darkest_04 "0.2235">
+  <!ENTITY kColor_Gray_Darkest_05 "0.2431">
+  <!ENTITY kColor_Gray_Darkest_05_01 "0.2784">
+  <!ENTITY kColor_Gray_Darkest_06 "0.3216">
+  <!ENTITY kColor_Gray_Darkest_07 "0.4392">
+  <!ENTITY kColor_Gray_Darkest_08 "0.6000">
+  <!ENTITY kColor_Gray_Darkest_09 "0.8039">
+  <!ENTITY kColor_Gray_Darkest_10 "0.9882">
+
+  <!-- SPECTRUM DESIGN DARK v1.0 -->
+
+  <!ENTITY kColor_Gray_Dark_00_00 "0.1764">
+  <!ENTITY kColor_Gray_Dark_00_01 "0.1882">
+  <!ENTITY kColor_Gray_Dark_00_02 "0.2700">
+  <!ENTITY kColor_Gray_Dark_00_03 "0.2509">
+  <!ENTITY kColor_Gray_Dark_01 "0.2901">
+  <!ENTITY kColor_Gray_Dark_02 "0.3058">
+  <!ENTITY kColor_Gray_Dark_03 "0.3254">
+  <!ENTITY kColor_Gray_Dark_03_01 "0.3373">
+  <!ENTITY kColor_Gray_Dark_04 "0.3450">
+  <!ENTITY kColor_Gray_Dark_05 "0.3686">
+  <!ENTITY kColor_Gray_Dark_05_01 "0.3764">
+  <!ENTITY kColor_Gray_Dark_06 "0.4509">
+  <!ENTITY kColor_Gray_Dark_07 "0.5843">
+  <!ENTITY kColor_Gray_Dark_08 "0.7803">
+  <!ENTITY kColor_Gray_Dark_09 "1.0000">
+  <!ENTITY kColor_Gray_Dark_10 "1.0000">
+
+  <!-- SPECTRUM DESIGN LIGHT v1.0 -->
+
+  <!ENTITY kColor_Gray_Light_00_01 "0.8863">
+  <!ENTITY kColor_Gray_Light_00_02 "0.8588">
+  <!ENTITY kColor_Gray_Light_00_03 "0.8039">
+  <!ENTITY kColor_Gray_Light_01 "0.7647">
+  <!ENTITY kColor_Gray_Light_02 "0.7451">
+  <!ENTITY kColor_Gray_Light_03 "0.7216">
+  <!ENTITY kColor_Gray_Light_03_01 "0.6980">
+  <!ENTITY kColor_Gray_Light_04 "0.6863">
+  <!ENTITY kColor_Gray_Light_05 "0.6549">
+  <!ENTITY kColor_Gray_Light_05_01 "0.5843">
+  <!ENTITY kColor_Gray_Light_06 "0.5569">
+  <!ENTITY kColor_Gray_Light_06_01 "0.5098">
+  <!ENTITY kColor_Gray_Light_07 "0.4275">
+  <!ENTITY kColor_Gray_Light_07_01 "0.3176">
+  <!ENTITY kColor_Gray_Light_08 "0.2863">
+  <!ENTITY kColor_Gray_Light_09 "0.1333">
+  <!ENTITY kColor_Gray_Light_10 "0.0000">
+
+  <!-- SPECTRUM DESIGN LIGHTEST v1.0 -->
+
+  <!ENTITY kColor_Gray_Lightest_00_01 "1.0">
+  <!ENTITY kColor_Gray_Lightest_01 "0.9843">
+  <!ENTITY kColor_Gray_Lightest_01_01 "0.9765">
+  <!ENTITY kColor_Gray_Lightest_02 "0.9647">
+  <!ENTITY kColor_Gray_Lightest_03 "0.9412">
+  <!ENTITY kColor_Gray_Lightest_04 "0.9020">
+  <!ENTITY kColor_Gray_Lightest_05 "0.8627">
+  <!ENTITY kColor_Gray_Lightest_06 "0.7412">
+  <!ENTITY kColor_Gray_Lightest_06_01 "0.6549">
+  <!ENTITY kColor_Gray_Lightest_07 "0.5882">
+  <!ENTITY kColor_Gray_Lightest_08 "0.4275">
+  <!ENTITY kColor_Gray_Lightest_08_01 "0.3882">
+  <!ENTITY kColor_Gray_Lightest_09 "0.2824">
+  <!ENTITY kColor_Gray_Lightest_10 "0.1647">
+
+  <!-- DesignAppColorThemes Colors End -->
+  
+  <!ENTITY Default "0.0">
+  <!ENTITY Dark "0.501">
+  <!ENTITY Medium "0.5" >
+  <!ENTITY Light "1.0">
+
+  <!ENTITY kCSTextFlipT "0.5">
+  <!ENTITY kCSTextFlipT2 "0.501">
+
+  <!-- Definitions of objects in this file, for validating parsers and editors -->
+  <!ELEMENT ThemeParameters (ThemeColors | ThemeFonts)>
+  <!ELEMENT ThemeColors (Theme | KeyFrame)*>
+  <!ATTLIST ThemeColors>
+  <!ELEMENT Theme (KeyFrame)+>
+  <!ATTLIST Theme
+
+	t CDATA #REQUIRED
+
+>
+  <!ELEMENT KeyFrame EMPTY>
+  <!ATTLIST KeyFrame
+
+	name CDATA #REQUIRED
+
+	t CDATA #IMPLIED
+
+	v CDATA #REQUIRED
+
+	h CDATA #IMPLIED
+
+	s CDATA #IMPLIED
+
+	a CDATA #IMPLIED
+
+	hold (true | false) "false"
+
+>
+  <!ELEMENT ThemeFonts (FontSize)>
+  <!ATTLIST ThemeFonts>
+  <!ELEMENT FontSize EMPTY>
+  <!ATTLIST FontSize
+
+	name CDATA #REQUIRED
+
+	size CDATA #REQUIRED
+
+	scheme CDATA #REQUIRED
+
+>
+
+]>
+
+<ThemeParameters>
+  <ThemeColors>
+    <!-- kIDColor_InterfaceWhite -->
+    <KeyFrame name="&kIDColor_InterfaceWhite;" t="0.0" v="1.0"  />
+    <KeyFrame name="&kIDColor_InterfaceWhite;" t="&kCSTextFlipT;" v="1.0"   hold="true" />
+    <KeyFrame name="&kIDColor_InterfaceWhite;" t="&kCSTextFlipT2;" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceWhite;" t="1.0" v="1.0"  />
+
+    <!-- kIDColor_InterfaceButtonUpFill -->
+    <KeyFrame name="&kIDColor_InterfaceButtonUpFill;" t="0.0" v="0.06"  />
+    <KeyFrame name="&kIDColor_InterfaceButtonUpFill;" t="&kCSTextFlipT;" v="0.16" hold="true" />
+    <KeyFrame name="&kIDColor_InterfaceButtonUpFill;" t="&kCSTextFlipT2;" v="0.84" />
+    <KeyFrame name="&kIDColor_InterfaceButtonUpFill;" t="1.0" v="0.94" />
+
+    <!-- kIDColor_InterfaceBevelShadow -->
+    <KeyFrame name="&kIDColor_InterfaceBevelShadow;" t="0.0" v="0.15" />
+    <KeyFrame name="&kIDColor_InterfaceBevelShadow;" t="&kCSTextFlipT;" v="0.28" hold="true" />
+    <KeyFrame name="&kIDColor_InterfaceBevelShadow;" t="&kCSTextFlipT2;" v="0.51" />
+    <KeyFrame name="&kIDColor_InterfaceBevelShadow;" t="1.0" v="0.54" />
+
+    <!-- kIDColor_InterfacePaletteFill, keep this color in sync with v5 - kColor_ContentBackground -->
+    <KeyFrame name="&kIDColor_InterfacePaletteFill;" t="0.0" v="&kColor_Gray_Darkest_03;" />
+    <KeyFrame name="&kIDColor_InterfacePaletteFill;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_03;" />
+    <KeyFrame name="&kIDColor_InterfacePaletteFill;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_03;" />
+    <KeyFrame name="&kIDColor_InterfacePaletteFill;" t="1.0" v="&kColor_Gray_Lightest_03;" />
+
+    <!-- kIDColor_InterfaceIconFrameDimmed -->
+    <KeyFrame name="&kIDColor_InterfaceIconFrameDimmed;" t="0.0" v="0.67" />
+    <KeyFrame name="&kIDColor_InterfaceIconFrameDimmed;" t="&kCSTextFlipT;" v="0.60" hold="true" />
+    <KeyFrame name="&kIDColor_InterfaceIconFrameDimmed;" t="&kCSTextFlipT2;" v="0.40"  />
+    <KeyFrame name="&kIDColor_InterfaceIconFrameDimmed;" t="1.0" v="0.33" />
+
+    <!-- kIDColor_InterfaceIconFrameActive -->
+    <KeyFrame name="&kIDColor_InterfaceIconFrameActive;" t="0.0" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceIconFrameActive;" t="&kCSTextFlipT;" v="0.9" hold="true" />
+    <KeyFrame name="&kIDColor_InterfaceIconFrameActive;" t="&kCSTextFlipT2;" v="0.1"  />
+    <KeyFrame name="&kIDColor_InterfaceIconFrameActive;" t="1.0" v="0.0" />
+
+    <!-- kIDColor_InterfaceBevelHighlight -->
+    <KeyFrame name="&kIDColor_InterfaceBevelHighlight;" t="0.0" v="0.3" />
+    <KeyFrame name="&kIDColor_InterfaceBevelHighlight;" t="&kCSTextFlipT;" v="0.4" hold="true" />
+    <KeyFrame name="&kIDColor_InterfaceBevelHighlight;" t="&kCSTextFlipT2;" v="0.90"/>
+    <KeyFrame name="&kIDColor_InterfaceBevelHighlight;" t="1.0" v="0.99"/>
+
+    <!-- kIDColor_InterfaceButtonDownFill -->
+    <KeyFrame name="&kIDColor_InterfaceButtonDownFill;" t="0.0" v="0.33" />
+    <KeyFrame name="&kIDColor_InterfaceButtonDownFill;" t="&kCSTextFlipT;" v="0.40" hold="true" />
+    <KeyFrame name="&kIDColor_InterfaceButtonDownFill;" t="&kCSTextFlipT2;" v="0.60"  />
+    <KeyFrame name="&kIDColor_InterfaceButtonDownFill;" t="1.0" v="0.66" />
+
+    <!-- kIDColor_InterfaceIconFillSelected -->
+    <KeyFrame name="&kIDColor_InterfaceIconFillSelected;" t="0.0" v="0.0" a="0.9"/>
+    <KeyFrame name="&kIDColor_InterfaceIconFillSelected;" t="&kCSTextFlipT;" v="0.1" a="0.9" hold="true"/>
+    <KeyFrame name="&kIDColor_InterfaceIconFillSelected;" t="&kCSTextFlipT2;" v="0.9" a="0.9" />
+    <KeyFrame name="&kIDColor_InterfaceIconFillSelected;" t="1.0" v="1.0" a="0.9" />
+
+    <!-- kIDColor_InterfaceBorder -->
+    <KeyFrame name="&kIDColor_InterfaceBorder;" t="0.0" v="0.5" />
+    <KeyFrame name="&kIDColor_InterfaceBorder;" t="&kCSTextFlipT;" v="0.5" />
+    <KeyFrame name="&kIDColor_InterfaceBorder;" t="&kCSTextFlipT2;" v="0.0" />
+    <KeyFrame name="&kIDColor_InterfaceBorder;" t="1.0" v="0.0" />
+
+    <!-- kIDColor_InterfaceButtonDarkShadow  -->
+    <KeyFrame name="&kIDColor_InterfaceButtonDarkShadow;" t="0.0" v="0.66" a="0.8"/>
+    <KeyFrame name="&kIDColor_InterfaceButtonDarkShadow;" t="&kCSTextFlipT;" v="0.60;" a="0.8"  />
+    <KeyFrame name="&kIDColor_InterfaceButtonDarkShadow;" t="&kCSTextFlipT2;" v="0.40" a="0.8"/>
+    <KeyFrame name="&kIDColor_InterfaceButtonDarkShadow;" t="1.0" v="0.33" a="0.8"/>
+
+    <!-- kIDColor_InterfaceIconFrameSelected -->
+    <KeyFrame name="&kIDColor_InterfaceIconFrameSelected;" t="0.0" v="1.0" a="0.8"/>
+    <KeyFrame name="&kIDColor_InterfaceIconFrameSelected;" t="&kCSTextFlipT;" v="0.9" a="0.8"/>
+    <KeyFrame name="&kIDColor_InterfaceIconFrameSelected;" t="&kCSTextFlipT2;" v="0.1" a="0.8"/>
+    <KeyFrame name="&kIDColor_InterfaceIconFrameSelected;" t="1.0" v="0.0" a="0.8"/>
+
+    <!-- kIDColor_InterfaceBlack -->
+    <KeyFrame name="&kIDColor_InterfaceBlack;" t="0.0" v="0.0" a="1.0"/>
+    <KeyFrame name="&kIDColor_InterfaceBlack;" t="&kCSTextFlipT;" v="0.0" a="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceBlack;" t="&kCSTextFlipT2;" v="0.0" a="1.0"/>
+    <KeyFrame name="&kIDColor_InterfaceBlack;" t="1.0" v="0.0" a="1.0"/>
+
+    <!-- kIDColor_InterfaceTooltipText -->
+    <KeyFrame name="&kIDColor_InterfaceTooltipText;" t="0.0" v="1.0" a="0.8" />
+    <KeyFrame name="&kIDColor_InterfaceTooltipText;" t="&kCSTextFlipT;" v="1.0" a="0.8" />
+    <KeyFrame name="&kIDColor_InterfaceTooltipText;" t="&kCSTextFlipT2;" v="0.0" a="0.8"/>
+    <KeyFrame name="&kIDColor_InterfaceTooltipText;" t="1.0" v="0.0" a="0.8"/>
+
+    <!-- kIDColor_InterfaceTooltipBackground -->
+    <KeyFrame name="&kIDColor_InterfaceTooltipBackground;" t="0.0" h="60" s="0.2" v="1.0" a="0.8" />
+    <KeyFrame name="&kIDColor_InterfaceTooltipBackground;" t="&kCSTextFlipT;" h="60" s="0.2" v="1.0" a="0.8" />
+    <KeyFrame name="&kIDColor_InterfaceTooltipBackground;" t="&kCSTextFlipT2;" h="60" s="0.2" v="1.0" a="0.8"/>
+    <KeyFrame name="&kIDColor_InterfaceTooltipBackground;" t="1.0" h="60" s="0.2" v="1.0" a="0.8"/>
+
+    <!-- kIDColor_InterfaceDisabledGray -->
+    <KeyFrame name="&kIDColor_InterfaceDisabledGray;" t="0.0" v="0.60" />
+    <KeyFrame name="&kIDColor_InterfaceDisabledGray;" t="&kCSTextFlipT;" v="0.60" />
+    <KeyFrame name="&kIDColor_InterfaceDisabledGray;" t="&kCSTextFlipT2;" v="0.33" />
+    <KeyFrame name="&kIDColor_InterfaceDisabledGray;" t="1.0" v="0.33" />
+
+    <!-- kIDColor_InterfaceHighLight -->
+    <KeyFrame name="&kIDColor_InterfaceHighLight;" t="0.0" h="209" s="0.486" v="0.427" a="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceHighLight;" t="&kCSTextFlipT;" h="209" s="0.402" v="0.518" a="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceHighLight;" t="&kCSTextFlipT2;" h="211" s="0.318" v="0.776" a="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceHighLight;" t="1.0" h="211" s="0.238" v="0.937" a="1.0" />
+
+    <!-- kIDColor_InterfaceHighLightText -->
+    <KeyFrame name="&kIDColor_InterfaceHighLightText;" t="0.0" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceHighLightText;" t="&kCSTextFlipT;" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceHighLightText;" t="&kCSTextFlipT2;" v="0.0"/>
+    <KeyFrame name="&kIDColor_InterfaceHighLightText;" t="1.0" v="0.0"/>
+
+    <!-- kIDColor_InterfaceCntlMgrTabsPane -->
+    <KeyFrame name="&kIDColor_InterfaceCntlMgrTabsPane;" t="0.0" h="214.05" s="0.29" v="0.0" />
+    <KeyFrame name="&kIDColor_InterfaceCntlMgrTabsPane;" t="&kCSTextFlipT;" h="214.05" s="0.29" v="0.0" hold="true" />
+    <KeyFrame name="&kIDColor_InterfaceCntlMgrTabsPane;" t="&kCSTextFlipT2;" h="214.05" s="0.29" v="1.0"/>
+    <KeyFrame name="&kIDColor_InterfaceCntlMgrTabsPane;" t="1.0" h="214.05" s="0.29" v="1.0"/>
+
+    <!-- kIDColor_InterfaceAboutBoxGrayText -->
+    <KeyFrame name="&kIDColor_InterfaceAboutBoxGrayText;" t="0.0" v="0.7" />
+    <KeyFrame name="&kIDColor_InterfaceAboutBoxGrayText;" t="&kCSTextFlipT;" v="0.7" />
+    <KeyFrame name="&kIDColor_InterfaceAboutBoxGrayText;" t="&kCSTextFlipT2;" v="0.3" />
+    <KeyFrame name="&kIDColor_InterfaceAboutBoxGrayText;" t="1.0" v="0.3" />
+
+    <!-- kIDColor_InterfaceMenuHighLight -->
+    <KeyFrame name="&kIDColor_InterfaceMenuHighLight;" t="0.0" h="209.01" s="0.4193" v="0.16" />
+    <KeyFrame name="&kIDColor_InterfaceMenuHighLight;" t="&kCSTextFlipT;" h="209.01" s="0.4193" v="0.16" />
+    <KeyFrame name="&kIDColor_InterfaceMenuHighLight;" t="&kCSTextFlipT2;" h="209.01" s="0.4193" v="0.8476" />
+    <KeyFrame name="&kIDColor_InterfaceMenuHighLight;" t="1.0" h="209.01" s="0.4193" v="0.8476" />
+
+    <!-- kIDColor_InterfaceBlueProgressBack -->
+    <KeyFrame name="&kIDColor_InterfaceBlueProgressBack;" t="0.0" h="223" s="0.926" v="0.58" />
+    <KeyFrame name="&kIDColor_InterfaceBlueProgressBack;" t="&kCSTextFlipT;" h="223" s="0.926" v="0.58" />
+    <KeyFrame name="&kIDColor_InterfaceBlueProgressBack;" t="&kCSTextFlipT2;" h="223" s="0.926" v="0.419" />
+    <KeyFrame name="&kIDColor_InterfaceBlueProgressBack;" t="1.0" h="223" s="0.926" v="0.419" />
+
+    <!-- kIDColor_LibraryGridItemThumbnailBorder -->
+    <KeyFrame name="&kIDColor_LibraryGridItemThumbnailBorder;" t="0.0" h="210" s="0.8085" v="0.9216" />
+    <KeyFrame name="&kIDColor_LibraryGridItemThumbnailBorder;" t="&kCSTextFlipT;" h="212.86" s="0.9130" v="0.9020" />
+    <KeyFrame name="&kIDColor_LibraryGridItemThumbnailBorder;" t="&kCSTextFlipT2;" h="212.86" s="0.9130" v="0.9020" />
+    <KeyFrame name="&kIDColor_LibraryGridItemThumbnailBorder;" t="1.0" h="212.86" s="0.9130" v="0.9020" />
+
+    <!-- Various Shades of GRAY -->
+
+    <!-- kIDColor_Interface96Gray -->
+    <KeyFrame name="&kIDColor_Interface96Gray;" t="0.0" v="0.96" />
+    <KeyFrame name="&kIDColor_Interface96Gray;" t="&kCSTextFlipT;" v="0.96" />
+    <KeyFrame name="&kIDColor_Interface96Gray;" t="&kCSTextFlipT2;" v="0.96" />
+    <KeyFrame name="&kIDColor_Interface96Gray;" t="1.0" v="0.96" />
+
+    <!-- kIDColor_Interface92Gray -->
+    <KeyFrame name="&kIDColor_Interface92Gray;" t="0.0" v="0.92" />
+    <KeyFrame name="&kIDColor_Interface92Gray;" t="&kCSTextFlipT;" v="0.92" />
+    <KeyFrame name="&kIDColor_Interface92Gray;" t="&kCSTextFlipT2;" v="0.92" />
+    <KeyFrame name="&kIDColor_Interface92Gray;" t="1.0" v="0.92" />
+
+    <!-- kIDColor_Interface88Gray -->
+    <KeyFrame name="&kIDColor_Interface88Gray;" t="0.0" v="0.88" />
+    <KeyFrame name="&kIDColor_Interface88Gray;" t="&kCSTextFlipT;" v="0.88" />
+    <KeyFrame name="&kIDColor_Interface88Gray;" t="&kCSTextFlipT2;" v="0.88" />
+    <KeyFrame name="&kIDColor_Interface88Gray;" t="1.0" v="0.88" />
+
+    <!-- kIDColor_Interface84Gray -->
+    <KeyFrame name="&kIDColor_Interface84Gray;" t="0.0" v="0.84" />
+    <KeyFrame name="&kIDColor_Interface84Gray;" t="&kCSTextFlipT;" v="0.84" />
+    <KeyFrame name="&kIDColor_Interface84Gray;" t="&kCSTextFlipT2;" v="0.84" />
+    <KeyFrame name="&kIDColor_Interface84Gray;" t="1.0" v="0.84" />
+
+    <!-- kIDColor_Interface80Gray -->
+    <KeyFrame name="&kIDColor_Interface80Gray;" t="0.0" v="0.80" />
+    <KeyFrame name="&kIDColor_Interface80Gray;" t="&kCSTextFlipT;" v="0.80" />
+    <KeyFrame name="&kIDColor_Interface80Gray;" t="&kCSTextFlipT2;" v="0.80" />
+    <KeyFrame name="&kIDColor_Interface80Gray;" t="1.0" v="0.80" />
+
+    <!-- kIDColor_Interface76Gray -->
+    <KeyFrame name="&kIDColor_Interface76Gray;" t="0.0" v="0.76" />
+    <KeyFrame name="&kIDColor_Interface76Gray;" t="&kCSTextFlipT;" v="0.76" />
+    <KeyFrame name="&kIDColor_Interface76Gray;" t="&kCSTextFlipT2;" v="0.76" />
+    <KeyFrame name="&kIDColor_Interface76Gray;" t="1.0" v="0.76" />
+
+    <!-- kIDColor_Interface72Gray -->
+    <KeyFrame name="&kIDColor_Interface72Gray;" t="0.0" v="0.72" />
+    <KeyFrame name="&kIDColor_Interface72Gray;" t="&kCSTextFlipT;" v="0.72" />
+    <KeyFrame name="&kIDColor_Interface72Gray;" t="&kCSTextFlipT2;" v="0.72" />
+    <KeyFrame name="&kIDColor_Interface72Gray;" t="1.0" v="0.72" />
+
+    <!-- kIDColor_Interface68Gray -->
+    <KeyFrame name="&kIDColor_Interface68Gray;" t="0.0" v="0.68" />
+    <KeyFrame name="&kIDColor_Interface68Gray;" t="&kCSTextFlipT;" v="0.68" />
+    <KeyFrame name="&kIDColor_Interface68Gray;" t="&kCSTextFlipT2;" v="0.68" />
+    <KeyFrame name="&kIDColor_Interface68Gray;" t="1.0" v="0.68" />
+
+    <!-- kIDColor_Interface64Gray -->
+    <KeyFrame name="&kIDColor_Interface64Gray;" t="0.0" v="0.64" />
+    <KeyFrame name="&kIDColor_Interface64Gray;" t="&kCSTextFlipT;" v="0.64" />
+    <KeyFrame name="&kIDColor_Interface64Gray;" t="&kCSTextFlipT2;" v="0.64" />
+    <KeyFrame name="&kIDColor_Interface64Gray;" t="1.0" v="0.64" />
+
+    <!-- kIDColor_Interface60Gray -->
+    <KeyFrame name="&kIDColor_Interface60Gray;" t="0.0" v="0.60" />
+    <KeyFrame name="&kIDColor_Interface60Gray;" t="&kCSTextFlipT;" v="0.60" />
+    <KeyFrame name="&kIDColor_Interface60Gray;" t="&kCSTextFlipT2;" v="0.60" />
+    <KeyFrame name="&kIDColor_Interface60Gray;" t="1.0" v="0.60" />
+
+    <!-- kIDColor_Interface56Gray -->
+    <KeyFrame name="&kIDColor_Interface56Gray;" t="0.0" v="0.56" />
+    <KeyFrame name="&kIDColor_Interface56Gray;" t="&kCSTextFlipT;" v="0.56" />
+    <KeyFrame name="&kIDColor_Interface56Gray;" t="&kCSTextFlipT2;" v="0.56" />
+    <KeyFrame name="&kIDColor_Interface56Gray;" t="1.0" v="0.56" />
+
+    <!-- kIDColor_Interface52Gray -->
+    <KeyFrame name="&kIDColor_Interface52Gray;" t="0.0" v="0.52" />
+    <KeyFrame name="&kIDColor_Interface52Gray;" t="&kCSTextFlipT;" v="0.52" />
+    <KeyFrame name="&kIDColor_Interface52Gray;" t="&kCSTextFlipT2;" v="0.52" />
+    <KeyFrame name="&kIDColor_Interface52Gray;" t="1.0" v="0.52" />
+
+    <!-- kIDColor_InterfaceGray -->
+    <KeyFrame name="&kIDColor_InterfaceGray;" t="0.0" v="0.5" />
+    <KeyFrame name="&kIDColor_InterfaceGray;" t="&kCSTextFlipT;" v="0.5" />
+    <KeyFrame name="&kIDColor_InterfaceGray;" t="&kCSTextFlipT2;" v="0.5" />
+    <KeyFrame name="&kIDColor_InterfaceGray;" t="1.0" v="0.5" />
+
+    <!-- kIDColor_Interface48Gray -->
+    <KeyFrame name="&kIDColor_Interface48Gray;" t="0.0" v="0.48" />
+    <KeyFrame name="&kIDColor_Interface48Gray;" t="&kCSTextFlipT;" v="0.48" />
+    <KeyFrame name="&kIDColor_Interface48Gray;" t="&kCSTextFlipT2;" v="0.48" />
+    <KeyFrame name="&kIDColor_Interface48Gray;" t="1.0" v="0.48" />
+
+    <!-- kIDColor_Interface44Gray -->
+    <KeyFrame name="&kIDColor_Interface44Gray;" t="0.0" v="0.44" />
+    <KeyFrame name="&kIDColor_Interface44Gray;" t="&kCSTextFlipT;" v="0.44" />
+    <KeyFrame name="&kIDColor_Interface44Gray;" t="&kCSTextFlipT2;" v="0.44" />
+    <KeyFrame name="&kIDColor_Interface44Gray;" t="1.0" v="0.44" />
+  
+    <!-- kIDColor_Interface40Gray -->
+    <KeyFrame name="&kIDColor_Interface40Gray;" t="0.0" v="0.40" />
+    <KeyFrame name="&kIDColor_Interface40Gray;" t="&kCSTextFlipT;" v="0.40" />
+    <KeyFrame name="&kIDColor_Interface40Gray;" t="&kCSTextFlipT2;" v="0.40" />
+    <KeyFrame name="&kIDColor_Interface40Gray;" t="1.0" v="0.40" />
+
+    <!-- kIDColor_Interface36Gray -->
+    <KeyFrame name="&kIDColor_Interface36Gray;" t="0.0" v="0.36" />
+    <KeyFrame name="&kIDColor_Interface36Gray;" t="&kCSTextFlipT;" v="0.36" />
+    <KeyFrame name="&kIDColor_Interface36Gray;" t="&kCSTextFlipT2;" v="0.36" />
+    <KeyFrame name="&kIDColor_Interface36Gray;" t="1.0" v="0.36" />
+
+    <!-- kIDColor_Interface32Gray -->
+    <KeyFrame name="&kIDColor_Interface32Gray;" t="0.0" v="0.32" />
+    <KeyFrame name="&kIDColor_Interface32Gray;" t="&kCSTextFlipT;" v="0.32" />
+    <KeyFrame name="&kIDColor_Interface32Gray;" t="&kCSTextFlipT2;" v="0.32" />
+    <KeyFrame name="&kIDColor_Interface32Gray;" t="1.0" v="0.32" />
+
+    <!-- kIDColor_Interface28Gray -->
+    <KeyFrame name="&kIDColor_Interface28Gray;" t="0.0" v="0.28" />
+    <KeyFrame name="&kIDColor_Interface28Gray;" t="&kCSTextFlipT;" v="0.28" />
+    <KeyFrame name="&kIDColor_Interface28Gray;" t="&kCSTextFlipT2;" v="0.28" />
+    <KeyFrame name="&kIDColor_Interface28Gray;" t="1.0" v="0.28" />
+
+    <!-- kIDColor_Interface26Dot7GrayColor -->
+    <KeyFrame name="&kIDColor_Interface26Dot7GrayColor;" t="0.0" h="0.0" s="0.0" v="0.267"/>
+    <KeyFrame name="&kIDColor_Interface26Dot7GrayColor;" t="&kCSTextFlipT;" h="0.0" s="0.0" v="0.267" />
+    <KeyFrame name="&kIDColor_Interface26Dot7GrayColor;" t="&kCSTextFlipT2;" h="0.0" s="0.0" v="0.267" />
+    <KeyFrame name="&kIDColor_Interface26Dot7GrayColor;" t="1.0" h="0.0" s="0.0" v="0.267" />
+    
+    <!-- kIDColor_Interface24Gray -->
+    <KeyFrame name="&kIDColor_Interface24Gray;" t="0.0" v="0.24" />
+    <KeyFrame name="&kIDColor_Interface24Gray;" t="&kCSTextFlipT;" v="0.24" />
+    <KeyFrame name="&kIDColor_Interface24Gray;" t="&kCSTextFlipT2;" v="0.24" />
+    <KeyFrame name="&kIDColor_Interface24Gray;" t="1.0" v="0.24" />
+
+    <!-- kIDColor_Interface20Gray -->
+    <KeyFrame name="&kIDColor_Interface20Gray;" t="0.0" v="0.20" />
+    <KeyFrame name="&kIDColor_Interface20Gray;" t="&kCSTextFlipT;" v="0.20" />
+    <KeyFrame name="&kIDColor_Interface20Gray;" t="&kCSTextFlipT2;" v="0.20" />
+    <KeyFrame name="&kIDColor_Interface20Gray;" t="1.0" v="0.20" />
+
+    <!-- kIDColor_Interface16Gray -->
+    <KeyFrame name="&kIDColor_Interface16Gray;" t="0.0" v="0.16" />
+    <KeyFrame name="&kIDColor_Interface16Gray;" t="&kCSTextFlipT;" v="0.16" />
+    <KeyFrame name="&kIDColor_Interface16Gray;" t="&kCSTextFlipT2;" v="0.16" />
+    <KeyFrame name="&kIDColor_Interface16Gray;" t="1.0" v="0.16" />
+
+    <!-- kIDColor_Interface12Gray -->
+    <KeyFrame name="&kIDColor_Interface12Gray;" t="0.0" v="0.12" />
+    <KeyFrame name="&kIDColor_Interface12Gray;" t="&kCSTextFlipT;" v="0.12" />
+    <KeyFrame name="&kIDColor_Interface12Gray;" t="&kCSTextFlipT2;" v="0.12" />
+    <KeyFrame name="&kIDColor_Interface12Gray;" t="1.0" v="0.12" />
+
+    <!-- kIDColor_Interface08Gray -->
+    <KeyFrame name="&kIDColor_Interface08Gray;" t="0.0" v="0.08" />
+    <KeyFrame name="&kIDColor_Interface08Gray;" t="&kCSTextFlipT;" v="0.08" />
+    <KeyFrame name="&kIDColor_Interface08Gray;" t="&kCSTextFlipT2;" v="0.08" />
+    <KeyFrame name="&kIDColor_Interface08Gray;" t="1.0" v="0.08" />
+
+    <!-- kIDColor_Interface04Gray -->
+    <KeyFrame name="&kIDColor_Interface04Gray;" t="0.0" v="0.04" />
+    <KeyFrame name="&kIDColor_Interface04Gray;" t="&kCSTextFlipT;" v="0.04" />
+    <KeyFrame name="&kIDColor_Interface04Gray;" t="&kCSTextFlipT2;" v="0.04" />
+    <KeyFrame name="&kIDColor_Interface04Gray;" t="1.0" v="0.04" />
+
+
+    <!-- kIDColor_InterfaceBrightnessAwareVeryLightGray -->
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareVeryLightGray;" t="0.0" v="0.1255" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareVeryLightGray;" t="&kCSTextFlipT;" v="0.1255" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareVeryLightGray;" t="&kCSTextFlipT2;" v="0.878" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareVeryLightGray;" t="1.0" v="0.878" />
+
+    <!-- kIDColor_InterfaceBrightnessAwareLightGray -->
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareLightGray;" t="0.0" v="0.25" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareLightGray;" t="&kCSTextFlipT;" v="0.25" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareLightGray;" t="&kCSTextFlipT2;" v="0.75" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareLightGray;" t="1.0" v="0.75" />
+
+    <!-- kIDColor_InterfaceBrightnessAwareMediumLightGray -->
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareMediumLightGray;" t="0.0" v="0.375" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareMediumLightGray;" t="&kCSTextFlipT;" v="0.375" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareMediumLightGray;" t="&kCSTextFlipT2;" v="0.6255" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareMediumLightGray;" t="1.0" v="0.6255" />
+
+    <!-- kIDColor_InterfaceBrightnessAwareMediumDarkGray -->
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareMediumDarkGray;" t="0.0" v="0.6255" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareMediumDarkGray;" t="&kCSTextFlipT;" v="0.6255" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareMediumDarkGray;" t="&kCSTextFlipT2;" v="0.375" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareMediumDarkGray;" t="1.0" v="0.375" />
+
+    <!-- kIDColor_InterfaceBrightnessAwareDarkGray -->
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareDarkGray;" t="0.0" v="0.75" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareDarkGray;" t="&kCSTextFlipT;" v="0.75" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareDarkGray;" t="&kCSTextFlipT2;" v="0.25" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareDarkGray;" t="1.0" v="0.25" />
+
+    <!-- kIDColor_InterfaceBrightnessAwareVeryDarkGray -->
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareVeryDarkGray;" t="0.0" v="0.878" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareVeryDarkGray;" t="&kCSTextFlipT;" v="0.878" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareVeryDarkGray;" t="&kCSTextFlipT2;" v="0.1255" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareVeryDarkGray;" t="1.0" v="0.1255" />
+
+    <!-- kIDColor_InterfaceBrightnessAwareWhite -->
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareWhite;" t="0.0" v="0.0" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareWhite;" t="&kCSTextFlipT;" v="0.0" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareWhite;" t="&kCSTextFlipT2;" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareWhite;" t="1.0" v="1.0" />
+
+    <!-- kIDColor_InterfaceBrightnessAwareBlack -->
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareBlack;" t="0.0" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareBlack;" t="&kCSTextFlipT;" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareBlack;" t="&kCSTextFlipT2;" v="0.0" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareBlack;" t="1.0" v="0.0" />
+
+    <!--  Static Text Color  -->
+    <KeyFrame name="&kIDColor_InterfaceTextColor;" t="0.0" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceTextColor;" t="&kCSTextFlipT;" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceTextColor;" t="&kCSTextFlipT2;" v="0.0" />
+    <KeyFrame name="&kIDColor_InterfaceTextColor;" t="1.0" v="0.0" />
+
+    <!-- kIDColor_InterfaceLightFillColor -->	
+    <KeyFrame name="&kIDColor_InterfaceLightFillColor;" t="0.0" v="0.9" />
+    <KeyFrame name="&kIDColor_InterfaceLightFillColor;" t="&kCSTextFlipT;" v="0.9" />
+    <KeyFrame name="&kIDColor_InterfaceLightFillColor;" t="&kCSTextFlipT2;" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceLightFillColor;" t="1.0" v="1.0" />
+
+    <!-- kIDColor_InterfacePanelBorderColor Same as group panel border colors of drover-->
+    <KeyFrame name="&kIDColor_InterfacePanelBorderColor;" t="0.0" v="&kColor_Gray_Darkest_05;" />
+    <KeyFrame name="&kIDColor_InterfacePanelBorderColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_05;" />
+    <KeyFrame name="&kIDColor_InterfacePanelBorderColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_05;" />
+    <KeyFrame name="&kIDColor_InterfacePanelBorderColor;" t="1.0" v="&kColor_Gray_Lightest_05;" />
+
+    <!-- kIDColor_InterfaceSeparatorColor -->
+    <KeyFrame name="&kIDColor_InterfaceSeparatorColor;" t="0.0" v="&kColor_Gray_Darkest_05;" />
+    <KeyFrame name="&kIDColor_InterfaceSeparatorColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_05;" />
+    <KeyFrame name="&kIDColor_InterfaceSeparatorColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_05;" />
+    <KeyFrame name="&kIDColor_InterfaceSeparatorColor;" t="1.0" v="&kColor_Gray_Lightest_05;" />
+
+    <!-- kIDColor_InterfaceDarkFillColor 5% darker than kIDColor_InterfacePaletteFill;-->
+    <KeyFrame name="&kIDColor_InterfaceDarkFillColor;" t="0.0" v="0.15" />
+    <KeyFrame name="&kIDColor_InterfaceDarkFillColor;" t="&kCSTextFlipT;" v="0.28" />
+    <KeyFrame name="&kIDColor_InterfaceDarkFillColor;" t="&kCSTextFlipT2;" v="0.671" />
+    <KeyFrame name="&kIDColor_InterfaceDarkFillColor;" t="1.0" v="0.79" />
+
+    <!-- Edit Box Background. Same as drover's v5 - kColor_TextFieldBackgroundDefault  -->
+    <KeyFrame name="&kIDColor_InterfaceTextEditNormalBackground;" t="0.0" v="&kColor_Gray_Darkest_00_02;" />
+    <KeyFrame name="&kIDColor_InterfaceTextEditNormalBackground;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_00_02;" hold="true" />
+    <KeyFrame name="&kIDColor_InterfaceTextEditNormalBackground;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_00_01;" />
+    <KeyFrame name="&kIDColor_InterfaceTextEditNormalBackground;" t="1.0" v="&kColor_Gray_Lightest_00_01;" />
+
+    <!-- kIDColor_InterfaceItemHighLight -->
+    <KeyFrame name="&kIDColor_InterfaceItemHighLight;" t="0.0" h="31" s="0.81" v="0.92"/>
+    <KeyFrame name="&kIDColor_InterfaceItemHighLight;" t="&kCSTextFlipT;" h="32" s="0.81" v="0.89" />
+    <KeyFrame name="&kIDColor_InterfaceItemHighLight;" t="&kCSTextFlipT2;" h="214.05" s="0.29" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceItemHighLight;" t="1.0" h="214.05" s="0.29" v="1.0" />
+
+    <!-- kIDColor_InterfaceLightHighLight -->
+    <KeyFrame name="&kIDColor_InterfaceLightHighLight;" t="0.0" h="214.05" s="0.29" v="0.8" />
+    <KeyFrame name="&kIDColor_InterfaceLightHighLight;" t="&kCSTextFlipT;" h="214.05" s="0.29" v="0.8" />
+    <KeyFrame name="&kIDColor_InterfaceLightHighLight;" t="&kCSTextFlipT2;" h="214.05" s="0.29" v="1.0" />
+    <KeyFrame name="&kIDColor_InterfaceLightHighLight;" t="1.0" h="214.05" s="0.29" v="1.0" />
+
+    <!-- kIDColor_InterfaceUnselectedTabColor -->
+    <KeyFrame name="&kIDColor_InterfaceUnselectedTabColor;" t="0.0" v="0.125" />
+    <KeyFrame name="&kIDColor_InterfaceUnselectedTabColor;" t="&kCSTextFlipT;" v="0.231" />
+    <KeyFrame name="&kIDColor_InterfaceUnselectedTabColor;" t="&kCSTextFlipT2;" v="0.51" />
+    <KeyFrame name="&kIDColor_InterfaceUnselectedTabColor;" t="1.0" v="0.59" />
+
+    <!-- kIDColor_InterfaceBrightnessAwareHyperlinkColor -->
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareHyperlinkColor;" t="0.0" v="0.8"/>
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareHyperlinkColor;" t="&kCSTextFlipT;" v="0.8" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareHyperlinkColor;" t="&kCSTextFlipT2;" v="0.0" />
+    <KeyFrame name="&kIDColor_InterfaceBrightnessAwareHyperlinkColor;" t="1.0" v="0.0" />
+
+    <!-- kIDColor_InterfaceBlueSeparatorColor -->
+    <KeyFrame name="&kIDColor_InterfaceBlueSeparatorColor;" t="0.0" h="194" s="0.844" v="0.98"/>
+    <KeyFrame name="&kIDColor_InterfaceBlueSeparatorColor;" t="&kCSTextFlipT;" h="194" s="0.844" v="0.98"/>
+    <KeyFrame name="&kIDColor_InterfaceBlueSeparatorColor;" t="&kCSTextFlipT2;" h="194" s="0.844" v="0.98"/>
+    <KeyFrame name="&kIDColor_InterfaceBlueSeparatorColor;" t="1.0" h="194" s="0.844" v="0.98"/>
+
+	<!-- kIDColor_TouchPanelBorderColor -->
+    <KeyFrame name="&kIDColor_TouchPanelBorderColor;" t="0.0" v="0.4706" />
+    <KeyFrame name="&kIDColor_TouchPanelBorderColor;" t="&kCSTextFlipT;" v="0.5882" />
+    <KeyFrame name="&kIDColor_TouchPanelBorderColor;" t="&kCSTextFlipT2;" v="0.8627" />
+    <KeyFrame name="&kIDColor_TouchPanelBorderColor;" t="1.0" v="0.9712" />
+
+	  <!-- kIDColor_TouchTabTitleRectFillColor -->
+    <KeyFrame name="&kIDColor_TouchTabTitleRectFillColor;" t="0.0" v="0.1373" />
+    <KeyFrame name="&kIDColor_TouchTabTitleRectFillColor;" t="&kCSTextFlipT;" v="0.2353" />
+    <KeyFrame name="&kIDColor_TouchTabTitleRectFillColor;" t="&kCSTextFlipT2;" v="0.5882" />
+    <KeyFrame name="&kIDColor_TouchTabTitleRectFillColor;" t="1.0" v="0.7255" />
+
+    <!--  kIDColor_TouchSliderThumbKnobStartGradient, Slider Thumb Top Gradient -->
+    <KeyFrame name="&kIDColor_TouchSliderThumbKnobStartGradient;" t="0.0" v="&kDarkLine_DefaultV;" />
+    <KeyFrame name="&kIDColor_TouchSliderThumbKnobStartGradient;" t="&kCSTextFlipT;" v="&kDarkLine_DarkV;" hold="true" />
+    <KeyFrame name="&kIDColor_TouchSliderThumbKnobStartGradient;" t="&kCSTextFlipT2;" v="&kDarkLine_MediumV;"  />
+    <KeyFrame name="&kIDColor_TouchSliderThumbKnobStartGradient;" t="1.0" v="&kDarkLine_LightV;" />
+
+    <!--  kIDColor_TouchSliderThumbKnobEndGradient, Slider Thumb Bot Gradient -->
+    <KeyFrame name="&kIDColor_TouchSliderThumbKnobEndGradient;" t="0.0" v="&kDarkLine_DefaultV;" />
+    <KeyFrame name="&kIDColor_TouchSliderThumbKnobEndGradient;" t="&kCSTextFlipT;" v="&kDarkLine_DarkV;" hold="true" />
+    <KeyFrame name="&kIDColor_TouchSliderThumbKnobEndGradient;" t="&kCSTextFlipT2;" v="&kDarkLine_MediumV;"  />
+    <KeyFrame name="&kIDColor_TouchSliderThumbKnobEndGradient;" t="1.0" v="&kDarkLine_LightV;" />
+
+    <!-- kIDColor_TouchSliderThumbInnerKnobStartGradient, Slider Thumb Gradient Bot -->
+    <KeyFrame name="&kIDColor_TouchSliderThumbInnerKnobStartGradient;" t="0.0" v="&kBotGradient_DefaultV;" />
+    <KeyFrame name="&kIDColor_TouchSliderThumbInnerKnobStartGradient;" t="&kCSTextFlipT;" v="&kBotGradient_DarkV;" hold="true" />
+    <KeyFrame name="&kIDColor_TouchSliderThumbInnerKnobStartGradient;" t="&kCSTextFlipT2;" v="&kBotGradient_MediumV;"  />
+    <KeyFrame name="&kIDColor_TouchSliderThumbInnerKnobStartGradient;" t="1.0" v="&kBotGradient_LightV;" />
+
+    <!-- kIDColor_TouchSliderThumbInnerKnobEndGradient, Slider Thumb Gradient Top -->
+    <KeyFrame name="&kIDColor_TouchSliderThumbInnerKnobEndGradient;" t="0.0" v="&kTopGradient_DefaultV;" />
+    <KeyFrame name="&kIDColor_TouchSliderThumbInnerKnobEndGradient;" t="&kCSTextFlipT;" v="&kTopGradient_DarkV;" hold="true" />
+    <KeyFrame name="&kIDColor_TouchSliderThumbInnerKnobEndGradient;" t="&kCSTextFlipT2;" v="&kTopGradient_MediumV;"  />
+    <KeyFrame name="&kIDColor_TouchSliderThumbInnerKnobEndGradient;" t="1.0" v="&kTopGradient_LightV;" />
+
+    <!-- kIDColor_ColorSliderThumbColor, Slider Thumb Gradient Top -->
+    <KeyFrame name="&kIDColor_ColorSliderThumbColor;" t="0.0" v="&kColor_Gray_Dark_08;" />
+    <KeyFrame name="&kIDColor_ColorSliderThumbColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_08;" />
+    <KeyFrame name="&kIDColor_ColorSliderThumbColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Dark_03;" />
+    <KeyFrame name="&kIDColor_ColorSliderThumbColor;" t="1.0" v="&kColor_Gray_Dark_03;" />
+
+    <!-- kIDColor_GridDividerColor, Slider Thumb Gradient Top -->
+    <KeyFrame name="&kIDColor_GridDividerColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_GridDividerColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_GridDividerColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_06;" />
+    <KeyFrame name="&kIDColor_GridDividerColor;" t="1.0" v="&kColor_Gray_Lightest_06;" />
+
+    <!-- kIDColor_RulerActiveThumbColor, Ruler Active Thumb Color -->
+    <KeyFrame name="&kIDColor_RulerActiveThumbColor;" t="0.0" h="210" s="0.81" v="0.92" />
+    <KeyFrame name="&kIDColor_RulerActiveThumbColor;" t="&kCSTextFlipT;" h="210" s="0.81" v="0.92" />
+    <KeyFrame name="&kIDColor_RulerActiveThumbColor;" t="&kCSTextFlipT2;" h="213" s="1.0" v="0.86" />
+    <KeyFrame name="&kIDColor_RulerActiveThumbColor;" t="1.0" h="213" s="1.0" v="0.86" />
+
+    <!-- kIDColor_RulerInactivectiveThumbColor, Ruler Inactive Thumb Color -->
+    <KeyFrame name="&kIDColor_RulerInactiveThumbColor;" t="0.0" v="&kColor_Gray_Darkest_09;" />
+    <KeyFrame name="&kIDColor_RulerInactiveThumbColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_09;" />
+    <KeyFrame name="&kIDColor_RulerInactiveThumbColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_09;" />
+    <KeyFrame name="&kIDColor_RulerInactiveThumbColor;" t="1.0" v="&kColor_Gray_Lightest_09;" />
+
+    <!-- kIDColor_NewProxyBorderColor, New Proxy Border Color -->
+    <KeyFrame name="&kIDColor_SwatchProxyBorderColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_SwatchProxyBorderColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_SwatchProxyBorderColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_09;" />
+    <KeyFrame name="&kIDColor_SwatchProxyBorderColor;" t="1.0" v="&kColor_Gray_Lightest_09;" />
+    
+  <!-- kIDColor_CursorPreviewBorderColor, Cursor preview Widget Border Color -->
+    <KeyFrame name="&kIDColor_CursorPreviewBorderColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_CursorPreviewBorderColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_CursorPreviewBorderColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_05;" />
+    <KeyFrame name="&kIDColor_CursorPreviewBorderColor;" t="1.0" v="&kColor_Gray_Lightest_05;" />
+    
+  <!-- kIDColor_CursorPreviewTextColor, Cursor preview Widget Text Color -->
+    <KeyFrame name="&kIDColor_CursorPreviewTextColor;" t="0.0" v="&kColor_Gray_Darkest_06;" />
+    <KeyFrame name="&kIDColor_CursorPreviewTextColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_06;" />
+    <KeyFrame name="&kIDColor_CursorPreviewTextColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_08;" />
+    <KeyFrame name="&kIDColor_CursorPreviewTextColor;" t="1.0" v="&kColor_Gray_Lightest_08;" />
+
+    <!--  kIDColor_ToolBoxRightMarkerColor, New Right MArker for the SubTool -->
+    <KeyFrame name="&kIDColor_ToolBoxRightMarkerColor;" t="0.0" v="&kColor_Gray_Darkest_09;" />
+    <KeyFrame name="&kIDColor_ToolBoxRightMarkerColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_08;" />
+    <KeyFrame name="&kIDColor_ToolBoxRightMarkerColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_09;" />
+    <KeyFrame name="&kIDColor_ToolBoxRightMarkerColor;" t="1.0" v="&kColor_Gray_Lightest_09;" />  
+
+    <!--  kIDColor_ToolboxRenderingObjectBorderColor, New Border color for the Rendering object in the tool box -->
+    <KeyFrame name="&kIDColor_ToolboxRenderingObjectBorderColor;" t="0.0" v="&kColor_Gray_Lightest_07;" />
+    <KeyFrame name="&kIDColor_ToolboxRenderingObjectBorderColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Lightest_07;" />
+    <KeyFrame name="&kIDColor_ToolboxRenderingObjectBorderColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Lightest_07;" />
+    <KeyFrame name="&kIDColor_ToolboxRenderingObjectBorderColor;" t="1.0" v="&kColor_Gray_Lightest_07;" />
+
+	<!--  kIDColor_CurrentColorApplyBorder, New Border color for the Rendering object in the tool box -->
+    <KeyFrame name="&kIDColor_CurrentColorApplyBorder;" t="0.0" v="&kColor_Gray_Lightest_07;" />
+    <KeyFrame name="&kIDColor_CurrentColorApplyBorder;" t="&kCSTextFlipT;" v="&kColor_Gray_Lightest_07;" />
+    <KeyFrame name="&kIDColor_CurrentColorApplyBorder;" t="&kCSTextFlipT2;" v="0.5176" />
+    <KeyFrame name="&kIDColor_CurrentColorApplyBorder;" t="1.0" v="&kColor_Gray_Lightest_07;" />
+
+    <!-- kIDColor_PrintPreviewProxyFillColor, Print Preview Proxy Fill Color -->
+    <KeyFrame name="&kIDColor_PrintPreviewProxyFillColor;" t="0.0" v="0.9490" />
+    <KeyFrame name="&kIDColor_PrintPreviewProxyFillColor;" t="&kCSTextFlipT;" v="0.9490" />
+    <KeyFrame name="&kIDColor_PrintPreviewProxyFillColor;" t="&kCSTextFlipT2;" v="0.9490" />
+    <KeyFrame name="&kIDColor_PrintPreviewProxyFillColor;" t="1.0" v="0.9490" />
+
+     <!-- kIDColor_PrintPreviewProxyStrokeColor, Print Preview Proxy Stroke Color -->
+    <KeyFrame name="&kIDColor_PrintPreviewProxyStrokeColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_PrintPreviewProxyStrokeColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_PrintPreviewProxyStrokeColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_05;" />
+    <KeyFrame name="&kIDColor_PrintPreviewProxyStrokeColor;" t="1.0" v="&kColor_Gray_Lightest_05;" />
+
+    <!-- kIDColor_PrintPreviewProxyOrientationMarkerFillColor, Print Preview Proxy Orientation Marker Color -->
+    <!-- This color is also used for kIDColor_PrintPreviewPageProxyStrokeColor. -->
+    <!-- Any change to the Oriention Marker fill color will also simultaneously affect the border color for Print Page Preview Proxy. -->
+    <KeyFrame name="&kIDColor_PrintPreviewProxyOrientationMarkerFillColor;" t="0.0" h="210.0" s="0.8" v="1.0" />
+    <KeyFrame name="&kIDColor_PrintPreviewProxyOrientationMarkerFillColor;" t="&kCSTextFlipT;" h="210.0" s="0.8" v="1.0" />
+    <KeyFrame name="&kIDColor_PrintPreviewProxyOrientationMarkerFillColor;" t="&kCSTextFlipT2;" h="210.0" s="0.8" v="1.0" />
+    <KeyFrame name="&kIDColor_PrintPreviewProxyOrientationMarkerFillColor;" t="1.0" h="210.0" s="0.8" v="1.0" />
+  
+    <!-- kIDColor_ContentCollectorNormalThumbnailBorderColor, Content Collector Normal Thumbnail Border Color -->
+    <KeyFrame name="&kIDColor_ContentCollectorNormalThumbnailBorderColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_ContentCollectorNormalThumbnailBorderColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_ContentCollectorNormalThumbnailBorderColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_06;" />
+    <KeyFrame name="&kIDColor_ContentCollectorNormalThumbnailBorderColor;" t="1.0" v="&kColor_Gray_Lightest_06;" />
+
+    <!-- kIDColor_ContentCollectorNormalThumbnailBackgroundColor, Content Collector Normal Thumbnail Background Color -->
+    <KeyFrame name="&kIDColor_ContentCollectorNormalThumbnailBackgroundColor;" t="0.0" v="&kColor_Gray_Darkest_05;" />
+    <KeyFrame name="&kIDColor_ContentCollectorNormalThumbnailBackgroundColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_05;" />
+    <KeyFrame name="&kIDColor_ContentCollectorNormalThumbnailBackgroundColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_05;" />
+    <KeyFrame name="&kIDColor_ContentCollectorNormalThumbnailBackgroundColor;" t="1.0" v="&kColor_Gray_Lightest_05;" />
+
+    <!-- kIDColor_ContentCollectorHeadThumbnailBackgroundColor, Content Collector Head Thumbnail Background Color -->
+    <KeyFrame name="&kIDColor_ContentCollectorHeadThumbnailBackgroundColor;" t="0.0" v="&kColor_Gray_Darkest_02;" />
+    <KeyFrame name="&kIDColor_ContentCollectorHeadThumbnailBackgroundColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_ContentCollectorHeadThumbnailBackgroundColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_01;" />
+    <KeyFrame name="&kIDColor_ContentCollectorHeadThumbnailBackgroundColor;" t="1.0" v="&kColor_Gray_Lightest_02;" />
+
+    <!-- kIDColor_ContentCollectorGripperColor, Content Collector Gripper Color -->
+    <KeyFrame name="&kIDColor_ContentCollectorGripperColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_ContentCollectorGripperColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_ContentCollectorGripperColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_04;" />
+    <KeyFrame name="&kIDColor_ContentCollectorGripperColor;" t="1.0" v="&kColor_Gray_Lightest_05;" />
+    
+    <!-- kIDColor_NewColorSwatchWidgetColor, Ccolor swatch widget color  Color -->
+    <KeyFrame name="&kIDColor_NewColorSwatchWidgetColor;" t="0.0" v="&kColor_Gray_Darkest_00_00;" />
+    <KeyFrame name="&kIDColor_NewColorSwatchWidgetColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_00_00;" />
+    <KeyFrame name="&kIDColor_NewColorSwatchWidgetColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_07_01;" />
+    <KeyFrame name="&kIDColor_NewColorSwatchWidgetColor;" t="1.0" v="&kColor_Gray_Lightest_08_01;" />
+
+    <!-- kIDColor_PdfPagePreviewWidgetColor, pdf preview widget color  color  -->
+    <KeyFrame name="&kIDColor_PdfPagePreviewWidgetColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_PdfPagePreviewWidgetColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_PdfPagePreviewWidgetColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_07;" />
+    <KeyFrame name="&kIDColor_PdfPagePreviewWidgetColor;" t="1.0" v="&kColor_Gray_Lightest_07;" />
+    
+	<!-- kIDColor_NormalModePasteBoardBackgroundColor, PasteBoard Background Color in Normal Mode-->
+    <KeyFrame name="&kIDColor_NormalModePasteBoardBackgroundColor;" t="0.0" v="&kColor_Gray_Darkest_05;" />
+    <KeyFrame name="&kIDColor_NormalModePasteBoardBackgroundColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_05;" />
+    <KeyFrame name="&kIDColor_NormalModePasteBoardBackgroundColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_05;" />
+    <KeyFrame name="&kIDColor_NormalModePasteBoardBackgroundColor;" t="1.0" v="&kColor_Gray_Lightest_05;" />
+	
+	<!-- kIDColor_PreviewModePasteBoardBackgroundColor, PasteBoard Background Color in Preview Mode-->
+    <KeyFrame name="&kIDColor_PreviewModePasteBoardBackgroundColor;" t="0.0" v="&kColor_Gray_Darkest_04;" />
+    <KeyFrame name="&kIDColor_PreviewModePasteBoardBackgroundColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_04;" />
+    <KeyFrame name="&kIDColor_PreviewModePasteBoardBackgroundColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_04;" />
+    <KeyFrame name="&kIDColor_PreviewModePasteBoardBackgroundColor;" t="1.0" v="&kColor_Gray_Lightest_04;" />
+
+   <!-- kIDColor_ColumnHeaderSeparatorBorderColor, Separator Border Color of Column Headers -->
+    <KeyFrame name="&kIDColor_ColumnHeaderSeparatorBorderColor;" t="0.0" v="&kColor_Gray_Darkest_07;" />
+    <KeyFrame name="&kIDColor_ColumnHeaderSeparatorBorderColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_06;" />
+    <KeyFrame name="&kIDColor_ColumnHeaderSeparatorBorderColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_07;" />
+    <KeyFrame name="&kIDColor_ColumnHeaderSeparatorBorderColor;" t="1.0" v="&kColor_Gray_Lightest_08;" />
+
+    <!-- kIDColor_CellStrokeWidgetBorderColor, Cell Stroke Selection Widget Border Color -->
+    <KeyFrame name="&kIDColor_CellStrokeWidgetBorderColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_CellStrokeWidgetBorderColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_CellStrokeWidgetBorderColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_08;" />
+    <KeyFrame name="&kIDColor_CellStrokeWidgetBorderColor;" t="1.0" v="&kColor_Gray_Lightest_08;" />
+
+    <!-- kIDColor_CellStrokeWidgetInsideLinesColor, Cell Stroke Selection Widget Inside Lines Color -->
+    <KeyFrame name="&kIDColor_CellStrokeWidgetInsideLinesColor;" t="0.0" v="&kColor_Gray_Darkest_09;" />
+    <KeyFrame name="&kIDColor_CellStrokeWidgetInsideLinesColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_08;" />
+    <KeyFrame name="&kIDColor_CellStrokeWidgetInsideLinesColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_06;" />
+    <KeyFrame name="&kIDColor_CellStrokeWidgetInsideLinesColor;" t="1.0" v="&kColor_Gray_Lightest_06;" />
+
+    <!-- kIDColor_CellStrokeWidgetRectFrameColor, Cell Stroke Selection Widget Rectangle Frame Border Color -->
+    <KeyFrame name="&kIDColor_CellStrokeWidgetRectFrameColor;" t="0.0" v="&kColor_Gray_Darkest_07;" />
+    <KeyFrame name="&kIDColor_CellStrokeWidgetRectFrameColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_06;" />
+    <KeyFrame name="&kIDColor_CellStrokeWidgetRectFrameColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_07;" />
+    <KeyFrame name="&kIDColor_CellStrokeWidgetRectFrameColor;" t="1.0" v="&kColor_Gray_Lightest_08;" />
+
+    <!-- kIDColor_PreviewWidgetFillColor, Preview Widget Fill Color -->
+    <KeyFrame name="&kIDColor_PreviewWidgetFillColor;" t="0.0" v="&kColor_Gray_Darkest_07;" />
+    <KeyFrame name="&kIDColor_PreviewWidgetFillColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_07;" />
+    <KeyFrame name="&kIDColor_PreviewWidgetFillColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_07;" />
+    <KeyFrame name="&kIDColor_PreviewWidgetFillColor;" t="1.0" v="&kColor_Gray_Lightest_07;" />
+    
+    <!-- &kIDColor_PreviewWidgetStrokeColor, Preview Widget Proxy Stroke Color -->
+    <KeyFrame name="&kIDColor_PreviewWidgetStrokeColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_PreviewWidgetStrokeColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_PreviewWidgetStrokeColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_09;" />
+    <KeyFrame name="&kIDColor_PreviewWidgetStrokeColor;" t="1.0" v="&kColor_Gray_Lightest_09;" />
+
+    <!-- kIDColor_SwatchColorWidgetBorderColor, border color of color widgets in swatches panel  -->
+    <KeyFrame name="&kIDColor_SwatchColorWidgetBorderColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_SwatchColorWidgetBorderColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_SwatchColorWidgetBorderColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_09;" />
+    <KeyFrame name="&kIDColor_SwatchColorWidgetBorderColor;" t="1.0" v="&kColor_Gray_Lightest_09;" />
+    
+     <!-- kIDColor_PrintBookletPreviewWidgetColor, print Booklet preview widget color  color  -->
+    <KeyFrame name="&kIDColor_PrintBookletPreviewWidgetColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_PrintBookletPreviewWidgetColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_PrintBookletPreviewWidgetColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_08;" />
+    <KeyFrame name="&kIDColor_PrintBookletPreviewWidgetColor;" t="1.0" v="&kColor_Gray_Lightest_08;" />
+
+    <!-- kIDColor_OwnerDrawnDDDefaultBGColor, print Booklet preview widget color  color  -->
+    <KeyFrame name="&kIDColor_OwnerDrawnDDDefaultBGColor;" t="0.0" v="0.89" />
+    <KeyFrame name="&kIDColor_OwnerDrawnDDDefaultBGColor;" t="&kCSTextFlipT;" v="0.89" />
+    <KeyFrame name="&kIDColor_OwnerDrawnDDDefaultBGColor;" t="&kCSTextFlipT2;" v="1.0" />
+    <KeyFrame name="&kIDColor_OwnerDrawnDDDefaultBGColor;" t="1.0" v="1.0" />
+
+    <!-- kIDColor_OwnerDrawnDDDefaultHiliteColor, print Booklet preview widget color  color  -->
+    <KeyFrame name="&kIDColor_OwnerDrawnDDDefaultHiliteColor;" t="0.0" v="0.76" />
+    <KeyFrame name="&kIDColor_OwnerDrawnDDDefaultHiliteColor;" t="&kCSTextFlipT;" v="0.76" />
+    <KeyFrame name="&kIDColor_OwnerDrawnDDDefaultHiliteColor;" t="&kCSTextFlipT2;" v="0.88" />
+    <KeyFrame name="&kIDColor_OwnerDrawnDDDefaultHiliteColor;" t="1.0" v="0.88" />
+
+    <!-- kIDColor_PagesPanelPageNumberEnabledBackgroundColor, Pages Panel Page Number Highlighted Text Color -->
+    <KeyFrame name="&kIDColor_PagesPanelPageNumberEnabledBackgroundColor;" t="0.0" h="&kColor_Blue_02_H;" s="&kColor_Blue_02_S;" v="&kColor_Blue_02_V;" />
+    <KeyFrame name="&kIDColor_PagesPanelPageNumberEnabledBackgroundColor;" t="&kCSTextFlipT;"  h="&kColor_Blue_02_H;" s="&kColor_Blue_02_S;" v="&kColor_Blue_02_V;" />
+    <KeyFrame name="&kIDColor_PagesPanelPageNumberEnabledBackgroundColor;" t="&kCSTextFlipT2;" h="&kColor_Blue_04_H;" s="&kColor_Blue_04_S;" v="&kColor_Blue_04_V;" />
+    <KeyFrame name="&kIDColor_PagesPanelPageNumberEnabledBackgroundColor;" t="1.0" h="&kColor_Blue_04_H;" s="&kColor_Blue_04_S;" v="&kColor_Blue_04_V;" />
+
+    <!-- kIDColor_PagesPanelBindingLineNTriangleColor, Pages Panel Binding Line (Partition Line) and Triangle Color -->
+    <KeyFrame name="&kIDColor_PagesPanelBindingLineNTriangleColor;" t="0.0"  v="&kColor_Gray_Darkest_08;" />
+    <KeyFrame name="&kIDColor_PagesPanelBindingLineNTriangleColor;" t="&kCSTextFlipT;"  v="&kColor_Gray_Dark_08;" />
+    <KeyFrame name="&kIDColor_PagesPanelBindingLineNTriangleColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_09;" />
+    <KeyFrame name="&kIDColor_PagesPanelBindingLineNTriangleColor;" t="1.0" v="&kColor_Gray_Lightest_09;" />
+
+    <!-- kIDColor_ContentCollectorCollapseHoverBackgroundColor, Content Collector Collapse Button Hover Background Color -->
+    <KeyFrame name="&kIDColor_ContentCollectorCollapseHoverBackgroundColor;" t="0.0"  v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_ContentCollectorCollapseHoverBackgroundColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_00_03;" />
+    <KeyFrame name="&kIDColor_ContentCollectorCollapseHoverBackgroundColor;" t="&kCSTextFlipT2;" v="0.863" />
+    <KeyFrame name="&kIDColor_ContentCollectorCollapseHoverBackgroundColor;" t="1.0" v="&kColor_Gray_Lightest_02;" />
+
+    <!-- kIDColor_ContentCollectorCollapseHoverStrokeColor, Content Collector Collapse Button Hover Stroke Color -->
+    <KeyFrame name="&kIDColor_ContentCollectorCollapseHoverStrokeColor;" t="0.0"  v="&kColor_Gray_Darkest_06;" />
+    <KeyFrame name="&kIDColor_ContentCollectorCollapseHoverStrokeColor;" t="&kCSTextFlipT;"  v="&kColor_Gray_Dark_04;" />
+    <KeyFrame name="&kIDColor_ContentCollectorCollapseHoverStrokeColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_04;" />
+    <KeyFrame name="&kIDColor_ContentCollectorCollapseHoverStrokeColor;" t="1.0" v="&kColor_Gray_Lightest_06;" />
+
+    <!-- kIDColor_RulerBackgroundColor, Ruler Background Color -->
+    <KeyFrame name="&kIDColor_RulerBackgroundColor;" t="0.0"  v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_RulerBackgroundColor;" t="&kCSTextFlipT;"  v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_RulerBackgroundColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_01;" />
+    <KeyFrame name="&kIDColor_RulerBackgroundColor;" t="1.0" v="&kColor_Gray_Lightest_01;" />
+    
+    <!-- kIDColor_HyperlinkPanelStaticTextColor, Hyperlink Panel Static Link Text Color -->
+    <KeyFrame name="&kIDColor_HyperlinkPanelStaticTextColor;" t="0.0" h="34" s="1" v="0.98" />
+    <KeyFrame name="&kIDColor_HyperlinkPanelStaticTextColor;" t="&kCSTextFlipT;"  h="34" s="1" v="0.98" />
+    <KeyFrame name="&kIDColor_HyperlinkPanelStaticTextColor;" t="&kCSTextFlipT2;" h="&kColor_Blue_04_H;" s="&kColor_Blue_04_S;" v="&kColor_Blue_04_V;" />
+    <KeyFrame name="&kIDColor_HyperlinkPanelStaticTextColor;" t="1.0" h="&kColor_Blue_03_H;" s="&kColor_Blue_03_S;" v="&kColor_Blue_03_V;" />
+
+   <!-- kIDColor_XMLTagsBackgroundColor, Background Color of XML tags in Structure Panel -->
+    <KeyFrame name="&kIDColor_XMLTagsBackgroundColor;" t="0.0" h="211" s="0.318" v="0.776" a="1.0" />
+    <KeyFrame name="&kIDColor_XMLTagsBackgroundColor;" t="&kCSTextFlipT;"  h="211" s="0.318" v="0.776" a="1.0" />
+    <KeyFrame name="&kIDColor_XMLTagsBackgroundColor;" t="&kCSTextFlipT2;" h="211" s="0.238" v="0.937" a="1.0" />
+    <KeyFrame name="&kIDColor_XMLTagsBackgroundColor;"  t="1.0" h="211" s="0.238" v="0.937" a="1.0" />
+  
+    <!-- &kIDColor_ConditionTextThumbnailStrokeColor, Conditional Text Thumbnail Stroke Color -->
+    <KeyFrame name="&kIDColor_ConditionTextThumbnailStrokeColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_ConditionTextThumbnailStrokeColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_ConditionTextThumbnailStrokeColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_09;" />
+    <KeyFrame name="&kIDColor_ConditionTextThumbnailStrokeColor;" t="1.0" v="&kColor_Gray_Lightest_09;" />
+
+    <!-- &kIDColor_InfoThumbnailStrokeColor, Info Thumbnail Stroke -->
+    <KeyFrame name="&kIDColor_InfoThumbnailStrokeColor;" t="0.0" v="&kColor_Gray_Darkest_01;" />
+    <KeyFrame name="&kIDColor_InfoThumbnailStrokeColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_01;" />
+    <KeyFrame name="&kIDColor_InfoThumbnailStrokeColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_09;" />
+    <KeyFrame name="&kIDColor_InfoThumbnailStrokeColor;" t="1.0" v="&kColor_Gray_Lightest_09;" />
+	
+	<!-- &kColor_ControlHilight, Control Highlight Color on AppBar -->
+    <KeyFrame name="&kColor_ControlHilight;" t="0.0" v="&kColor_Gray_Darkest_05;" />
+    <KeyFrame name="&kColor_ControlHilight;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_05;" />
+    <KeyFrame name="&kColor_ControlHilight;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_05;" />
+    <KeyFrame name="&kColor_ControlHilight;" t="1.0" v="&kColor_Gray_Lightest_05;" />
+
+    <!-- &kIDColor_PasteBoardBorderColor, Info Thumbnail Stroke -->
+    <KeyFrame name="&kIDColor_PasteBoardBorderColor;" t="0.0" v="&kColor_Gray_Darkest_06;" />
+    <KeyFrame name="&kIDColor_PasteBoardBorderColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_06;" />
+    <KeyFrame name="&kIDColor_PasteBoardBorderColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_06;" />
+    <KeyFrame name="&kIDColor_PasteBoardBorderColor;" t="1.0" v="&kColor_Gray_Lightest_06;" />
+	
+	<!-- kIDColor_Interface94Gray -->
+    <KeyFrame name="&kIDColor_Interface94Gray;" t="0.0" v="0.94" />
+    <KeyFrame name="&kIDColor_Interface94Gray;" t="&kCSTextFlipT;" v="0.94" />
+    <KeyFrame name="&kIDColor_Interface94Gray;" t="&kCSTextFlipT2;" v="0.94" />
+    <KeyFrame name="&kIDColor_Interface94Gray;" t="1.0" v="0.94" />
+
+  <!-- kIDColor_InterfaceStructureFixHLColor, Hyperlink Panel Static Link Text Color -->
+    <KeyFrame name="&kIDColor_InterfaceStructureFixHLColor;" t="0.0" h="34" s="1" v="0.98" />
+    <KeyFrame name="&kIDColor_InterfaceStructureFixHLColor;" t="&kCSTextFlipT;"  h="34" s="1" v="0.98" />
+    <KeyFrame name="&kIDColor_InterfaceStructureFixHLColor;" t="&kCSTextFlipT2;" h="&kColor_Blue_04_H;" s="&kColor_Blue_04_S;" v="&kColor_Blue_04_V;" />
+    <KeyFrame name="&kIDColor_InterfaceStructureFixHLColor;" t="1.0" h="&kColor_Blue_03_H;" s="&kColor_Blue_03_S;" v="&kColor_Blue_03_V;" />
+
+    <!-- kIDColor_InterfaceFontDropDownBorderColor -->
+    <KeyFrame name="&kIDColor_InterfaceFontDropDownBorderColor;" t="0.0" v="&kColor_Gray_Darkest_06;" />
+    <KeyFrame name="&kIDColor_InterfaceFontDropDownBorderColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_06;" />
+    <KeyFrame name="&kIDColor_InterfaceFontDropDownBorderColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_06;" />
+    <KeyFrame name="&kIDColor_InterfaceFontDropDownBorderColor;" t="1.0" v="&kColor_Gray_Lightest_06;" />
+
+    <!-- &kIDColor_ClickableTextClickColor -->
+    <KeyFrame name="&kIDColor_ClickableTextClickColor;" t="0.0" v="&kColor_Gray_Darkest_06;" />
+    <KeyFrame name="&kIDColor_ClickableTextClickColor;" t="&kCSTextFlipT;" v="&kColor_Gray_Dark_06;" />
+    <KeyFrame name="&kIDColor_ClickableTextClickColor;" t="&kCSTextFlipT2;" v="&kColor_Gray_Light_06;" />
+    <KeyFrame name="&kIDColor_ClickableTextClickColor;" t="1.0" v="&kColor_Gray_Lightest_06;" />
+
+  </ThemeColors>
+</ThemeParameters>

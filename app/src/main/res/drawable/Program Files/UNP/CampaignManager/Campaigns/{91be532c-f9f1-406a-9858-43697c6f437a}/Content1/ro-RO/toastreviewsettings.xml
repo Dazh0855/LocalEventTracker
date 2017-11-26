@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Setări de actualizare și confidențialitate</StartMenuShortcutName>
+  <toast launch="/privacysettings /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Înainte de a instala Actualizarea Windows 10 Creators, va trebui să revizuiți setările de confidențialitate.</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>

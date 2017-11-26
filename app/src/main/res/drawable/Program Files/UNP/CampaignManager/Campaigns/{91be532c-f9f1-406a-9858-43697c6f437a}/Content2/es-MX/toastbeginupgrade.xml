@@ -1,0 +1,13 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Configuración de privacidad y actualización</StartMenuShortcutName>
+  <toast launch="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Recordatorio: La Actualización de Windows 10 para creadores está lista.</text>
+      </binding>
+    </visual>
+    <actions>
+      <action activationType="foreground" content="Iniciar la actualización" arguments="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}" />
+    </actions>
+  </toast>
+</UNPToastRoot>

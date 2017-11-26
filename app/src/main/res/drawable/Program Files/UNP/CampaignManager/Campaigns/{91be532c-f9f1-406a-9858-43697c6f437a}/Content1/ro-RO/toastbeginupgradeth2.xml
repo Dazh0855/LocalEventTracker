@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Setări de actualizare și confidențialitate</StartMenuShortcutName>
+  <toast launch="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Vrem doar să vă amintim că Actualizarea Windows 10 Creators este gata.</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>

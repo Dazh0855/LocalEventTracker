@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>“更新和隐私”设置</StartMenuShortcutName>
+  <toast launch="/privacysettings /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>安装 Windows 10 创意者更新之前，你需要查看你的隐私设置。</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>

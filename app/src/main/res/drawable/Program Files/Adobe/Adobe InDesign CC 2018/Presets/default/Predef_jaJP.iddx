@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="7.0" featureSet="257" product="7.0(216)" ?>
+<?aid SnippetType="ApplicationPreferences"?>
+<Application DOMVersion="7.0">
+	<XMLPreference DefaultStoryTagName="ストーリー" DefaultTableTagName="表" DefaultCellTagName="セル" DefaultImageTagName="画像">
+	</XMLPreference>
+	<Color Self="Color/Black" Name="Black"/>
+	<StrokeStyle Self="StrokeStyle/$ID/Solid" Name="$ID/Solid"/>
+	<StoryPreference StoryOrientation="Vertical" StoryDirection="LeftToRightDirection"/>
+	<TextFramePreference TextColumnGutter="14.173" FirstBaselineOffset="EmboxHeight"/>
+	<TextPreference LeadingKeyIncrement="0.70866141732283" BaselineShiftKeyIncrement="0.70866141732283" UseNewVerticalScaling="true" UseCidMojikumi="true"/>
+	<RootParagraphStyleGroup>
+		<ParagraphStyle Self="ParagraphStyle/$ID/[No paragraph style]" Name="$ID/[No paragraph style]" FontStyle="R" PointSize="9.21259842519685" KerningMethod="$ID/Metrics - Roman Only" StrokeWeight="0.7086614173228347" Composer="HL Composer J" AutoLeading="175" AppliedLanguage="$ID/Japanese" HyphenationZone="28.34645669291339" RuleAboveLineWeight="0.7086614173228347" RuleBelowLineWeight="0.7086614173228347" Justification="LeftJustified" BulletsAlignment="LeftAlign" NumberingAlignment="LeftAlign" ParagraphDirection="LeftToRightDirection" Hyphenation="true" DigitsType="DefaultDigits">
+			<Properties>
+				<AppliedFont type="string">小塚明朝 Pro</AppliedFont>
+				<Mojikumi type="enumeration">LineEndAllOneHalfEmEnum</Mojikumi>
+				<KinsokuSet type="enumeration">HardKinsoku</KinsokuSet>
+			</Properties>
+		</ParagraphStyle>
+	</RootParagraphStyleGroup>
+	<TOCStyle Self="TOCStyle/$ID/DefaultTOCStyleName" Title="目次" Name="$ID/DefaultTOCStyleName"/>
+	<RootTableStyleGroup>
+		<TableStyle Self="TableStyle/$ID/[No table style]" Name="$ID/[No table style]" TopBorderStrokeWeight="0.7086614173228347" LeftBorderStrokeWeight="0.7086614173228347" BottomBorderStrokeWeight="0.7086614173228347" RightBorderStrokeWeight="0.7086614173228347" SpaceBefore="2.834645669291339" SpaceAfter="2.834645669291339" StartRowStrokeWeight="0.7086614173228347" EndRowStrokeWeight="0.7086614173228347" EndRowStrokeTint="50" StartColumnStrokeWeight="0.7086614173228347" EndColumnStrokeWeight="0.7086614173228347" EndColumnStrokeTint="50"/>
+	</RootTableStyleGroup>
+	<RootObjectStyleGroup Self="xxx">
+		<ObjectStyle Self="ObjectStyle/$ID/[None]" Name="$ID/[None]" CornerRadius="14.173228346456694" StrokeWeight="0.2834645669291339" TopLeftCornerRadius="14.173228346456694" TopRightCornerRadius="14.173228346456694" BottomLeftCornerRadius="14.173228346456694" BottomRightCornerRadius="14.173228346456694">
+			<TextFramePreference TextColumnGutter="14.173" FirstBaselineOffset="EmboxHeight"/>
+			<BaselineFrameGridOption>
+				<Properties>
+					<BaselineFrameGridColor type="enumeration">Charcoal</BaselineFrameGridColor>
+				</Properties>
+			</BaselineFrameGridOption>
+		</ObjectStyle>
+		<ObjectStyle Self="ObjectStyle/$ID/[Normal Graphics Frame]" Name="$ID/[Normal Graphics Frame]"  CornerRadius="14.173228346456694" StrokeWeight="0.2834645669291339" TopLeftCornerRadius="14.173228346456694" TopRightCornerRadius="14.173228346456694" BottomLeftCornerRadius="14.173228346456694" BottomRightCornerRadius="14.173228346456694">
+			<TextFramePreference TextColumnGutter="14.173" FirstBaselineOffset="EmboxHeight"/>
+			<BaselineFrameGridOption>
+				<Properties>
+					<BaselineFrameGridColor type="enumeration">Charcoal</BaselineFrameGridColor>
+				</Properties>
+			</BaselineFrameGridOption>
+		</ObjectStyle>
+		<ObjectStyle Self="ObjectStyle/$ID/[Normal Text Frame]" Name="$ID/[Normal Text Frame]" CornerRadius="14.173228346456694" StrokeWeight="0.2834645669291339" TopLeftCornerRadius="14.173228346456694" TopRightCornerRadius="14.173228346456694" BottomLeftCornerRadius="14.173228346456694" BottomRightCornerRadius="14.173228346456694">
+			<TextFramePreference TextColumnGutter="14.173" FirstBaselineOffset="EmboxHeight"/>
+			<BaselineFrameGridOption>
+				<Properties>
+					<BaselineFrameGridColor type="enumeration">Charcoal</BaselineFrameGridColor>
+				</Properties>
+			</BaselineFrameGridOption>
+		</ObjectStyle>
+		<ObjectStyle Self="ObjectStyle/$ID/[Normal Grid]" Name="$ID/[Normal Grid]" CornerRadius="14.173228346456694" StrokeWeight="0.2834645669291339" TopLeftCornerRadius="14.173228346456694" TopRightCornerRadius="14.173228346456694" BottomLeftCornerRadius="14.173228346456694" BottomRightCornerRadius="14.173228346456694">
+			<TextFramePreference TextColumnGutter="14.173" FirstBaselineOffset="EmboxHeight"/>
+			<BaselineFrameGridOption>
+				<Properties>
+					<BaselineFrameGridColor type="enumeration">Charcoal</BaselineFrameGridColor>
+				</Properties>
+			</BaselineFrameGridOption>
+		</ObjectStyle>
+	</RootObjectStyleGroup>
+	<TextDefault Justification="LeftJustified" AutoLeading="175" Composer="HL Composer J" RuleAboveLineWeight="0.7086614173228347" RuleBelowLineWeight="0.7086614173228347" HyphenationZone="28.34645669291339" FontStyle="R" PointSize="9.21259842519685" KerningMethod="$ID/Metrics - Roman Only" StrokeWeight="0.7086614173228347" AppliedLanguage="$ID/Japanese">
+		<Properties>
+			<AppliedFont type="string">小塚明朝 Pro</AppliedFont>
+			<KinsokuSet type="enumeration">HardKinsoku</KinsokuSet>
+			<Mojikumi type="enumeration">LineEndAllOneHalfEmEnum</Mojikumi>
+		</Properties>
+	</TextDefault>
+	<BaselineFrameGridOption>
+		<Properties>
+			<BaselineFrameGridColor type="enumeration">Charcoal</BaselineFrameGridColor>
+		</Properties>
+	</BaselineFrameGridOption>
+	<FootnoteOption SeparatorText="　">
+		<Properties>
+			<MarkerPositioning type="enumeration">RubyMarker</MarkerPositioning>
+		</Properties>
+	</FootnoteOption>
+	<DocumentPreference PageHeight="841.889763778" PageWidth="595.275590551" DocumentBleedTopOffset="8.503937007874017" DocumentBleedBottomOffset="8.503937007874017" DocumentBleedInsideOrLeftOffset="8.503937007874017" DocumentBleedOutsideOrRightOffset="8.503937007874017" PageBinding="RightToLeft" ColumnDirection="Vertical">
+		<Properties>
+			<ColumnGuideColor type="enumeration">Lavender</ColumnGuideColor>
+			<MarginGuideColor type="enumeration">Lipstick</MarginGuideColor>
+		</Properties>
+	</DocumentPreference>
+	<GridPreference HorizontalGridlineDivision="56.69291338582678" VerticalGridlineDivision="56.69291338582678" HorizontalGridSubdivision="10" VerticalGridSubdivision="10" BaselineStart="28.34645669291339" BaselineDivision="14.173228346456694"/>
+	<MarginPreference ColumnGutter="14.173228346456694" Top="56.69291338582678" Bottom="56.69291338582678" Left="56.69291338582678" Right="56.69291338582678" ColumnDirection="Vertical"/>
+	<ViewPreference CursorKeyIncrement="0.70866141732283" HorizontalMeasurementUnits="Millimeters" VerticalMeasurementUnits="Millimeters" TypographicMeasurementUnits="Ha" TextSizeMeasurementUnits="Q" PrintDialogMeasurementUnits="Millimeters" LineMeasurementUnits="Millimeters"/>
+	<PrintPreference PagePosition="Centered" MarkLineWeight="P10mm" MarkOffset="0" BleedTop="8.503937" BleedBottom="8.503937" BleedInside="8.503937" BleedOutside="8.503937" FontDownloading="Subset" BitmapResolution="600">
+		<Properties>
+			<MarkType type="enumeration">JMarkWithCircle</MarkType>
+		</Properties>
+	</PrintPreference>
+	<PrintBookletPrintPreference PagePosition="Centered" MarkLineWeight="P10mm" MarkOffset="0" BleedTop="8.503937" BleedBottom="8.503937" BleedInside="8.503937" BleedOutside="8.503937" FontDownloading="Subset" BitmapResolution="600">
+		<Properties>
+			<MarkType type="enumeration">JMarkWithCircle</MarkType>
+		</Properties>
+	</PrintBookletPrintPreference>
+	<IndexOptions Title="索引" BetweenEntriesSeparator="、"/>
+	<IndexHeaderSetting HeaderSetName="$ID/" HeaderSetLanguage="256" IndexHeaderSetHandler="77882" IndexHeaderSetGroupValue="0" IndexHeaderSetGroupOptionValue="0">
+		<Properties>
+			<ListOfIndexHeaderGroup>
+				<IndexHeaderGroupType InternalName="kIndexGroup_Numeric" UIString="$ID/kIndexGroup_Numeric" DocumentString="$ID/" Visibility="false">
+					<SectionHeaderArray>
+						<SectionHeaderType SortingHeaderString="$ID/0123456789" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_Numeric" Language="256"/>
+					</SectionHeaderArray>
+				</IndexHeaderGroupType>
+				<IndexHeaderGroupType InternalName="$ID/IDX_Basic" UIString="$ID/kIndexGroup_Alphabet" DocumentString="$ID/" Visibility="true">
+					<SectionHeaderArray>
+						<SectionHeaderType SortingHeaderString="$ID/A" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_A" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/B" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_B" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/C" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_C" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/D" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_D" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/E" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_E" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/F" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_F" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/G" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_G" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/H" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_H" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/I" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_I" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/J" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_J" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/K" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_K" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/L" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_L" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/M" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_M" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/N" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_N" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/O" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_O" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/P" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_P" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/Q" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_Q" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/R" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_R" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/S" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_S" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/T" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_T" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/U" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_U" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/V" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_V" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/W" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_W" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/X" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_X" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/Y" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_Y" Language="256"/>
+						<SectionHeaderType SortingHeaderString="$ID/Z" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_Z" Language="256"/>
+					</SectionHeaderArray>
+				</IndexHeaderGroupType>
+				<IndexHeaderGroupType InternalName="$ID/IDX_AllHira" UIString="$ID/kIndexGroup_Kana" DocumentString="$ID/" Visibility="true">
+					<SectionHeaderArray>
+						<SectionHeaderType SortingHeaderString="$ID/ぁァあア" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraA" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ぃィいゐイヰ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraI" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ぅゥうウゔヴ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraU" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ぇェえゑエヱ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraE" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ぉォおオ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraO" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ヵかカがガ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraKA" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/きキぎギ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraKI" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/くクぐグ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraKU" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ヶけケげゲ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraKE" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/こコごゴ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraKO" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/さサざザ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraSA" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/しシじジ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraSI" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/すスずズ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraSU" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/せセぜゼ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraSE" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/そソぞゾ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraSO" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/たタだダ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraTA" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ちチぢヂ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraTI" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/っッつツづヅ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraTU" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/てテでデ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraTE" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/とトどド" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraTO" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/なナ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraNA" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/にニ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraNI" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ぬヌ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraNU" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ねネ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraNE" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/のノ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraNO" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/はハばバぱパ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraHA" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ひヒびビぴピ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraHI" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ふフぶブぷプ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraHU" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/へヘべベぺペ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraHE" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ほホぼボぽポ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraHO" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/まマ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraMA" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/みミ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraMI" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/むム" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraMU" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/めメ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraME" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/もモ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraMO" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ゃャやヤ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraYA" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ゅュゆユ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraYU" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ょョよヨ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraYO" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/らラ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraRA" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/りリ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraRI" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/るル" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraRU" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/れレ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraRE" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ろロ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraRO" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/ゎヮわワ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraWA" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/をヲ" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraWO" Language="26"/>
+						<SectionHeaderType SortingHeaderString="$ID/んン" DocumentHeaderString="$ID/" UIHeaderString="$ID/kIndexSection_HiraN" Language="26"/>
+					</SectionHeaderArray>
+				</IndexHeaderGroupType>
+			</ListOfIndexHeaderGroup>
+		</Properties>
+	</IndexHeaderSetting>
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Symbol" Name="$ID/kIndexGroup_Symbol" Include="true" Priority="0" HeaderType="Nothing"/>
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Numeric" Name="$ID/kIndexGroup_Numeric" Include="true" Priority="1" HeaderType="Nothing"/>
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Alphabet" Name="$ID/kIndexGroup_Alphabet" Include="true" Priority="2" HeaderType="BasicLatin"/>
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Kana" Name="$ID/kIndexGroup_Kana" Include="true" Priority="3" HeaderType="HiraganaAll"/>
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Chinese" Name="$ID/kIndexGroup_Chinese" Include="false" Priority="4" HeaderType="ChinesePinyin"/>
+	<IndexingSortOption Self="dIndexingSortOptionnkIndexGroup_Korean" Name="$ID/kIndexGroup_Korean" Include="false" Priority="5" HeaderType="KoreanConsonant"/>
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_CyrillicAlphabet" Name="$ID/kWRIndexGroup_CyrillicAlphabet" Include="false" Priority="6" HeaderType="Russian"/>
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_GreekAlphabet" Name="$ID/kWRIndexGroup_GreekAlphabet" Include="false" Priority="7" HeaderType="Nothing"/>
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_ArabicAlphabet" Name="$ID/kWRIndexGroup_ArabicAlphabet" Include="false" Priority="8" HeaderType="Nothing"/>
+	<IndexingSortOption Self="dIndexingSortOptionnkWRIndexGroup_HebrewAlphabet" Name="$ID/kWRIndexGroup_HebrewAlphabet" Include="false" Priority="9" HeaderType="Nothing"/>
+	<PageItemDefault CornerRadius="14.173228346456694" StrokeWeight="0.2834645669291339" TopLeftCornerRadius="14.173228346456694" TopRightCornerRadius="14.173228346456694" BottomLeftCornerRadius="14.173228346456694" BottomRightCornerRadius="14.173228346456694">
+	</PageItemDefault>
+	<LayoutGridDataInformation FontStyle="R" PointSize="9.21259842519685" LineAki="6.909448818897637">
+		<Properties>
+			<AppliedFont type="string">小塚明朝 Pro</AppliedFont>
+		</Properties>
+	</LayoutGridDataInformation>
+	<StoryGridDataInformation FontStyle="R" PointSize="9.21259842519685" LineAki="6.909448818897637">
+		<Properties>
+			<AppliedFont type="string">小塚明朝 Pro</AppliedFont>
+		</Properties>
+	</StoryGridDataInformation>
+	<CjkGridPreference ShowAllLayoutGrids="true" SnapToLayoutGrid="true">
+	</CjkGridPreference>
+	<LayoutAdjustmentPreference SnapZone="0.70866141732283"/>
+</Application>

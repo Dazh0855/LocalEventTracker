@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>업데이트 및 프라이버시 설정</StartMenuShortcutName>
+  <toast launch="/privacysettings /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Windows 10 크리에이터 업데이트를 설치하기 전에 프라이버시 설정을 검토해야 합니다.</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>

@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>การตั้งค่าการอัปเดตและความเป็นส่วนตัว</StartMenuShortcutName>
+  <toast launch="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>ขอแจ้งว่าการอัปเดต Windows 10 สำหรับนักสร้างสรรค์พร้อมใช้งานแล้ว</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>

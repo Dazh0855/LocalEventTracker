@@ -1,0 +1,13 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>הגדרות עדכון ופרטיות</StartMenuShortcutName>
+  <toast launch="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>רק רצינו להזכיר שעדכון Windows 10 ליוצרים מוכן.</text>
+      </binding>
+    </visual>
+    <actions>
+      <action activationType="foreground" content="התחל לעדכן" arguments="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}" />
+    </actions>
+  </toast>
+</UNPToastRoot>

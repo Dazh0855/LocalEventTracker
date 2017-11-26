@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Ažuriranje i postavke privatnosti</StartMenuShortcutName>
+  <toast launch="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Želimo samo da vas podsetimo da je Windows 10 ispravka za kreativne spremna.</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>

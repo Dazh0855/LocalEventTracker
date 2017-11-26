@@ -1,0 +1,974 @@
+<owl-theme>
+<!-- Originally generated against Owl v2.0.62 -->
+
+<color-brush name="cs.text.label.fill-identify" color="0 0 0" opacity="0.85" antialias="none" brightness-adjust="linear" platform="all" />
+<color-brush name="cs.text.label.fill-active" color="0 0 0" opacity="0.85" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="cs.text.label.fill-active.alt" color="60 60 60" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="cs.text.label.fill-inactive" color="0 0 0" opacity="0.8" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="cs.text.label.fill-inactive.alt" color="0 0 0" opacity="0.6" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="cs.text.label.fill-menu" color="0 0 0" opacity="0.95" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="cs.text.shadow.fill-identify" color="255 255 255" opacity="0.5" antialias="none" brightness-adjust="linear" platform="all" />
+<color-brush name="cs.text.shadow.fill-active" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="cs.text.shadow.fill-active.alt" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="cs.text.shadow.fill-inactive" color="255 255 255" opacity="0.25" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="cs.text.shadow.fill-selected" color="255 255 255" opacity="0.4" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="workspaceselector.background.fill-hot" color="217 217 217" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="workspaceselector.background.fill-active" color="166 166 166" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windows.proxy.shadow" color="120 120 120" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windows.proxy.highlight" color="250 250 250" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windows.proxy.graytext" color="190 190 190" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dropshadow" color="0 0 0" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="border.stroke-outer" color="0 0 0" opacity="0.2" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="border.stroke-inner" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="border.stroke-identify" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-white" color="255 255 255" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-white20" color="255 255 255" opacity="0.2" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-white25" color="255 255 255" opacity="0.25" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-white30" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-white40" color="255 255 255" opacity="0.4" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-white50" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-white60" color="255 255 255" opacity="0.6" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-white70" color="255 255 255" opacity="0.7" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-white75" color="255 255 255" opacity="0.75" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-white80" color="255 255 255" opacity="0.8" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-white90" color="255 255 255" opacity="0.9" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-blue" color="42 76 157" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-red" color="230 0 0" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-black" color="0 0 0" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-black10" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-black15" color="0 0 0" opacity="0.15" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-black20" color="0 0 0" opacity="0.2" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-black25" color="0 0 0" opacity="0.25" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-black30" color="0 0 0" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-black35" color="0 0 0" opacity="0.35" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-black40" color="0 0 0" opacity="0.4" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-black50" color="0 0 0" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-black65" color="0 0 0" opacity="0.65" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-black75" color="0 0 0" opacity="0.75" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-mono025" color="25 25 25" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-mono030" color="30 30 30" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-mono050" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-mono064" color="64 64 64" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-mono077" color="77 77 77" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-mono089" color="89 89 89" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-mono102" color="102 102 102" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-mono111" color="111 111 111" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-mono128" color="128 128 128" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-mono230" color="230 230 230" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="button.color-mono255" color="255 255 255" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.fronttab.background.cold" color="224 223 227" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.fronttab.background.hot" color="214 214 214" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.backtab.background.cold" color="157 157 161" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.backtab.outerstroke.cold" color="0 0 0" opacity="0.2" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.backtab.innerstroke.cold" color="255 255 255" opacity="0.15" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.backtab.background.hot" color="224 223 227" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.backtab.outerstroke.hot" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.backtab.innerstroke.hot" color="255 255 255" opacity="0.15" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.nulltab.background.cold" color="180 180 180" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.nulltab.outerstroke.cold" color="0 0 0" opacity="0.2" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.nulltab.innerstroke.cold" color="255 255 255" opacity="0.15" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.nulltab.background.hot" color="180 180 180" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.nulltab.outerstroke.hot" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.nulltab.innerstroke.hot" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.dragtab.background" color="237 237 237" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.dragtab.outerstroke" color="0 0 0" opacity="0.2" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.dragtab.innerstroke" color="255 255 255" opacity="0.15" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.identifytab.outerstroke" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.identifytab.innerstroke" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.button.background.fill-cold" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.button.background.fill-hot" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.button.background.fill-active" color="0 0 0" opacity="0.25" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.button.background.fill-inactive" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.button.closebox.symbolfront.fill-cold" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.closebox.symbolback.fill-cold" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.closebox.symbolfront.fill-hot" color="25 25 25" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.closebox.symbolback.fill-hot" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.closebox.symbolfront.fill-active" color="0 0 0" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.closebox.symbolback.fill-active" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.closebox.symbolfront.fill-inactive" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.closebox.symbolback.fill-inactive" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.cyclebox.symbolfront.fill-cold" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.cyclebox.symbolback.fill-cold" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.cyclebox.symbolfront.fill-hot" color="25 25 25" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.cyclebox.symbolback.fill-hot" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.cyclebox.symbolfront.fill-active" color="0 0 0" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.cyclebox.symbolback.fill-active" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.cyclebox.symbolfront.fill-inactive" color="25 25 25" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.cyclebox.symbolback.fill-inactive" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.menubox.symbolfront.fill-cold" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.menubox.symbolback.fill-cold" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.menubox.symbolfront.fill-hot" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.menubox.symbolback.fill-hot" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.menubox.symbolfront.fill-active" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.menubox.symbolback.fill-active" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.menubox.symbolfront.fill-inactive" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.menubox.symbolback.fill-inactive" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.drawerbox.symbolfront.fill-cold" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.drawerbox.symbolback.fill-cold" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.drawerbox.symbolfront.fill-hot" color="30 30 30" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.drawerbox.symbolback.fill-hot" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.drawerbox.symbolfront.fill-active" color="30 30 30" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.drawerbox.symbolback.fill-active" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.drawerbox.symbolfront.fill-inactive" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.drawerbox.symbolback.fill-inactive" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.overflowbox.symbolfront.fill-cold" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.overflowbox.symbolback.fill-cold" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.overflowbox.symbolfront.fill-hot" color="30 30 30" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.overflowbox.symbolback.fill-hot" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.overflowbox.symbolfront.fill-active" color="30 30 30" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.overflowbox.symbolback.fill-active" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.overflowbox.symbolfront.fill-inactive" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.button.overflowbox.symbolback.fill-inactive" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.separator.fill-cold" color="237 237 237" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.flyout.menu.bkgd.fill-hot" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabgroup.flyout.menu.bkgd.fill-active" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="palette.background" color="224 223 227" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="palette.background-null" color="180 180 180" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="palette.background-selected" color="208 208 208" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabpane.background" color="81 81 81" opacity="0.8" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabpane.background.alt" color="100 100 100" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabpane.background.document" color="127 127 127" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="drawer.inner.edge" color="70 70 70" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="resizebar.horizontal.hilite" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.anchor.cold" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.anchor.hot" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.anchor.active" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.separator.cold" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.separator.hot" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.separator.active" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.edge" color="76 76 76" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.anchor.cold" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.anchor.hot" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.anchor.active" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.separator.cold" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.separator.hot" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.separator.active" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.edge" color="76 76 76" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.anchor.cold.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.anchor.hot.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.anchor.active.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.separator.cold.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.separator.hot.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.separator.active.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.edge.alt" color="204 204 204" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.anchor.cold.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.anchor.hot.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.anchor.active.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.separator.cold.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.separator.hot.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.separator.active.alt" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.horizontal.edge.alt" color="204 204 204" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip.hot.1" color="51 51 51" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip.cold.1" color="51 51 51" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip-maximized.hot.1" color="51 51 51" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip-maximized.cold.1" color="51 51 51" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip.hot.2" color="111 111 111" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip.cold.2" color="111 111 111" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip-maximized.hot.2" color="111 111 111" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip-maximized.cold.2" color="111 111 111" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip.hot.3" color="77 77 77" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip.cold.3" color="77 77 77" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip-maximized.hot.3" color="77 77 77" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="dock.revealstrip-maximized.cold.3" color="77 77 77" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="scrollbar.thumb.edge.norm" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="scrollbar.thumb.edge.over" color="0 0 0" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="scrollbar.thumb.edge.down" color="0 0 0" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabpane.iconic.label.background-cold" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabpane.iconic.label.background-hot" color="116 116 116" opacity="0.1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabpane.iconic.label.background-active" color="116 116 116" opacity="0.1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabpane.iconic.label.background-selectedcold" color="128 128 128" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabpane.iconic.label.background-selectedhot" color="166 166 166" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="toolbar.gripper.top.bevel" color="0 0 0" opacity="0.2" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="toolbar.gripper.bottom.bevel" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="tabpane.iconic.drawer.binder" color="0 0 0" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.topbar.fill-cold" color="176 176 176" opacity="0.75" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.bottombar.fill-cold" color="46 46 46" opacity="0.75" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.topbar.fill-hot" color="176 176 176" opacity="0.75" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.bottombar.fill-hot" color="46 46 46" opacity="0.75" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.topbar.fill-active" color="176 176 176" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.bottombar.fill-active" color="46 46 46" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.topbar.fill-inactive" color="176 176 176" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.bottombar.fill-inactive" color="46 46 46" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.toparrow.fill-cold" color="255 255 255" opacity="0.7" antialias="none" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.bottomarrow.fill-cold" color="0 0 0" opacity="0" antialias="none" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.toparrow.fill-hot" color="255 255 255" opacity="0.9" antialias="none" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.bottomarrow.fill-hot" color="0 0 0" opacity="0" antialias="none" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.toparrow.fill-active" color="255 255 255" opacity="0.7" antialias="none" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.bottomarrow.fill-active" color="0 0 0" opacity="0" antialias="none" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.toparrow.fill-inactive" color="255 255 255" opacity="0.7" antialias="none" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.bottomarrow.fill-inactive" color="0 0 0" opacity="0" antialias="none" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.horizontal-headerhighlight.fill-inactive" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.vertical-headerhighlight.fill-hot" color="255 255 255" opacity="0.2" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.vertical-headerhighlight.fill-active" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="paneheaderbar.vertical-headerhighlight.fill-inactive" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="receiving-string.body" color="81 81 81" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="applicationcontainer.background" color="214 214 214" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="applicationcontainer.titlebar" color="214 214 214" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="applicationbar.background" color="214 214 214" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="applicationbar.outerdivider" color="255 255 255" opacity="0.25" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="applicationbar.innerdivider" color="0 0 0" opacity="0.4" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.background-cold" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.button.symbolfront-cold" color="102 102 102" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.symbolback-cold" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.background-hot" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.symbolfront-hot" color="64 64 64" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.symbolback-hot" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.background-active" color="0 0 0" opacity="0.25" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.symbolfront-active" color="64 64 64" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.symbolback-active" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.background-inactive" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.button.symbolfront-inactive" color="102 102 102" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.symbolback-inactive" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.background-disabled" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.button.symbolfront-disabled" color="128 128 128" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.button.symbolback-disabled" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.closebox.normal" color="83 83 83" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.closebox.normal.shadow" color="255 255 255" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.closebox.hot" color="60 60 60" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.closebox.hot.shadow" color="255 255 255" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.closebox.active" color="49 49 49" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.closebox.active.shadow" color="255 255 255" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.closebox.disabled" color="83 83 83" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.closebox.normal.disabled" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.normal" color="83 83 83" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.normal1" color="128 128 128" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.normal2" color="132 132 132" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.normal3" color="136 136 136" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.normal4" color="140 140 140" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.normal5" color="145 145 145" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.normal6" color="149 149 149" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.normal7" color="153 153 153" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.normal8" color="163 163 163" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.normal.shadow" color="255 255 255" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.hot" color="60 60 60" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.hot1" color="117 117 117" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.hot2" color="122 122 122" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.hot3" color="125 125 125" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.hot4" color="128 128 128" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.hot5" color="130 130 130" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.hot6" color="133 133 133" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.hot7" color="135 135 135" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.hot.shadow" color="255 255 255" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.active" color="49 49 49" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.active1" color="90 90 90" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.active2" color="95 95 95" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.active3" color="99 99 99" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.active4" color="105 105 105" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.active5" color="110 110 110" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.active6" color="115 115 115" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="windowchrome.active7" color="122 122 122" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.disabled" color="93 83 83" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.disabled1" color="198 198 198" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.disabled2" color="202 202 202" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.disabled3" color="206 206 206" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.disabled4" color="210 210 210" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.disabled5" color="215 215 215" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.disabled6" color="219 219 219" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.disabled7" color="223 223 223" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.active.shadow" color="255 255 255" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchrome.normal.disabled" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchromecontrol.hot" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="windowchromecontrol.active" color="0 0 0" opacity="0.25" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="menubaritem.hot" color="254 205 159" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="menubaritem.active" color="0 0 0" opacity="0.25" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="menuitem.middlestroke.hot" color="115 115 115" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="menuitem.middlestroke.active" color="102 102 102" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="workspaceselector.symbolfront-cold" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="workspaceselector.symbolfront-hot" color="50 50 50" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="workspaceselector.symbolback" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="workspaceselector.labeltext.normal" color="0 0 0" opacity="0.75" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="workspaceselector.labeltext.background.normal" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="workspaceselector.labeltext.down" color="0 0 0" opacity="0.7" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="workspaceselector.labeltext.background.down" color="255 255 255" opacity="0.25" antialias="medium" brightness-adjust="none" platform="all" />
+
+<gradient-brush name="applicationcontainer.gradient" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="0 0 0" opacity="0" />
+<stop offset="0.6" color="0 0 0" opacity="0.19" />
+<stop offset="1" color="0 0 0" opacity="0.28" />
+</gradient-brush>
+<gradient-brush name="applicationcontainer.gradient.alt" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="255 255 255" opacity="0.28" />
+<stop offset="1" color="255 255 255" opacity="0" />
+</gradient-brush>
+<gradient-brush name="applicationcontainer.gradient.inactive" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="255 255 255" opacity="0.75" />
+<stop offset="0.6" color="207 207 207" opacity="0.9" />
+<stop offset="1" color="182 182 182" opacity="0.8" />
+</gradient-brush>
+<gradient-brush name="applicationcontainer.gradient.inactive.alt" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="255 255 255" opacity="0.28" />
+<stop offset="1" color="255 255 255" opacity="0" />
+</gradient-brush>
+<gradient-brush name="windowchrome.normal.gradient" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="128 128 128" opacity="0.47" />
+<stop offset="0.1" color="132 132 132" opacity="0.48" />
+<stop offset="0.25" color="136 136 136" opacity="0.47" />
+<stop offset="0.5" color="140 140 140" opacity="0.45" />
+<stop offset="0.75" color="145 145 145" opacity="0.43" />
+<stop offset="0.85" color="149 149 149" opacity="0.42" />
+<stop offset="1" color="153 153 153" opacity="0.4" />
+</gradient-brush>
+<gradient-brush name="windowchrome.hot.gradient" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="117 117 117" opacity="0.54" />
+<stop offset="0.1" color="122 122 122" opacity="0.52" />
+<stop offset="0.25" color="125 125 125" opacity="0.51" />
+<stop offset="0.5" color="128 128 128" opacity="0.5" />
+<stop offset="0.75" color="130 130 130" opacity="0.49" />
+<stop offset="0.85" color="133 133 133" opacity="0.48" />
+<stop offset="1" color="135 135 135" opacity="0.47" />
+</gradient-brush>
+<gradient-brush name="windowchrome.active.gradient" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="90 90 90" opacity="0.65" />
+<stop offset="0.1" color="95 95 95" opacity="0.63" />
+<stop offset="0.25" color="99 99 99" opacity="0.61" />
+<stop offset="0.5" color="105 105 105" opacity="0.59" />
+<stop offset="0.75" color="110 110 110" opacity="0.57" />
+<stop offset="0.85" color="115 115 115" opacity="0.55" />
+<stop offset="1" color="122 121 121" opacity="0.53" />
+</gradient-brush>
+<gradient-brush name="windowchrome.highlight" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="255 255 255" opacity="0.2" />
+<stop offset="1" color="0 0 0" opacity="0.2" />
+</gradient-brush>
+<gradient-brush name="windowchrome.border" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="0 0 0" opacity="1" />
+<stop offset="1" color="71 71 71" opacity="1" />
+</gradient-brush>
+<gradient-brush name="windowchrome.border.disabled" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="50 50 50" opacity="1" />
+<stop offset="1" color="161 161 161" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.palette.bevelstroke-cold" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="0 0 0" opacity="0" />
+<stop offset="1" color="0 0 0" opacity="0" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.palette.innerstroke-cold" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="0 0 0" opacity="0" />
+<stop offset="1" color="0 0 0" opacity="0" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.palette.bevelstroke-hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="223 223 223" opacity="1" />
+<stop offset="0.6" color="234 234 234" opacity="1" />
+<stop offset="1" color="244 244 244" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.palette.innerstroke-hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="240 240 240" opacity="1" />
+<stop offset="0.6" color="220 220 220" opacity="1" />
+<stop offset="1" color="200 200 200" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.palette.bevelstroke-active" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="223 223 223" opacity="1" />
+<stop offset="0.6" color="234 234 234" opacity="1" />
+<stop offset="1" color="244 244 244" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.palette.innerstroke-active" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="166 166 166" opacity="1" />
+<stop offset="1" color="178 178 178" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.palette.background-cold" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="214 214 214" opacity="0" />
+<stop offset="1" color="214 214 214" opacity="0" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.palette.background-hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="222 222 222" opacity="1" />
+<stop offset="0.6" color="205 205 205" opacity="1" />
+<stop offset="1" color="189 189 189" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.palette.background-active" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="184 184 184" opacity="1" />
+<stop offset="0.6" color="163 163 163" opacity="1" />
+<stop offset="1" color="143 143 143" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.palette.background-selectedcold" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="184 184 184" opacity="1" />
+<stop offset="0.6" color="163 163 163" opacity="1" />
+<stop offset="1" color="143 143 143" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.palette.background-selectedhot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="199 199 199" opacity="1" />
+<stop offset="0.6" color="178 178 178" opacity="1" />
+<stop offset="1" color="158 158 158" opacity="1" />
+</gradient-brush>
+<gradient-brush name="paneheaderbar.horizontal-headerhighlight.fill-hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="255 255 255" opacity="0.05" />
+<stop offset="0.25" color="255 255 255" opacity="0.08" />
+<stop offset="0.5" color="255 255 255" opacity="0.1" />
+<stop offset="0.75" color="255 255 255" opacity="0.08" />
+<stop offset="1" color="255 255 255" opacity="0.05" />
+</gradient-brush>
+<gradient-brush name="paneheaderbar.horizontal-headerhighlight.fill-active" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="255 255 255" opacity="0.05" />
+<stop offset="0.25" color="255 255 255" opacity="0.08" />
+<stop offset="0.5" color="255 255 255" opacity="0.1" />
+<stop offset="0.75" color="255 255 255" opacity="0.08" />
+<stop offset="1" color="255 255 255" opacity="0.05" />
+</gradient-brush>
+<gradient-brush name="paneheaderbar.horizontal-gradient" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="93 93 93" opacity="1" />
+<stop offset="1" color="58 58 58" opacity="1" />
+</gradient-brush>
+<gradient-brush name="paneheaderbar.vertical-gradient" direction="right" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="93 93 93" opacity="1" />
+<stop offset="1" color="58 58 58" opacity="1" />
+</gradient-brush>
+<gradient-brush name="button.fill-cold" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="245 245 245" opacity="0.75" />
+<stop offset="0.86" color="132 132 132" opacity="0.75" />
+<stop offset="1" color="87 87 87" opacity="0.75" />
+</gradient-brush>
+<gradient-brush name="button.fill-hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="245 245 245" opacity="0.75" />
+<stop offset="0.86" color="132 132 132" opacity="0.75" />
+<stop offset="1" color="87 87 87" opacity="0.75" />
+</gradient-brush>
+<gradient-brush name="button.fill-active" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="75 75 75" opacity="0.75" />
+<stop offset="1" color="230 230 229" opacity="0.75" />
+</gradient-brush>
+<gradient-brush name="button.fill-inactive" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="245 245 245" opacity="0.75" />
+<stop offset="0.86" color="132 132 132" opacity="0.75" />
+<stop offset="1" color="87 87 87" opacity="0.75" />
+</gradient-brush>
+<gradient-brush name="workspaceselector.innerfill-hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="232 232 232" opacity="1" />
+<stop offset="0.6" color="210 210 210" opacity="1" />
+<stop offset="1" color="199 199 199" opacity="1" />
+</gradient-brush>
+<gradient-brush name="workspaceselector.innerfill-active" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="184 184 184" opacity="1" />
+<stop offset="0.6" color="163 163 163" opacity="1" />
+<stop offset="1" color="143 143 143" opacity="1" />
+</gradient-brush>
+<gradient-brush name="workspaceselector.bevelinnerfill-hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="240 240 240" opacity="1" />
+<stop offset="0.6" color="220 220 220" opacity="1" />
+<stop offset="1" color="200 200 200" opacity="1" />
+</gradient-brush>
+<gradient-brush name="workspaceselector.bevelinnerfill-active" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="166 166 166" opacity="1" />
+<stop offset="0.5" color="172 172 172" opacity="1" />
+<stop offset="1" color="178 178 178" opacity="0.8" />
+</gradient-brush>
+<gradient-brush name="workspaceselector.shadow.fill-hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="255 255 255" opacity="0" />
+<stop offset="0.4" color="255 255 255" opacity="0.25" />
+<stop offset="1" color="255 255 255" opacity="0.4" />
+</gradient-brush>
+<gradient-brush name="workspaceselector.shadow.fill-active" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="255 255 255" opacity="0" />
+<stop offset="0.4" color="255 255 255" opacity="0.25" />
+<stop offset="1" color="255 255 255" opacity="0.4" />
+</gradient-brush>
+<gradient-brush name="tabgroup.flyout.fill-hot" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="0 255 0" opacity="0" />
+<stop offset="0.59" color="0 255 0" opacity="0" />
+<stop offset="1" color="0 255 0" opacity="0" />
+</gradient-brush>
+<gradient-brush name="tabgroup.flyout.fill-active" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="0 255 0" opacity="0" />
+<stop offset="1" color="0 255 0" opacity="0" />
+</gradient-brush>
+<gradient-brush name="tabgroup.flyout.gradient.fill" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="0 255 0" opacity="0" />
+<stop offset="1" color="0 255 0" opacity="0" />
+</gradient-brush>
+<gradient-brush name="tabgroup.fronttab.gradient.cold" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="238 238 238" opacity="1" />
+<stop offset="0.3" color="228 228 228" opacity="1" />
+<stop offset="1" color="214 214 214" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabgroup.fronttab.gradient.hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="238 238 238" opacity="1" />
+<stop offset="0.3" color="228 228 228" opacity="1" />
+<stop offset="1" color="214 214 214" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabgroup.backtab.gradient.cold" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="156 156 156" opacity="1" />
+<stop offset="1" color="132 132 132" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabgroup.backtab.gradient.hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="176 176 176" opacity="1" />
+<stop offset="1" color="150 150 150" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabgroup.nulltab.gradient.cold" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="77 77 77" opacity="0.04" />
+<stop offset="1" color="77 77 77" opacity="0.44" />
+</gradient-brush>
+<gradient-brush name="tabgroup.nulltab.gradient.hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="77 77 77" opacity="0.04" />
+<stop offset="1" color="77 77 77" opacity="0.44" />
+</gradient-brush>
+<gradient-brush name="tabgroup.dragtab.gradient" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="189 189 189" opacity="1" />
+<stop offset="1" color="214 214 214" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabgroup.separator.fill-hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="0 0 0" opacity="0.2" />
+<stop offset="0.33" color="0 0 0" opacity="0.2" />
+<stop offset="0.34" color="255 255 255" opacity="0.5" />
+<stop offset="0.66" color="255 255 255" opacity="0.5" />
+<stop offset="0.67" color="0 0 0" opacity="0" />
+<stop offset="1" color="0 0 0" opacity="0" />
+</gradient-brush>
+<gradient-brush name="tabgroup.separator.fill-active" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="50 84 168" opacity="0.5" />
+<stop offset="0.5" color="65 157 232" opacity="0.5" />
+<stop offset="1" color="247 255 255" opacity="0.5" />
+</gradient-brush>
+<gradient-brush name="tabgroup.tabwell.fill-accepting" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="247 255 255" opacity="0.5" />
+<stop offset="0.5" color="65 157 232" opacity="0.5" />
+<stop offset="1" color="50 84 168" opacity="0.5" />
+</gradient-brush>
+<gradient-brush name="tabgroup.tabwell.fill-active" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="74 74 74" opacity="0" />
+<stop offset="1" color="0 0 0" opacity="0.25" />
+</gradient-brush>
+<gradient-brush name="tabgroup.tabwell.fill-hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="156 156 156" opacity="1" />
+<stop offset="1" color="132 132 132" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabgroup.tabwell.fill-cold" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="156 156 156" opacity="1" />
+<stop offset="1" color="132 132 132" opacity="1" />
+</gradient-brush>
+<gradient-brush name="toolbar.gripper.vertical" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="74 74 74" opacity="0" />
+<stop offset="0.65" color="20 20 20" opacity="0.15" />
+<stop offset="1" color="20 20 20" opacity="0.15" />
+</gradient-brush>
+<gradient-brush name="toolbar.gripper.horizontal" direction="right" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="74 74 74" opacity="0" />
+<stop offset="0.65" color="20 20 20" opacity="0.15" />
+<stop offset="1" color="20 20 20" opacity="0.15" />
+</gradient-brush>
+<gradient-brush name="toolbar.gripper.indent.vertical" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="0 0 0" opacity="0" />
+<stop offset="0.2" color="0 0 0" opacity="0" />
+<stop offset="0.21" color="74 74 74" opacity="0" />
+<stop offset="0.8" color="255 255 255" opacity="0" />
+<stop offset="1" color="255 255 255" opacity="0" />
+</gradient-brush>
+<gradient-brush name="toolbar.gripper.indent.horizontal" direction="right" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="0 0 0" opacity="0" />
+<stop offset="0.2" color="0 0 0" opacity="0" />
+<stop offset="0.21" color="74 74 74" opacity="0" />
+<stop offset="0.8" color="255 255 255" opacity="0" />
+<stop offset="1" color="255 255 255" opacity="0" />
+</gradient-brush>
+<gradient-brush name="resizegripper.background" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="140 140 140" opacity="0.4" />
+<stop offset="0.792" color="255 255 255" opacity="0.4" />
+<stop offset="1" color="255 255 255" opacity="0.4" />
+</gradient-brush>
+<gradient-brush name="resizegripper.notch" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="255 255 255" opacity="0.6" />
+<stop offset="0.375" color="255 255 255" opacity="0.6" />
+<stop offset="1" color="115 115 115" opacity="0.6" />
+</gradient-brush>
+<gradient-brush name="dock.separator.accepting" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="83 96 128" opacity="0.5" />
+<stop offset="0.1" color="65 157 232" opacity="0.5" />
+<stop offset="0.5" color="202 218 232" opacity="0.5" />
+<stop offset="0.9" color="65 157 232" opacity="0.5" />
+<stop offset="1" color="83 96 128" opacity="0.5" />
+</gradient-brush>
+<gradient-brush name="dock.anchor.accepting" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="83 96 128" opacity="0.5" />
+<stop offset="0.1" color="65 157 232" opacity="0.5" />
+<stop offset="0.5" color="202 218 232" opacity="0.5" />
+<stop offset="0.9" color="65 157 232" opacity="0.5" />
+<stop offset="1" color="83 96 128" opacity="0.5" />
+</gradient-brush>
+<gradient-brush name="dock.horizontal.separator.accepting" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="83 96 128" opacity="0.5" />
+<stop offset="0.1" color="65 157 232" opacity="0.5" />
+<stop offset="0.5" color="202 218 232" opacity="0.5" />
+<stop offset="0.9" color="65 157 232" opacity="0.5" />
+<stop offset="1" color="83 96 128" opacity="0.5" />
+</gradient-brush>
+<gradient-brush name="dock.horizontal.anchor.accepting" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="83 96 128" opacity="0.5" />
+<stop offset="0.1" color="65 157 232" opacity="0.5" />
+<stop offset="0.5" color="202 218 232" opacity="0.5" />
+<stop offset="0.9" color="65 157 232" opacity="0.5" />
+<stop offset="1" color="83 96 128" opacity="0.5" />
+</gradient-brush>
+<gradient-brush name="dock.separator.accepting.alt" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="83 96 128" opacity="1" />
+<stop offset="0.1" color="65 157 232" opacity="1" />
+<stop offset="0.5" color="202 218 232" opacity="1" />
+<stop offset="0.9" color="65 157 232" opacity="1" />
+<stop offset="1" color="83 96 128" opacity="1" />
+</gradient-brush>
+<gradient-brush name="dock.anchor.accepting.alt" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="83 96 128" opacity="1" />
+<stop offset="0.1" color="65 157 232" opacity="1" />
+<stop offset="0.5" color="202 218 232" opacity="1" />
+<stop offset="0.9" color="65 157 232" opacity="1" />
+<stop offset="1" color="83 96 128" opacity="1" />
+</gradient-brush>
+<gradient-brush name="dock.horizontal.separator.accepting.alt" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="83 96 128" opacity="1" />
+<stop offset="0.1" color="65 157 232" opacity="1" />
+<stop offset="0.5" color="202 218 232" opacity="1" />
+<stop offset="0.9" color="65 157 232" opacity="1" />
+<stop offset="1" color="83 96 128" opacity="1" />
+</gradient-brush>
+<gradient-brush name="dock.horizontal.anchor.accepting.alt" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="83 96 128" opacity="1" />
+<stop offset="0.1" color="65 157 232" opacity="1" />
+<stop offset="0.5" color="202 218 232" opacity="1" />
+<stop offset="0.9" color="65 157 232" opacity="1" />
+<stop offset="1" color="83 96 128" opacity="1" />
+</gradient-brush>
+<gradient-brush name="dock.extender.left.accepting.hot" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="181 203 255" opacity="0.5" />
+<stop offset="1" color="65 157 232" opacity="0.5" />
+</gradient-brush>
+<gradient-brush name="dock.extender.right.accepting.hot" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="65 157 232" opacity="0.5" />
+<stop offset="1" color="181 203 255" opacity="0.5" />
+</gradient-brush>
+<gradient-brush name="dock.extender.top.accepting.hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="181 203 255" opacity="0.5" />
+<stop offset="1" color="65 157 232" opacity="0.5" />
+</gradient-brush>
+<gradient-brush name="dock.extender.bottom.accepting.hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="65 157 232" opacity="0.5" />
+<stop offset="1" color="181 203 255" opacity="0.5" />
+</gradient-brush>
+<gradient-brush name="dock.extender.left.accepting.cold" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="179 179 179" opacity="0" />
+<stop offset="1" color="76 76 76" opacity="0" />
+</gradient-brush>
+<gradient-brush name="dock.extender.right.accepting.cold" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="76 76 76" opacity="0" />
+<stop offset="1" color="179 179 179" opacity="0" />
+</gradient-brush>
+<gradient-brush name="dock.extender.top.accepting.cold" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="179 179 179" opacity="0" />
+<stop offset="1" color="76 76 76" opacity="0" />
+</gradient-brush>
+<gradient-brush name="dock.extender.bottom.accepting.cold" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="76 76 76" opacity="0" />
+<stop offset="1" color="179 179 179" opacity="0" />
+</gradient-brush>
+<gradient-brush name="dropzone.horizontal" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="65 157 232" opacity="0.25" />
+<stop offset="0.4438" color="65 157 232" opacity="0.75" />
+<stop offset="1" color="65 157 232" opacity="0.25" />
+</gradient-brush>
+<gradient-brush name="dropzone.vertical" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="65 157 232" opacity="0.25" />
+<stop offset="0.5562" color="65 157 232" opacity="0.75" />
+<stop offset="1" color="65 157 232" opacity="0.25" />
+</gradient-brush>
+<gradient-brush name="resizebar.horizontal" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="43 43 43" opacity="1" />
+<stop offset="0.32" color="43 43 43" opacity="1" />
+<stop offset="0.33" color="60 60 60" opacity="1" />
+<stop offset="0.65" color="60 60 60" opacity="1" />
+<stop offset="0.66" color="43 43 43" opacity="1" />
+<stop offset="1" color="43 43 43" opacity="1" />
+</gradient-brush>
+<gradient-brush name="n-up-separator1.vertical" direction="right" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="214 214 214" opacity="1" />
+<stop offset="0.34" color="214 214 214" opacity="1" />
+<stop offset="0.35" color="230 230 230" opacity="1" />
+<stop offset="0.67" color="230 230 230" opacity="1" />
+<stop offset="0.68" color="73 73 73" opacity="1" />
+<stop offset="1" color="73 73 73" opacity="1" />
+</gradient-brush>
+<gradient-brush name="n-up-separator2.vertical" direction="right" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="73 73 73" opacity="1" />
+<stop offset="0.49" color="73 73 73" opacity="1" />
+<stop offset="0.5" color="230 230 230" opacity="1" />
+<stop offset="1" color="230 230 230" opacity="1" />
+</gradient-brush>
+<gradient-brush name="n-up-separator.horizontal" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="73 73 73" opacity="1" />
+<stop offset="0.19" color="73 73 73" opacity="1" />
+<stop offset="0.2" color="230 230 230" opacity="1" />
+<stop offset="0.39" color="230 230 230" opacity="1" />
+<stop offset="0.4" color="214 214 214" opacity="1" />
+<stop offset="0.59" color="214 214 214" opacity="1" />
+<stop offset="0.6" color="230 230 230" opacity="1" />
+<stop offset="0.79" color="230 230 230" opacity="1" />
+<stop offset="0.8" color="73 73 73" opacity="1" />
+<stop offset="1" color="73 73 73" opacity="1" />
+</gradient-brush>
+<gradient-brush name="scrollbar.background.horizontal" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="230 230 230" opacity="1" />
+<stop offset="1" color="75 75 75" opacity="1" />
+</gradient-brush>
+<gradient-brush name="scrollbar.background.vertical" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="230 230 230" opacity="1" />
+<stop offset="1" color="75 75 75" opacity="1" />
+</gradient-brush>
+<gradient-brush name="scrollbar.thumb.norm.horizontal" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="219 219 219" opacity="1" />
+<stop offset="0.191" color="255 255 255" opacity="1" />
+<stop offset="1" color="143 143 143" opacity="1" />
+</gradient-brush>
+<gradient-brush name="scrollbar.thumb.norm.vertical" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="219 219 219" opacity="1" />
+<stop offset="0.191" color="255 255 255" opacity="1" />
+<stop offset="1" color="143 143 143" opacity="1" />
+</gradient-brush>
+<gradient-brush name="scrollbar.thumb.over.horizontal" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="161 161 161" opacity="1" />
+<stop offset="0.191" color="255 255 255" opacity="1" />
+<stop offset="0.7135" color="214 214 214" opacity="1" />
+<stop offset="1" color="0 0 0" opacity="1" />
+</gradient-brush>
+<gradient-brush name="scrollbar.thumb.over.vertical" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="161 161 161" opacity="1" />
+<stop offset="0.191" color="255 255 255" opacity="1" />
+<stop offset="0.7135" color="214 214 214" opacity="1" />
+<stop offset="1" color="0 0 0" opacity="1" />
+</gradient-brush>
+<gradient-brush name="scrollbar.thumb.down.horizontal" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="161 161 161" opacity="1" />
+<stop offset="0.191" color="214 214 214" opacity="1" />
+<stop offset="0.7135" color="255 255 255" opacity="1" />
+<stop offset="1" color="0 0 0" opacity="1" />
+</gradient-brush>
+<gradient-brush name="scrollbar.thumb.down.vertical" direction="right" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="161 161 161" opacity="1" />
+<stop offset="0.191" color="214 214 214" opacity="1" />
+<stop offset="0.7135" color="255 255 255" opacity="1" />
+<stop offset="1" color="0 0 0" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.gripper.background" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="214 214 214" opacity="1" />
+<stop offset="1" color="214 214 214" opacity="1" />
+</gradient-brush>
+<gradient-brush name="tabpane.iconic.gripper.accepting.background" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="247 255 255" opacity="0.5" />
+<stop offset="0.2" color="65 157 232" opacity="0.5" />
+<stop offset="0.8" color="65 157 232" opacity="0.5" />
+<stop offset="1" color="50 84 168" opacity="0.5" />
+</gradient-brush>
+<gradient-brush name="menuitem.outerstroke" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="223 223 223" opacity="1" />
+<stop offset="0.59" color="234 234 234" opacity="1" />
+<stop offset="1" color="244 244 244" opacity="1" />
+</gradient-brush>
+<gradient-brush name="menuitem.innerstroke.hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="240 240 240" opacity="1" />
+<stop offset="0.61" color="220 220 220" opacity="1" />
+<stop offset="1" color="201 201 201" opacity="1" />
+</gradient-brush>
+<gradient-brush name="menuitem.innerstroke.active" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="166 166 166" opacity="1" />
+<stop offset="1" color="178 178 178" opacity="0.8" />
+</gradient-brush>
+<gradient-brush name="menuitem.fill.hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="232 232 232" opacity="1" />
+<stop offset="0.6" color="215 215 215" opacity="1" />
+<stop offset="1" color="199 199 199" opacity="1" />
+</gradient-brush>
+<gradient-brush name="menuitem.fill.active" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="184 184 184" opacity="1" />
+<stop offset="0.4" color="163 163 163" opacity="1" />
+<stop offset="1" color="143 143 143" opacity="1" />
+</gradient-brush>
+
+<font name="text.control.title" font-name="Tahoma" font-size="10" style="Bold" platform="all" />
+<font name="text.control.title.antialias" font-name="Tahoma" font-size="11" style="Bold" platform="all" />
+<font name="text.document.title" font-name="Tahoma" font-size="11" style="Bold" platform="all" />
+<font name="text.document.title.antialias" font-name="Tahoma" font-size="12" style="Bold" platform="all" />
+<font name="text.workspaceselector.value.antialias" font-name="Tahoma" font-size="12" style="Bold" platform="all" />
+<font name="text.control.value" font-name="Tahoma" font-size="11" platform="all" />
+<font name="text.control.value.antialias" font-name="Tahoma" font-size="12" platform="all" />
+<font name="text.document.value" font-name="Tahoma" font-size="12" platform="all" />
+<font name="text.document.value.antialias" font-name="Tahoma" font-size="13" platform="all" />
+<font name="text.menubar" font-name="Tahoma" font-size="12" platform="all" />
+
+<pen name="button.outerstroke" width="1" color="0 0 0" opacity="0.15" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="button.innerstroke" width="1" color="255 255 255" opacity="0.1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="button.cold" width="0.25" color="128 128 128" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="button.hot" width="0.25" color="128 128 128" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="button.active" width="0.25" color="107 107 107" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="button.inactive" width="0.25" color="107 107 107" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="border.stroke-shadow" width="1" color="0 0 0" opacity="0.04" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="border.stroke-outer" width="1" color="0 0 0" opacity="0.15" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="border.stroke-inner" width="1" color="255 255 255" opacity="0.2" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="border.stroke-identify" width="2" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="border.stroke-accept" width="2" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="palette.background" width="1" color="214 214 214" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.fronttab.understroke.cold" width="1" color="51 51 51" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.fronttab.shadowstroke.cold" width="1" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.fronttab.outerstroke.cold" width="1" color="0 0 0" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.fronttab.innerstroke.cold" width="1" color="255 255 255" opacity="0.2" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.backtab.shadowstroke.cold" width="1" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.backtab.outerstroke.cold" width="1" color="0 0 0" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.backtab.innerstroke.cold" width="1" color="255 255 255" opacity="0.2" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.backtab.shadowstroke.hot" width="1" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.backtab.outerstroke.hot" width="1" color="0 0 0" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.backtab.innerstroke.hot" width="1" color="255 255 255" opacity="0.2" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.nulltab.shadowstroke.cold" width="1" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.nulltab.outerstroke.cold" width="1" color="0 0 0" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.nulltab.innerstroke.cold" width="1" color="255 255 255" opacity="0.2" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.nulltab.shadowstroke.hot" width="1" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.nulltab.outerstroke.hot" width="1" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.nulltab.innerstroke.hot" width="1" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.dragtab.shadowstroke" width="1" color="0 0 0" opacity="0.1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.dragtab.outerstroke" width="1" color="0 0 0" opacity="0.3" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.dragtab.innerstroke" width="1" color="255 255 255" opacity="0.2" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.identifytab.outerstroke" width="1" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="tabgroup.identifytab.innerstroke" width="1" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="tabgroup.tabslist.outerstroke.cold" width="1" color="51 51 51" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabgroup.button.outerstroke-cold" width="1" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="tabgroup.button.outerstroke-hot" width="1" color="0 0 0" opacity="0.15" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="tabgroup.button.outerstroke-active" width="1" color="0 0 0" opacity="0.15" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="tabgroup.button.outerstroke-inactive" width="1" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="resizegripper.button.cold" width="0.25" color="217 217 217" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="tabpane.iconic.group.outer" width="1" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="tabpane.iconic.group.inner" width="1" color="255 255 255" opacity="0.3" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="tabpane.iconic.group.outer.accepting" width="1" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="tabpane.iconic.group.inner.accepting" width="1" color="65 157 232" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="tabpane.iconic.palette.outerstroke-cold" width="1" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabpane.iconic.palette.outerstroke-hot" width="1" color="115 115 115" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabpane.iconic.palette.outerstroke-active" width="1" color="102 102 102" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabpane.iconic.palette.outerstroke-selectedcold" width="1" color="87 87 87" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="tabpane.iconic.palette.outerstroke-selectedhot" width="1" color="102 102 102" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="controlbar.innerstroke" width="1" color="230 230 230" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="toolbar.solid.outer.stroke" width="1" color="180 180 180" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="toolbar.gripper.dotted.stroke" width="1" color="0 0 0" opacity="0.3" antialias="none" brightness-adjust="linear" platform="all" />
+<pen name="dock.shadow-stroke" width="1" color="127 127 127" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="dock.outer-stroke" width="1" color="40 40 40" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="dock.outer-stroke.alt" width="1" color="51 51 51" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="dock.inner-stroke" width="1" color="100 100 100" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="dock.inner-stroke.alt" width="1" color="100 100 100" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="dock.header-stroke" width="1" color="145 145 145" opacity="0.7" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="dock.header-stroke.alt" width="1" color="145 145 145" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="dock.pane-header-highlight" width="1" color="0 0 0" opacity="0.2" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="drawer.outer.edge" width="1" color="0 0 0" opacity="0.5" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="drawer.outer.edge.alt" width="1" color="51 51 51" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="drawer.middle.edge" width="1" color="60 60 60" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="receiving-strip.outer-stroke" width="1" color="0 0 0" opacity="0.25" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="receiving-strip.inner-stroke" width="1" color="118 118 118" opacity="0.35" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="application-container.outer-stroke" width="1" color="32 32 32" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="application-container.inner-stroke" width="1" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="application-container.docks.outer-stroke" width="1" color="255 255 255" opacity="0.5" antialias="medium" brightness-adjust="linear" platform="all" />
+<pen name="application-container.docks.inner-stroke" width="1" color="73 73 73" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="windowchrome.button.outerstroke-cold" width="1" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="windowchrome.button.outerstroke-hot" width="1" color="0 0 0" opacity="0.15" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="windowchrome.button.outerstroke-active" width="1" color="0 0 0" opacity="0.15" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="windowchrome.button.outerstroke-inactive" width="1" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="windowchrome.button.outerstroke-disabled" width="1" color="0 0 0" opacity="0" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="windowchromecontrol.border" width="1" color="0 0 0" opacity="0.15" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="windowchromecontrol.symbol" width="1" color="0 0 0" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="menubaritem.hot" width="1" color="0 0 0" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="menubaritem.active" width="1" color="0 0 0" opacity="1" antialias="medium" brightness-adjust="none" platform="all" />
+<pen name="document.dropzone.outerstroke" width="2" color="65 157 232" opacity="1" antialias="none" brightness-adjust="none" platform="all" />
+
+<size name="tabpane.icon" width="23" height="23" platform="all" />
+<size name="resizegripper.icon" width="15" height="15" platform="all" />
+<size name="dragdetection.box" width="5" height="5" platform="all" />
+<size name="dragdetection.quick.box" width="2" height="2" platform="all" />
+<size name="application-container.minimum" width="367" height="100" platform="all" />
+<size name="application-container.maximum" width="10000" height="10000" platform="all" />
+
+<boolean name="use.animations" value="true" platform="all" />
+<boolean name="use.persistent.drawer" value="true" platform="all" />
+<boolean name="use.transparency" value="true" platform="all" />
+<boolean name="use.tabletappearancemode.tabgroup" value="false" platform="all" />
+<boolean name="hide.floatingdocument.singletab" value="true" platform="all" />
+<boolean name="disallow.multiple.docuemnts" value="false" platform="all" />
+<boolean name="win.use.display.workarea" value="true" platform="all" />
+<boolean name="disallow.turnoff.revealstrips" value="false" platform="all" />
+<boolean name="use:autoshow.revealstrip" value="true" platform="all" />
+<boolean name="suppress.palette.resize.grippers" value="false" platform="all" />
+<boolean name="enable.debug.application.container.corner.resize" value="true" platform="all" />
+<boolean name="documents.floating.group-default" value="true" platform="all" />
+<boolean name="win32.disable.auto.zorder.sorter" value="false" platform="all" />
+<boolean name="tint.transparent.windows" value="false" platform="all" />
+<boolean name="show.dropzone.windows" value="false" platform="all" />
+<boolean name="show.cursor.hotspot" value="false" platform="all" />
+<boolean name="enable.debug.info.overlay" value="false" platform="all" />
+<boolean name="show.dropshadow" value="false" platform="all" />
+
+<float name="occlusion.threshold" value="0.06" platform="all" />
+<float name="snap.proximity" value="8" platform="all" />
+<float name="ui.cs.brightness.default" value="0.877" platform="all" />
+<float name="ui.cs.brightness.dark.0" value="0.96" platform="all" />
+<float name="ui.cs.brightness.dark.1" value="0.877" platform="all" />
+<float name="ui.cs.brightness.dark.2" value="0.78" platform="all" />
+<float name="ui.cs.brightness.dark.3" value="0.69" platform="all" />
+<float name="ui.cs.brightness.dark.4" value="0.6" platform="all" />
+<float name="cs.tabgroup.palettetab.height" value="17" platform="all" />
+<float name="cs.tabgroup.documenttab.height" value="19" platform="all" />
+<float name="ui.cs.receiving.strip.width" value="23" platform="all" />
+<float name="ui.cs.receiving.strip.active.width" value="23" platform="all" />
+<float name="ui.cs.receiving.strip.controlbar.width" value="18" platform="all" />
+<float name="ui.cs.receiving.strip.tabpane.bottom.height" value="40" platform="all" />
+<float name="dock.reveal.hot.zone" value="40" platform="all" />
+<float name="dock.reveal.strip.delay" value="0.1" platform="all" />
+<float name="dock.reveal.strip.hide.delay" value="0.85" platform="all" />
+<float name="dock.reveal.delay" value="0.35" platform="all" />
+<float name="dock.conceal.delay" value="0.7" platform="all" />
+<float name="ui.cs.tabpane.separator.width" value="3" platform="all" />
+<float name="ui.cs.tabpane.document.separator.width" value="5" platform="all" />
+<float name="tabpane.width.max" value="500" platform="all" />
+<float name="tabgroup.dropzone.accept.height" value="28" platform="all" />
+<float name="tabgroup.dropzone.leftsibling.height" value="13" platform="all" />
+<float name="tabgroup.dropzone.rightsibling.height" value="50" platform="all" />
+<float name="tabpane.dropzone.bottom.height" value="40" platform="all" />
+<float name="tooltip.tablabel.threshold.left" value="0.8" platform="all" />
+<float name="tooltip.tablabel.threshold.right" value="0.6" platform="all" />
+<float name="tooltip.iconlabel.threshold" value="0.8" platform="all" />
+<float name="tooltip.tabpaneiconmode.verticaloffset" value="23" platform="all" />
+<float name="tooltip.horizontal-paneheaderbar.verticaloffset" value="17" platform="all" />
+<float name="tabgroup.dropzone.ascent" value="50" platform="all" />
+<float name="tabgroup.dropzone.descent" value="6" platform="all" />
+<float name="tabgroup.dropzone.deadspace" value="7" platform="all" />
+<float name="document.dropzone.height" value="18" platform="all" />
+<float name="tabpane.icon.default.max.width" value="225" platform="all" />
+<float name="tabpane.iconviewswitch.buffer" value="10" platform="all" />
+<float name="dropzone.appeareance.size" value="5" platform="all" />
+<float name="dock.dropzone.target.inset" value="7" platform="all" />
+<float name="dock.outline.height-change-tolerance" value="6" platform="all" />
+<float name="tabpane.autoflow.snap.gap" value="30" platform="all" />
+<float name="tooltip.milliseconds-delay" value="750" platform="all" />
+<float name="tooltip.milliseconds-maxduration" value="5000" platform="all" />
+<float name="tooltip.milliseconds-instantinterval" value="250" platform="all" />
+<float name="applicationcontainer.titlebar.height" value="34" platform="all" />
+<float name="floatingdocument.titlebar.height" value="20" platform="all" />
+<float name="statusbar.height" value="0" platform="all" />
+<float name="getmenuitemmetrics.messagedefinition" value="0" platform="all" />
+<float name="getmenureference.messagedefinition" value="0" platform="all" />
+<float name="layout.timer.delay" value="100" platform="all" />
+
+<string name="contextmenu.group.close" value="Close Tab Group" platform="all" />
+<string name="contextmenu.group.minimize" value="Minimize" platform="all" />
+<string name="contextmenu.group.restore" value="Expand Tab Group" platform="all" />
+<string name="contextmenu.palette.close" value="Close" platform="all" />
+<string name="contextmenu.palette.minimize" value="Minimize" platform="all" />
+<string name="contextmenu.palette.restore" value="Expand Panel" platform="all" />
+<string name="contextmenu.tabpane.close" value="Close" platform="all" />
+<string name="contextmenu.tabpane.collapse" value="Collapse to Icons" platform="all" />
+<string name="contextmenu.tabpane.expand" value="Expand Panels" platform="all" />
+<string name="contextmenu.drawers.keep-open" value="Auto-Collapse Iconic Panels" platform="all" />
+<string name="contextmenu.reveal-strip.autoshow" value="Auto-Show Hidden Panels" platform="all" />
+<string name="contextmenu.uioptions.show" value="Panel Preferences…" platform="all" />
+<string name="tooltip.drawer.collapse" value="Collapse Panel" platform="all" />
+<string name="tooltip.panel.flyout" value="Panel Options" platform="all" />
+<string name="tooltip.panel.cycle" value="Show More Options" platform="all" />
+<string name="tooltip.document-group.flyout" value="More Documents" platform="all" />
+<string name="tooltip.workspace-switcher" value="Select a Workspace" platform="all" />
+<string name="tooltip.toolbar.flyout" value="Toolbar Options" platform="all" />
+<string name="tooltip.tabpane.collapse" value="Collapse to Icons" platform="all" />
+<string name="tooltip.tabpane.expand" value="Expand Panels" platform="all" />
+<string name="contextmenu.document.consolidatealltohere" value="Consolidate All to Here" platform="all" />
+<string name="contextmenu.document.close" value="Close" platform="all" />
+<string name="contextmenu.document.closeall" value="Close All" platform="all" />
+<string name="contextmenu.document.newdocument" value="New Document" platform="all" />
+<string name="contextmenu.document.opendocument" value="Open Document" platform="all" />
+<string name="contextmenu.document.openinnewwindow" value="Move to New Window" platform="all" />
+<string name="application.name" value="Adobe InDesign CS4" platform="all" />
+
+</owl-theme>

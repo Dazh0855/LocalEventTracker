@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Оновлення та настройки конфіденц.</StartMenuShortcutName>
+  <toast launch="/privacysettings /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Перед інсталяцією оновлення Windows 10 для креативу необхідно переглянути настройки конфіденційності.</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>

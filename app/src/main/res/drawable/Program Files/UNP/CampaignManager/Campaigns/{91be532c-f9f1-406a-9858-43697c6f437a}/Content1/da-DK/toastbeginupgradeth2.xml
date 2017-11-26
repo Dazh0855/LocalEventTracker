@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Opdatering og fortrolighed</StartMenuShortcutName>
+  <toast launch="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Bare en påmindelse, om at din Windows 10 Creators Update er klar.</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>

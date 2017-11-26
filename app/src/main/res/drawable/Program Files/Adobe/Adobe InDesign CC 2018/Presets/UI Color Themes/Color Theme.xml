@@ -1,0 +1,228 @@
+﻿<owl-theme>
+
+<!-- Known to work with Owl v2.0.37 -->
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Solid Colors for Panels ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<color-brush name="tabgroup.nulltab.background.cold" color="206 203 186" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="tabgroup.nulltab.background.hot" color="206 203 186" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="palette.background" color="236 233 216" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="palette.background-null" color="236 0 216" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Solid Colors for Panels ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Solid Colors Application, Application Bar, and Application Bar Vertical Dividers ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<color-brush name="applicationcontainer.background" color="236 233 216" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="applicationcontainer.titlebar" color="236 233 216" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+<color-brush name="applicationbar.background" color="236 233 216" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" /> 
+<color-brush name="applicationbar.outerdivider" color="255 255 255" opacity="0.33" antialias="medium" brightness-adjust="none" platform="all" />
+<color-brush name="applicationbar.innerdivider" color="0 0 0" opacity="0.33" antialias="medium" brightness-adjust="none" platform="all" />
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Solid Colors Application, Application Bar, and Application Bar Vertical Dividers ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Gradients for Iconic Panels, Menus, and Workspace Switcher ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+<!-- outer highlight on iconic panel buttons rollover -->
+<gradient-brush name="tabpane.iconic.palette.bevelstroke-hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="223 222 213" opacity="1" /> 
+<stop offset="0.6" color="234 233 224" opacity="1" />
+<stop offset="1" color="244 243 234" opacity="1" />
+</gradient-brush>
+<!-- and menus -->
+<gradient-brush name="menuitem.outerstroke" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="223 222 213" opacity="1" />
+<stop offset="0.59" color="234 233 224" opacity="1" />
+<stop offset="1" color="244 243 234" opacity="1" />
+</gradient-brush>
+<!-- and workspace switcher -->
+<gradient-brush name="workspaceselector.shadow.fill-hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="223 222 213" opacity="1" />
+<stop offset="0.6" color="234 233 224" opacity="1" />
+<stop offset="1" color="244 243 234" opacity="1" />
+</gradient-brush>
+
+
+<!-- inner highlight on iconic panel buttons rollover -->
+<gradient-brush name="tabpane.iconic.palette.innerstroke-hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="240 239 230" opacity="1" />
+<stop offset="0.6" color="220 219 210" opacity="1" />
+<stop offset="1" color="200 199 190" opacity="1" />
+</gradient-brush>
+<!-- and menus -->
+<gradient-brush name="menuitem.innerstroke.hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="240 239 230" opacity="1" />
+<stop offset="0.61" color="220 219 210" opacity="1" />
+<stop offset="1" color="200 199 190" opacity="1" />
+</gradient-brush>
+<!-- and workspace switcher -->
+<gradient-brush name="workspaceselector.bevelinnerfill-hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="240 239 230" opacity="1" />
+<stop offset="0.6" color="220 219 210" opacity="1" />
+<stop offset="1" color="200 199 190" opacity="1" />
+</gradient-brush>
+
+
+<!-- outer highlight on iconic panel buttons selected and selected-rollover  -->
+<gradient-brush name="tabpane.iconic.palette.bevelstroke-active" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="223 222 213" opacity="1" />
+<stop offset="0.6" color="234 233 224" opacity="1" />
+<stop offset="1" color="244 243 234" opacity="1" />
+</gradient-brush>
+<!-- and workspace switcher -->
+<gradient-brush name="workspaceselector.shadow.fill-active" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="223 222 213" opacity="1" />
+<stop offset="0.6" color="234 233 224" opacity="1" />
+<stop offset="1" color="244 243 234" opacity="1" />
+</gradient-brush>
+
+
+<!-- inner highlight on iconic panel buttons selected and selected-rollover -->
+<gradient-brush name="tabpane.iconic.palette.innerstroke-active" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="186 185 176" opacity="1" />
+<stop offset="1" color="178 177 168" opacity="1" />
+</gradient-brush>
+<!-- and menus -->
+<gradient-brush name="menuitem.innerstroke.active" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="186 185 176" opacity="1" />
+<stop offset="1" color="178 177 168" opacity="1" />
+</gradient-brush>
+<!-- and workspace switcher -->
+<gradient-brush name="workspaceselector.bevelinnerfill-active" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="186 185 176" opacity="1" />
+<stop offset="0.5" color="182 181 172" opacity="1" />
+<stop offset="1" color="178 177 168" opacity="1" />
+</gradient-brush>
+
+
+
+<!-- main rollover for iconic panel buttons  -->
+<gradient-brush name="tabpane.iconic.palette.background-hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="233 231 218" opacity="1" />
+<stop offset="0.6" color="224 220 207" opacity="1" />
+<stop offset="1" color="215 212 196" opacity="1" />
+</gradient-brush>
+<!-- and menus -->
+<gradient-brush name="menuitem.fill.hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="233 231 218" opacity="1" />
+<stop offset="0.6" color="224 220 207" opacity="1" />
+<stop offset="1" color="215 212 196" opacity="1" />
+</gradient-brush>
+<!-- and workspace switcher -->
+<gradient-brush name="workspaceselector.innerfill-hot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="233 231 218" opacity="1" />
+<stop offset="0.6" color="224 220 207" opacity="1" />
+<stop offset="1" color="215 212 196" opacity="1" />
+</gradient-brush>
+
+
+<!-- main background for drag image of an iconic panel button  -->
+<gradient-brush name="tabpane.iconic.palette.background-active" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="184 183 174" opacity="1" />
+<stop offset="0.6" color="163 162 153" opacity="1" />
+<stop offset="1" color="143 142 133" opacity="1" />
+</gradient-brush>
+
+
+<!-- main background for a selected iconic panel button -->
+<gradient-brush name="tabpane.iconic.palette.background-selectedcold" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="204 203 194" opacity="1" /> 
+<stop offset="0.6" color="183 182 173" opacity="1" /> 
+<stop offset="1" color="163 162 153" opacity="1" /> 
+</gradient-brush>
+<!-- and menus -->
+<gradient-brush name="menuitem.fill.active" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="204 203 194" opacity="1" />
+<stop offset="0.37" color="183 182 173" opacity="1" />
+<stop offset="1" color="163 162 153" opacity="1" />
+</gradient-brush>
+<!-- and workspace switcher -->
+<gradient-brush name="workspaceselector.innerfill-active" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="204 203 194" opacity="1" />
+<stop offset="0.6" color="183 182 173" opacity="1" />
+<stop offset="1" color="163 162 153" opacity="1" />
+</gradient-brush>
+
+<!-- main background for a selected and rolled over iconic panel button -->
+<gradient-brush name="tabpane.iconic.palette.background-selectedhot" direction="down" antialias="medium" brightness-adjust="none" platform="all">
+<stop offset="0" color="199 198 189" opacity="1" />
+<stop offset="0.6" color="178 177 168" opacity="1" />
+<stop offset="1" color="158 157 148" opacity="1" />
+</gradient-brush>
+
+<!-- Background behind grippers for iconic panels -->
+<gradient-brush name="tabpane.iconic.gripper.background" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="236 233 216" opacity="1" />
+<stop offset="1" color="236 233 216" opacity="1" />
+</gradient-brush>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Gradients for Iconic Panels, Menus, and Workspace Switcher ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Gradients for Panels ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!--  Front Tab Regular -->
+<gradient-brush name="tabgroup.fronttab.gradient.cold" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="255 255 225" opacity="1" />
+<stop offset="0.3" color="245 243 229" opacity="1" />
+<stop offset="1" color="236 233 216" opacity="1" />
+</gradient-brush>
+
+<!-- Front Tab Rollover -->
+<gradient-brush name="tabgroup.fronttab.gradient.hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="255 254 247" opacity="1" />
+<stop offset="0.3" color="245 243 229" opacity="1" />
+<stop offset="1" color="236 233 216" opacity="1" />
+</gradient-brush>
+
+<!-- Back Tab Regular -->
+<gradient-brush name="tabgroup.backtab.gradient.cold" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="213 211 198" opacity="1" />
+<stop offset="1" color="195 192 176" opacity="1" />
+</gradient-brush>
+
+<!-- Back Tab Rollover -->
+<gradient-brush name="tabgroup.backtab.gradient.hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="233 231 218" opacity="1" />
+<stop offset="1" color="215 212 196" opacity="1" />
+</gradient-brush>
+
+
+<!-- Tab Well Rollover -->
+<gradient-brush name="tabgroup.tabwell.fill-hot" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="213 211 198" opacity="1" />
+<stop offset="1" color="195 192 176" opacity="1" />
+</gradient-brush>
+
+<!-- Tab Well Regular-->
+<gradient-brush name="tabgroup.tabwell.fill-cold" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="213 211 198" opacity="1" />
+<stop offset="1" color="195 192 176" opacity="1" />
+</gradient-brush>
+
+<!-- Down state for tabs and while dragging  -->
+<gradient-brush name="tabgroup.dragtab.gradient" direction="down" antialias="medium" brightness-adjust="linear" platform="all">
+<stop offset="0" color="189 186 171" opacity="1" />
+<stop offset="1" color="236 233 216" opacity="1" />
+</gradient-brush>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Gradients for Panels ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Outline around menu button in toolbar, blend to background ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+<!-- tan  --><pen name="palette.background" width="1" color="236 233 216" opacity="1" antialias="medium" brightness-adjust="linear" platform="all" />
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Outline around menu button in toolbar, blend to background ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+
+
+
+</owl-theme>

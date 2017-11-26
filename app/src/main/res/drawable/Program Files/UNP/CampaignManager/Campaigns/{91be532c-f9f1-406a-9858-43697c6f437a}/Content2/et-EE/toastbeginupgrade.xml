@@ -1,0 +1,13 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Värskendus- ja privaatsussätted</StartMenuShortcutName>
+  <toast launch="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Meeldetuletus: Windows 10 Creators Update on installimiseks valmis.</text>
+      </binding>
+    </visual>
+    <actions>
+      <action activationType="foreground" content="Alusta värskendamist" arguments="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}" />
+    </actions>
+  </toast>
+</UNPToastRoot>

@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Atualização e Privacidade</StartMenuShortcutName>
+  <toast launch="/privacysettings /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Antes de instalar a Atualização do Windows 10 para Criadores, você precisará revisar suas configurações de privacidade.</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>

@@ -1,0 +1,13 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Frissítés és adatvédelmi beállítások</StartMenuShortcutName>
+  <toast launch="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Ne feledje, hogy a Windows 10 alkotói frissítés készen áll a telepítésre.</text>
+      </binding>
+    </visual>
+    <actions>
+      <action activationType="foreground" content="A frissítés megkezdése" arguments="/beginupdate /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}" />
+    </actions>
+  </toast>
+</UNPToastRoot>

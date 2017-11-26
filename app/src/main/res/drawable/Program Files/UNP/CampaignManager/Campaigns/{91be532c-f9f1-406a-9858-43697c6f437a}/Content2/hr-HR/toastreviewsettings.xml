@@ -1,0 +1,10 @@
+<UNPToastRoot>
+  <StartMenuShortcutName>Postavke ažuriranja i zaštite privatnosti</StartMenuShortcutName>
+  <toast launch="/privacysettings /campaignID {91be532c-f9f1-406a-9858-43697c6f437a}">
+    <visual>
+      <binding template="ToastGeneric">
+        <text>Prije nego instalirate Windows 10 - ažuriranje za kreativne, morate pregledati svoje postavke zaštite privatnosti.</text>
+      </binding>
+    </visual>
+  </toast>
+</UNPToastRoot>
