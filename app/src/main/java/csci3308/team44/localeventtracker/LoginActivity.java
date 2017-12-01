@@ -18,6 +18,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -54,7 +55,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     /**
      * API url for POST requests
      */
-    String url = "http://138.197.207.68/api";
+    String url = "http://138.197.207.68/accounts/login";
     /**
      * Id to identity READ_CONTACTS permission request.
      */
@@ -239,6 +240,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             public void onResponse(String response) {
                 //This code is executed if the server responds, whether or not the response contains data.
                 //The String 'response' contains the server's response.
+                Log.d("Response", response);
             }
         }, new Response.ErrorListener() { //Create an error listener to handle errors appropriately.
             @Override
@@ -254,6 +256,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 return MyData;
             }
         };
+
+        try {
+            MyRequestQueue.add(MyStringRequest);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         // Check for a valid password, if the user entered one.
         if (!TextUtils.isEmpty(password) && !isPasswordValid(password)) {
