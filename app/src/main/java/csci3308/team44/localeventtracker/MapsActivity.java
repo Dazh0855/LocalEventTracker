@@ -51,6 +51,8 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnMapLongClickListener;
 import com.google.android.gms.maps.LocationSource;
@@ -64,7 +66,9 @@ import com.android.volley.toolbox.JsonObjectRequest;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.os.Bundle;
 import android.Manifest;
@@ -78,6 +82,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /*
  * This shows how to use a custom location source.
@@ -199,6 +204,49 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     @Override
     public void onMapReady(GoogleMap map) {
+        /**
+         * Zip code decoded to lat and long should be placed here
+         */
+//        boolean cancel = false;
+//        View focusView = null;
+//        RequestQueue MyRequestQueue = Volley.newRequestQueue(this);
+//
+//        StringRequest MyStringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
+//            @Override
+//            public void onResponse(String response) {
+//                //This code is executed if the server responds, whether or not the response contains data.
+//                //The String 'response' contains the server's response.
+//                JSONObject obj = null;
+//                try {
+//                    obj = new JSONObject(response);
+//                } catch (JSONException e) {
+//                    Log.e("onMapReady", "unexpected JSON exception", e);
+//                }
+//                displayData(obj);
+//                Log.d("Response", response);
+//            }
+//        }, new Response.ErrorListener() { //Create an error listener to handle errors appropriately.
+//            @Override
+//            public void onErrorResponse(VolleyError error) {
+//                mTextMessage.setError("Server could not be reached");
+//                mTextMessage.requestFocus();
+//            }
+//        }) {
+//            protected Map<String, String> getParams() {
+//                Map<String, String> MyData = new HashMap<String, String>();
+//                MyData.put("latitude", latVar);
+//                MyData.put("longitude", longVar);
+//                return MyData;
+//            }
+//        };
+//
+//        try {
+//            MyRequestQueue.add(MyStringRequest);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
+
         mMap = map;
         JSONObject outObject = new JSONObject();
         JsonObjectRequest jsObjRequest = new JsonObjectRequest(Request.Method.GET, url, outObject, new com.android.volley.Response.Listener<JSONObject>() {
