@@ -123,6 +123,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     // UI references.
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
+    EditText mZipcode;
     private View mProgressView;
     private View mLoginFormView;
 
@@ -134,6 +135,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
+
+        mZipcode = (EditText) findViewById(R.id.zipcode);
 
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -230,6 +233,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         // Store values at the time of the login attempt.
         String email = mEmailView.getText().toString();
         String password = mPasswordView.getText().toString();
+
 
         boolean cancel = false;
         View focusView = null;
@@ -437,9 +441,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(false);
 
             if (success) {
-                //Intent intent1 = new Intent(getApplicationContext(), MainActivity.class);
-                //startActivity(intent1);
+                String Zipcode = mZipcode.getText().toString();
+                int zip = Integer.parseInt(Zipcode);
                Intent intent2 = new Intent(getApplicationContext(), MapsActivity.class);
+               intent2.putExtra("mZip",zip);
                 startActivity(intent2);
 
             }

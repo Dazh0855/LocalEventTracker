@@ -1,74 +1,33 @@
-/*package csci3308.team44.localeventtracker;
-
-import android.support.v4.app.FragmentActivity;
-import android.os.Bundle;
-
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
-
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
-
-    private GoogleMap mMap;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maps);
-        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
-    }
-
-
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-
-    @Override
-    public void onMapReady(GoogleMap googleMap) {
-        mMap = googleMap;
-
-        // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-    }
-}
-*/
 package csci3308.team44.localeventtracker;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnMapLongClickListener;
 import com.google.android.gms.maps.LocationSource;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.model.MarkerOptions;
+import android.util.Log;
 
+import java.io.FileReader;
+import java.io.File;
+import java.io.IOException;
+//import com.jayway.restassured.path.json.JsonPath
+import java.io.BufferedReader;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+//import java.net.{URL, URLEncoder}
 import com.android.volley.toolbox.JsonObjectRequest;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.TextView;
 import android.os.Bundle;
 import android.Manifest;
@@ -78,11 +37,8 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
+import java.io.InputStreamReader;
 import java.util.HashMap;
-import java.util.Map;
 
 /*
  * This shows how to use a custom location source.
@@ -91,9 +47,81 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private GoogleMap mMap;
     private TextView mTextMessage;
+
+    int zipsent = 0;
+    String intLat;
+    String intLon;
+
+
     String url = "http://138.197.207.68/api";
+   // String GEO_CODE_SERVER = "http://maps.googleapis.com/maps/api/geocode/json?";
+
     HashMap<String, String> apiHeaders = new HashMap<String, String>();
     JSONObject data;
+
+    public void getLatLon (String zipSearch) throws IOException {
+        /*FileReader input = new FileReader("ZipCodes.txt");
+        BufferedReader bufRead = new BufferedReader(input);
+        String myLine = null;
+
+
+        while ((myLine = bufRead.readLine()) != null) {
+            String[] split = myLine.trim().split(" ");
+            if (split.length < 1)
+            {
+               break;//return null;
+            }
+
+            String ord = split[0];
+            Toast.makeText(MapsActivity.this,ord, Toast.LENGTH_SHORT).show();
+            if (ord == zipSearch)
+            {
+
+                intLat = split[1];
+                intLon = split[2];
+                break;
+            }
+        }*/
+        BufferedReader reader = null;
+        try {
+            reader = new BufferedReader(
+                    new InputStreamReader(getAssets().open("/Users/juanchavez/Desktop/LocalEventTracker/Zipcode.txt")));
+
+            // do reading, usually loop until end of file reading
+            String mLine;
+            while ((mLine = reader.readLine()) != null) {
+                //process line
+                String[] split = mLine.trim().split(" ");
+                if (split.length < 1)
+                {
+                    break;//return null;
+                }
+
+                String ord = split[0];
+                Toast.makeText(MapsActivity.this,ord, Toast.LENGTH_SHORT).show();
+                if (ord == zipSearch)
+                {
+
+                    intLat = split[1];
+                    intLon = split[2];
+                    break;
+                }
+            }
+        } catch (IOException e) {
+            //log the exception
+            e.printStackTrace();
+        } finally {
+            if (reader != null) {
+                try {
+                    reader.close();
+                } catch (IOException e) {
+                    //log the exception
+                    e.printStackTrace();
+                }
+            }
+        }
+        Toast.makeText(MapsActivity.this,"Didnt read file properly", Toast.LENGTH_SHORT).show();
+    }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -172,22 +200,15 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
+        Bundle bundle = getIntent().getExtras();
+        zipsent = bundle.getInt("mZip");
+        //Toast.makeText(MapsActivity.this, zipsent, Toast.LENGTH_SHORT).show();
+
         mLocationSource = new LongPressLocationSource();
 
         SupportMapFragment mapFragment =
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-       // mTextMessage = (TextView) findViewById(R.id.message);
-        //BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        //navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-       /*Button btn = findViewById(R.id.navigation_settings);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent2 = new Intent(getApplicationContext(), LoginActivity.class);
-                startActivity(intent2);
-            }
-        });*/
     }
 
     @Override
@@ -246,6 +267,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 //            e.printStackTrace();
 //        }
 
+        String zips = Integer.toString(zipsent);
+        try {
+            getLatLon(zips);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+       // int FinalLat = Integer.parseInt(intLat);
+       // int FinalLong = Integer.parseInt(intLon);
+       Toast.makeText(MapsActivity.this, intLat, Toast.LENGTH_LONG).show();
+        //Toast.makeText(MapsActivity.this, FinalLong, Toast.LENGTH_LONG).show();
+
 
         mMap = map;
         JSONObject outObject = new JSONObject();
@@ -267,9 +299,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         RequestQueue queue = MySingleton.getInstance(this.getApplicationContext()).getRequestQueue();
 
         // Add a marker Boulder in sydney and move the camera
-        LatLng boulder = new LatLng(40.014984,-105.270546);
-        mMap.addMarker(new MarkerOptions().position(boulder).title("Marker in Boulder"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(boulder));
+
+
+
+        //LatLng boulder = new LatLng(FinalLat,FinalLong);
+       // mMap.addMarker(new MarkerOptions().position(boulder).title("Marker in Boulder"));
+        //mMap.moveCamera(CameraUpdateFactory.newLatLng(boulder));
         map.setLocationSource(mLocationSource);
         map.setOnMapLongClickListener(mLocationSource);
 
@@ -324,5 +359,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
     }
 }
+
 
 
