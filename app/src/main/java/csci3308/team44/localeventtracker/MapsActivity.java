@@ -55,10 +55,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     String zipsent = "";
     String intLat;
     String intLon;
-    String url = "http://138.197.207.68/api";
-
-    int FinalLat = 0;
-    int FinalLong = 0;
+    String url = "http://165.227.7.154/api/getEvent";
 
     HashMap<String, String> apiHeaders = new HashMap<String, String>();
     JSONObject data;
@@ -80,17 +77,21 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 }
 
                 String ord = split[0];
-                Toast.makeText(MapsActivity.this,ord, Toast.LENGTH_SHORT).show();
                 if (ord.equals(zipSearch))
                 {
 
                     intLat = split[1];
-                    intLon = split[2].substring(1);
+                    if(split[2].substring(0,1) == " ") {
+                        intLon = split[2].substring(1);
+                    }
+                    else intLon = split[2];
                     break;
                 }
             }
+
         } catch (IOException e) {
             //log the exception
+            Toast.makeText(MapsActivity.this,"Didnt read file properly", Toast.LENGTH_SHORT).show();
             e.printStackTrace();
         } finally {
             if (reader != null) {
@@ -102,7 +103,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 }
             }
         }
-        Toast.makeText(MapsActivity.this,"Didnt read file properly", Toast.LENGTH_SHORT).show();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -214,11 +214,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         } catch (IOException e) {
             e.printStackTrace();
         }
-        FinalLat = Integer.parseInt(intLat);
-        FinalLong = Integer.parseInt(intLon);
-
-        final String latVar = "39.979999";
-        final String longVar = "-105.248737";
         boolean cancel = false;
         View focusView = null;
         RequestQueue MyRequestQueue = Volley.newRequestQueue(this);
@@ -246,8 +241,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         }) {
             protected Map<String, String> getParams() {
                 Map<String, String> MyData = new HashMap<String, String>();
-                MyData.put("latitude", latVar);
-                MyData.put("longitude", longVar);
+                MyData.put("latitude", intLat);
+                MyData.put("longitude", intLon);
                 MyData.put("radius", "30");
                 return MyData;
             }
@@ -260,28 +255,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
 
         mMap = map;
-        JSONObject outObject = new JSONObject();
-        JsonObjectRequest jsObjRequest = new JsonObjectRequest(Request.Method.GET, url, outObject, new com.android.volley.Response.Listener<JSONObject>() {
-            @Override
-            public void onResponse(JSONObject response) {
-                MapsActivity.this.data = response;
-                displayData(response);
-            }
-        }, new Response.ErrorListener(){
-            @Override
-            public void onErrorResponse(VolleyError error){
-                Toast.makeText(MapsActivity.this, "No Maps API call could be made", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        MySingleton.getInstance(this).addToRequestQueue(jsObjRequest);
-
-        RequestQueue queue = MySingleton.getInstance(this.getApplicationContext()).getRequestQueue();
 
         // Add a marker Boulder in sydney and move the camera
-        LatLng boulder = new LatLng(FinalLat,FinalLong);
-        mMap.addMarker(new MarkerOptions().position(boulder).title("You are around Here!"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(boulder));
+        double parsedLat = Double.parseDouble(intLat);
+        double parsedLon = Double.parseDouble(intLon);
+        LatLng myCity = new LatLng(parsedLat,parsedLon);
+        mMap.addMarker(new MarkerOptions().position(myCity).title("You are around Here!"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(myCity));
         map.setLocationSource(mLocationSource);
         map.setOnMapLongClickListener(mLocationSource);
 
@@ -299,8 +279,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     }
 
-    private void dropPin(double lat, double lng) {
-        mMap.addMarker(new MarkerOptions().position(new LatLng(lat,lng)).title("Marker"));
+    private void dropPin(double lat, double lng, String description, String title) {
+        if(description == "null") {
+            mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).title(title));
+        }
+        else {
+            mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).title(title).snippet(description));
+        }
 
     }
 
@@ -309,14 +294,16 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         //Toast.makeText(MainActivity.this, data.toString(), Toast.LENGTH_LONG).show();
 
         try {
-            JSONObject events = data.getJSONObject("events");
+            JSONObject events = dataIN.getJSONObject("events");
             int num = events.getJSONArray("event").length();
             for ( int i=0; i<=num; i++ ) {
                 Object dat = events.getJSONArray("event").get(i);
                 double lat = new Double(((JSONObject) dat).get("latitude").toString());
                 double lng = new Double(((JSONObject) dat).get("longitude").toString());
+                String description = new String(((JSONObject) dat).get("description").toString());
+                String title = new String(((JSONObject) dat).get("title").toString());
 
-                dropPin(lat, lng);
+                dropPin(lat, lng, description, title);
             }
         }
         catch (JSONException e) {

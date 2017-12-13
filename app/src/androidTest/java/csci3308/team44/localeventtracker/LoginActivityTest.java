@@ -12,6 +12,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import android.support.test.espresso.Espresso;
+import android.view.View;
 
 import static android.support.test.espresso.Espresso.closeSoftKeyboard;
 import static android.support.test.espresso.Espresso.onView;
@@ -46,6 +47,7 @@ public class LoginActivityTest {
         onView(withId(R.id.email)).perform(typeText("first.last@colorado.edu"));
         onView(withId(R.id.password)).perform(typeText("asdf123"));
         closeSoftKeyboard();
+
         onView(withId(R.id.email_sign_in_button)).perform(click());
 
         onView(withId(R.id.map)).check(matches(isDisplayed()));

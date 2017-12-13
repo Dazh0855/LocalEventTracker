@@ -32,6 +32,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -55,7 +56,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     /**
      * API url for POST requests
      */
-    String url = "http://138.197.207.68/accounts/login";
+    String url = "http://165.227.7.154/accounts/login";
     /**
      * Id to identity READ_CONTACTS permission request.
      */
@@ -245,6 +246,19 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 //This code is executed if the server responds, whether or not the response contains data.
                 //The String 'response' contains the server's response.
                 Log.d("Response", response);
+                if(Integer.parseInt(response) == 0){
+                    Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                }
+                else if(Integer.parseInt(response) == 1){
+                    Toast.makeText(LoginActivity.this, "New User Created", Toast.LENGTH_SHORT).show();
+                }
+                else if(Integer.parseInt(response) == 2){
+                    Toast.makeText(LoginActivity.this, "Login Failed, Try Again", Toast.LENGTH_SHORT).show();
+                    mPasswordView.setError(getString(R.string.error_incorrect_password));
+                    mPasswordView.requestFocus();
+                    mAuthTask.cancel(true);
+                }
+                else Log.e("Fatal", "Received nonstandard response from login POST");
             }
         }, new Response.ErrorListener() { //Create an error listener to handle errors appropriately.
             @Override
@@ -442,9 +456,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
             if (success) {
                 String Zipcode = mZipcode.getText().toString();
-                int zip = Integer.parseInt(Zipcode);
-               Intent intent2 = new Intent(getApplicationContext(), MapsActivity.class);
-               intent2.putExtra("mZip",Zipcode);
+                Intent intent2 = new Intent(getApplicationContext(), MapsActivity.class);
+                intent2.putExtra("mZip",Zipcode);
                 startActivity(intent2);
 
             }
