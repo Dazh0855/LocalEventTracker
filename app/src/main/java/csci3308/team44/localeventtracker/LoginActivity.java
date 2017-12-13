@@ -444,7 +444,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 String Zipcode = mZipcode.getText().toString();
                 int zip = Integer.parseInt(Zipcode);
                Intent intent2 = new Intent(getApplicationContext(), MapsActivity.class);
-               intent2.putExtra("mZip",zip);
+               intent2.putExtra("mZip",Zipcode);
                 startActivity(intent2);
 
             }

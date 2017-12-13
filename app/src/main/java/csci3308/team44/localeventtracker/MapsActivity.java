@@ -52,7 +52,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private GoogleMap mMap;
     private TextView mTextMessage;
 
-    int zipsent = 0;
+    String zipsent = "";
     String intLat;
     String intLon;
 
@@ -95,7 +95,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             String mLine;
             while ((mLine = reader.readLine()) != null) {
                 //process line
-                String[] split = mLine.trim().split(" ");
+                String[] split = mLine.trim().split(",");
                 if (split.length < 1)
                 {
                     break;//return null;
@@ -103,7 +103,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
                 String ord = split[0];
                 Toast.makeText(MapsActivity.this,ord, Toast.LENGTH_SHORT).show();
-                if (ord == zipSearch)
+                if (ord.equals(zipSearch))
                 {
 
                     intLat = split[1];
@@ -205,7 +205,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_maps);
 
         Bundle bundle = getIntent().getExtras();
-        zipsent = bundle.getInt("mZip");
+        zipsent = bundle.getString("mZip");
         //Toast.makeText(MapsActivity.this, zipsent, Toast.LENGTH_SHORT).show();
 
         mLocationSource = new LongPressLocationSource();
@@ -275,9 +275,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             e.printStackTrace();
         }
 
-        String zips = Integer.toString(zipsent);
+        //String zips = Integer.toString(zipsent);
         try {
-            getLatLon(zips);
+            getLatLon(zipsent);
         } catch (IOException e) {
             e.printStackTrace();
         }
