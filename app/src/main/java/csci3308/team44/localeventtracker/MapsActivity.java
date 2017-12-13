@@ -4,6 +4,8 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnMapLongClickListener;
@@ -28,6 +30,7 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.os.Bundle;
 import android.Manifest;
@@ -39,6 +42,7 @@ import android.widget.Toast;
 
 import java.io.InputStreamReader;
 import java.util.HashMap;
+import java.util.Map;
 
 /*
  * This shows how to use a custom location source.
@@ -85,7 +89,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         BufferedReader reader = null;
         try {
             reader = new BufferedReader(
-                    new InputStreamReader(getAssets().open("/Users/juanchavez/Desktop/LocalEventTracker/Zipcode.txt")));
+                    new InputStreamReader(getAssets().open("ZipCodes.txt")));
 
             // do reading, usually loop until end of file reading
             String mLine;
@@ -228,44 +232,48 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         /**
          * Zip code decoded to lat and long should be placed here
          */
-//        boolean cancel = false;
-//        View focusView = null;
-//        RequestQueue MyRequestQueue = Volley.newRequestQueue(this);
-//
-//        StringRequest MyStringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
-//            @Override
-//            public void onResponse(String response) {
-//                //This code is executed if the server responds, whether or not the response contains data.
-//                //The String 'response' contains the server's response.
-//                JSONObject obj = null;
-//                try {
-//                    obj = new JSONObject(response);
-//                } catch (JSONException e) {
-//                    Log.e("onMapReady", "unexpected JSON exception", e);
-//                }
-//                displayData(obj);
-//                Log.d("Response", response);
-//            }
-//        }, new Response.ErrorListener() { //Create an error listener to handle errors appropriately.
-//            @Override
-//            public void onErrorResponse(VolleyError error) {
-//                mTextMessage.setError("Server could not be reached");
-//                mTextMessage.requestFocus();
-//            }
-//        }) {
-//            protected Map<String, String> getParams() {
-//                Map<String, String> MyData = new HashMap<String, String>();
-//                MyData.put("latitude", latVar);
-//                MyData.put("longitude", longVar);
-//                return MyData;
-//            }
-//        };
-//
-//        try {
-//            MyRequestQueue.add(MyStringRequest);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+
+        final String latVar = "39.979999";
+        final String longVar = "-105.248737";
+        boolean cancel = false;
+        View focusView = null;
+        RequestQueue MyRequestQueue = Volley.newRequestQueue(this);
+
+        StringRequest MyStringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                //This code is executed if the server responds, whether or not the response contains data.
+                //The String 'response' contains the server's response.
+                JSONObject obj = null;
+                try {
+                    obj = new JSONObject(response);
+                } catch (JSONException e) {
+                    Log.e("onMapReady", "unexpected JSON exception", e);
+                }
+                displayData(obj);
+                Log.d("Response", response);
+            }
+        }, new Response.ErrorListener() { //Create an error listener to handle errors appropriately.
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                mTextMessage.setError("Server could not be reached");
+                mTextMessage.requestFocus();
+            }
+        }) {
+            protected Map<String, String> getParams() {
+                Map<String, String> MyData = new HashMap<String, String>();
+                MyData.put("latitude", latVar);
+                MyData.put("longitude", longVar);
+                MyData.put("radius", "30");
+                return MyData;
+            }
+        };
+
+        try {
+            MyRequestQueue.add(MyStringRequest);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         String zips = Integer.toString(zipsent);
         try {
