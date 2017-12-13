@@ -55,37 +55,15 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     String zipsent = "";
     String intLat;
     String intLon;
-
-
     String url = "http://138.197.207.68/api";
-   // String GEO_CODE_SERVER = "http://maps.googleapis.com/maps/api/geocode/json?";
+
+    int FinalLat = 0;
+    int FinalLong = 0;
 
     HashMap<String, String> apiHeaders = new HashMap<String, String>();
     JSONObject data;
 
     public void getLatLon (String zipSearch) throws IOException {
-        /*FileReader input = new FileReader("ZipCodes.txt");
-        BufferedReader bufRead = new BufferedReader(input);
-        String myLine = null;
-
-
-        while ((myLine = bufRead.readLine()) != null) {
-            String[] split = myLine.trim().split(" ");
-            if (split.length < 1)
-            {
-               break;//return null;
-            }
-
-            String ord = split[0];
-            Toast.makeText(MapsActivity.this,ord, Toast.LENGTH_SHORT).show();
-            if (ord == zipSearch)
-            {
-
-                intLat = split[1];
-                intLon = split[2];
-                break;
-            }
-        }*/
         BufferedReader reader = null;
         try {
             reader = new BufferedReader(
@@ -107,7 +85,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 {
 
                     intLat = split[1];
-                    intLon = split[2];
+                    intLon = split[2].substring(1);
                     break;
                 }
             }
@@ -206,7 +184,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         Bundle bundle = getIntent().getExtras();
         zipsent = bundle.getString("mZip");
-        //Toast.makeText(MapsActivity.this, zipsent, Toast.LENGTH_SHORT).show();
 
         mLocationSource = new LongPressLocationSource();
 
@@ -232,6 +209,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         /**
          * Zip code decoded to lat and long should be placed here
          */
+        try {
+            getLatLon(zipsent);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        FinalLat = Integer.parseInt(intLat);
+        FinalLong = Integer.parseInt(intLon);
 
         final String latVar = "39.979999";
         final String longVar = "-105.248737";
@@ -275,18 +259,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             e.printStackTrace();
         }
 
-        //String zips = Integer.toString(zipsent);
-        try {
-            getLatLon(zipsent);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-       // int FinalLat = Integer.parseInt(intLat);
-       // int FinalLong = Integer.parseInt(intLon);
-       Toast.makeText(MapsActivity.this, intLat, Toast.LENGTH_LONG).show();
-        //Toast.makeText(MapsActivity.this, FinalLong, Toast.LENGTH_LONG).show();
-
-
         mMap = map;
         JSONObject outObject = new JSONObject();
         JsonObjectRequest jsObjRequest = new JsonObjectRequest(Request.Method.GET, url, outObject, new com.android.volley.Response.Listener<JSONObject>() {
@@ -307,12 +279,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         RequestQueue queue = MySingleton.getInstance(this.getApplicationContext()).getRequestQueue();
 
         // Add a marker Boulder in sydney and move the camera
-
-
-
-        //LatLng boulder = new LatLng(FinalLat,FinalLong);
-       // mMap.addMarker(new MarkerOptions().position(boulder).title("Marker in Boulder"));
-        //mMap.moveCamera(CameraUpdateFactory.newLatLng(boulder));
+        LatLng boulder = new LatLng(FinalLat,FinalLong);
+        mMap.addMarker(new MarkerOptions().position(boulder).title("You are around Here!"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(boulder));
         map.setLocationSource(mLocationSource);
         map.setOnMapLongClickListener(mLocationSource);
 
