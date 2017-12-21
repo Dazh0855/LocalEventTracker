@@ -1,7 +1,8 @@
 
 # Nite Out (team 44) 
 
-Local Event Tracking App. We hope to bring people in local communities closer by making local event descriptions, and times easily accessible.
+Local Event Tracking App. We hope to bring people in local communities closer by making local event descriptions, and times easily accessible.\
+For back end information, view README.md on team44csci3308/appbackend. team44csci3308/LocalEventTracker only contains front end source code.
 
 ## Getting Started
 
