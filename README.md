@@ -16,6 +16,7 @@ Android Studio
 ### Installing
 
 Git clone the repo
+
 Run app file from with Android Studio
 
 ## Running the tests
